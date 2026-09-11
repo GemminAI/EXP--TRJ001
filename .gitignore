@@ -1,0 +1,19 @@
+# 採取データは Git 管理外（外部ストレージ / DVC で管理）
+data/
+*.npy
+!configs/W_pca128.npy
+!configs/mu_pca.npy
+*.npz
+*.pt
+*.safetensors
+
+# 結果の中間生成物
+results/**/*.png
+results/**/*.pdf
+!results/.gitkeep
+
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.DS_Store
