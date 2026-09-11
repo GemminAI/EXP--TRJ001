@@ -1,6 +1,6 @@
-# FREEZE MANIFEST — EXP-2026-NVS-001 v1.2
+# FREEZE MANIFEST — EXP-2026-NVS-001 v1.3
 
-本ファイルの全ハッシュ欄が埋まり、そのコミットに `v1.2-frozen` タグが付与された時点で凍結成立とする。
+本ファイルの全ハッシュ欄が埋まり、そのコミットに `v1.3-frozen` タグが付与された時点で凍結成立とする。
 **凍結成立前に生成されたデータは本実験の結果として採用しない。**
 
 ## 凍結情報
@@ -9,7 +9,7 @@
 |---|---|
 | 凍結日時 (UTC) | _未記入_ |
 | 凍結コミット | _未記入_ |
-| タグ | `v1.2-frozen` |
+| タグ | `v1.3-frozen` |
 | 承認者 | _未記入_ |
 
 ## 環境
@@ -27,17 +27,18 @@
 
 | # | 成果物 | パス | SHA-256 |
 |---|---|---|---|
-| 1 | 実験計画書 | `docs/EXP-2026-NVS-001_v1.2.md` | _未記入_ |
+| 1 | 実験計画書 | `docs/EXP-2026-NVS-001_v1.3.md` | _未記入_ |
 | 2 | 射影行列 W（4096×128） | `configs/W_pca128.npy` | _未記入_ |
 | 3 | 中心化ベクトル μ（4096） | `configs/mu_pca.npy` | _未記入_ |
 | 4 | キャリブレーションプロンプト 200 件 | `configs/calibration_prompts_v1.json` | _未記入_ |
-| 5 | 本実験プロンプト 1,000 件 | `configs/prompts_v1.json` | _未記入_ |
+| 5 | Type A 本実験プロンプト 1,000 件 | `configs/prompts_v1.json` | _未記入_ |
 | 6 | 棄権・ヘッジ判定パターン | `configs/refusal_patterns_en.json` | _未記入_ |
 | 7 | Type B 照合規則・正解集合 | `configs/typeB_reference.json` | _未記入_ |
 | 8 | κ 計算モジュール | `src/compute_kappa.py` | _未記入_ |
 | 9 | ラベル判定モジュール | `src/eval_hallucination.py` | _未記入_ |
 | 10 | 生成設定 | `configs/generation_config.json` | _未記入_ |
 | 11 | マスク手続き定義 | `configs/mask_protocol.json` | _未記入_ |
+| 12 | Type B 用プロンプト 200 件（T1・v1.3 新設） | `configs/prompts_typeB_v1.json` | _未記入_ |
 
 ## Phase 1 後に確定する項目
 

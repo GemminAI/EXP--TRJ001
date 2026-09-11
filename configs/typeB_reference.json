@@ -1,0 +1,1209 @@
+{
+  "_notice": "Facts authored from general knowledge (src/generate_type_b_prompts.py), chosen for being extremely well-established/canonical to minimize error risk -- NOT yet cross-checked item-by-item against a live source. Plan Appendix B item 2 (snapshot date + numeric-tolerance rule) is still open; do not treat this as frozen-quality until a verification pass is done.",
+  "snapshot_date": null,
+  "verification_status": "unverified_pending_appendix_b_item_2",
+  "items": {
+    "type_b_movie_001": {
+      "accepted_answers": [
+        "1975"
+      ],
+      "subject": "Jaws"
+    },
+    "type_b_movie_002": {
+      "accepted_answers": [
+        "1977"
+      ],
+      "subject": "Star Wars"
+    },
+    "type_b_movie_003": {
+      "accepted_answers": [
+        "1972"
+      ],
+      "subject": "The Godfather"
+    },
+    "type_b_movie_004": {
+      "accepted_answers": [
+        "1997"
+      ],
+      "subject": "Titanic"
+    },
+    "type_b_movie_005": {
+      "accepted_answers": [
+        "1993"
+      ],
+      "subject": "Jurassic Park"
+    },
+    "type_b_movie_006": {
+      "accepted_answers": [
+        "1999"
+      ],
+      "subject": "The Matrix"
+    },
+    "type_b_movie_007": {
+      "accepted_answers": [
+        "1994"
+      ],
+      "subject": "Forrest Gump"
+    },
+    "type_b_movie_008": {
+      "accepted_answers": [
+        "1994"
+      ],
+      "subject": "Pulp Fiction"
+    },
+    "type_b_movie_009": {
+      "accepted_answers": [
+        "1994"
+      ],
+      "subject": "The Shawshank Redemption"
+    },
+    "type_b_movie_010": {
+      "accepted_answers": [
+        "1994"
+      ],
+      "subject": "The Lion King"
+    },
+    "type_b_movie_011": {
+      "accepted_answers": [
+        "1995"
+      ],
+      "subject": "Toy Story"
+    },
+    "type_b_movie_012": {
+      "accepted_answers": [
+        "1942"
+      ],
+      "subject": "Casablanca"
+    },
+    "type_b_movie_013": {
+      "accepted_answers": [
+        "1939"
+      ],
+      "subject": "Gone with the Wind"
+    },
+    "type_b_movie_014": {
+      "accepted_answers": [
+        "1939"
+      ],
+      "subject": "The Wizard of Oz"
+    },
+    "type_b_movie_015": {
+      "accepted_answers": [
+        "1960"
+      ],
+      "subject": "Psycho"
+    },
+    "type_b_movie_016": {
+      "accepted_answers": [
+        "1968"
+      ],
+      "subject": "2001: A Space Odyssey"
+    },
+    "type_b_movie_017": {
+      "accepted_answers": [
+        "1982"
+      ],
+      "subject": "E.T. the Extra-Terrestrial"
+    },
+    "type_b_movie_018": {
+      "accepted_answers": [
+        "1985"
+      ],
+      "subject": "Back to the Future"
+    },
+    "type_b_movie_019": {
+      "accepted_answers": [
+        "1976"
+      ],
+      "subject": "Rocky"
+    },
+    "type_b_movie_020": {
+      "accepted_answers": [
+        "1978"
+      ],
+      "subject": "Grease"
+    },
+    "type_b_movie_021": {
+      "accepted_answers": [
+        "1965"
+      ],
+      "subject": "The Sound of Music"
+    },
+    "type_b_movie_022": {
+      "accepted_answers": [
+        "1993"
+      ],
+      "subject": "Schindler's List"
+    },
+    "type_b_movie_023": {
+      "accepted_answers": [
+        "1995"
+      ],
+      "subject": "Braveheart"
+    },
+    "type_b_movie_024": {
+      "accepted_answers": [
+        "2000"
+      ],
+      "subject": "Gladiator"
+    },
+    "type_b_movie_025": {
+      "accepted_answers": [
+        "2008"
+      ],
+      "subject": "The Dark Knight"
+    },
+    "type_b_movie_026": {
+      "accepted_answers": [
+        "2009"
+      ],
+      "subject": "Avatar"
+    },
+    "type_b_movie_027": {
+      "accepted_answers": [
+        "2010"
+      ],
+      "subject": "Inception"
+    },
+    "type_b_movie_028": {
+      "accepted_answers": [
+        "2013"
+      ],
+      "subject": "Frozen"
+    },
+    "type_b_movie_029": {
+      "accepted_answers": [
+        "2014"
+      ],
+      "subject": "Interstellar"
+    },
+    "type_b_movie_030": {
+      "accepted_answers": [
+        "2016"
+      ],
+      "subject": "La La Land"
+    },
+    "type_b_movie_031": {
+      "accepted_answers": [
+        "2019"
+      ],
+      "subject": "Parasite"
+    },
+    "type_b_movie_032": {
+      "accepted_answers": [
+        "2019"
+      ],
+      "subject": "Avengers: Endgame"
+    },
+    "type_b_movie_033": {
+      "accepted_answers": [
+        "1990"
+      ],
+      "subject": "Home Alone"
+    },
+    "type_b_movie_034": {
+      "accepted_answers": [
+        "1992"
+      ],
+      "subject": "Aladdin"
+    },
+    "type_b_movie_035": {
+      "accepted_answers": [
+        "2001"
+      ],
+      "subject": "The Lord of the Rings: The Fellowship of the Ring"
+    },
+    "type_b_movie_036": {
+      "accepted_answers": [
+        "2001"
+      ],
+      "subject": "Harry Potter and the Sorcerer's Stone"
+    },
+    "type_b_movie_037": {
+      "accepted_answers": [
+        "2002"
+      ],
+      "subject": "Spider-Man"
+    },
+    "type_b_movie_038": {
+      "accepted_answers": [
+        "2003"
+      ],
+      "subject": "Finding Nemo"
+    },
+    "type_b_movie_039": {
+      "accepted_answers": [
+        "1999"
+      ],
+      "subject": "The Sixth Sense"
+    },
+    "type_b_movie_040": {
+      "accepted_answers": [
+        "2015"
+      ],
+      "subject": "Jurassic World"
+    },
+    "type_b_person_001": {
+      "accepted_answers": [
+        "1879"
+      ],
+      "subject": "Albert Einstein"
+    },
+    "type_b_person_002": {
+      "accepted_answers": [
+        "1809"
+      ],
+      "subject": "Charles Darwin"
+    },
+    "type_b_person_003": {
+      "accepted_answers": [
+        "1809"
+      ],
+      "subject": "Abraham Lincoln"
+    },
+    "type_b_person_004": {
+      "accepted_answers": [
+        "1756"
+      ],
+      "subject": "Wolfgang Amadeus Mozart"
+    },
+    "type_b_person_005": {
+      "accepted_answers": [
+        "1770"
+      ],
+      "subject": "Ludwig van Beethoven"
+    },
+    "type_b_person_006": {
+      "accepted_answers": [
+        "1769"
+      ],
+      "subject": "Napoleon Bonaparte"
+    },
+    "type_b_person_007": {
+      "accepted_answers": [
+        "1869"
+      ],
+      "subject": "Mahatma Gandhi"
+    },
+    "type_b_person_008": {
+      "accepted_answers": [
+        "1929"
+      ],
+      "subject": "Martin Luther King Jr."
+    },
+    "type_b_person_009": {
+      "accepted_answers": [
+        "1918"
+      ],
+      "subject": "Nelson Mandela"
+    },
+    "type_b_person_010": {
+      "accepted_answers": [
+        "1867"
+      ],
+      "subject": "Marie Curie"
+    },
+    "type_b_person_011": {
+      "accepted_answers": [
+        "1874"
+      ],
+      "subject": "Winston Churchill"
+    },
+    "type_b_person_012": {
+      "accepted_answers": [
+        "1882"
+      ],
+      "subject": "Franklin D. Roosevelt"
+    },
+    "type_b_person_013": {
+      "accepted_answers": [
+        "1847"
+      ],
+      "subject": "Thomas Edison"
+    },
+    "type_b_person_014": {
+      "accepted_answers": [
+        "1856"
+      ],
+      "subject": "Nikola Tesla"
+    },
+    "type_b_person_015": {
+      "accepted_answers": [
+        "1812"
+      ],
+      "subject": "Charles Dickens"
+    },
+    "type_b_person_016": {
+      "accepted_answers": [
+        "1835"
+      ],
+      "subject": "Mark Twain"
+    },
+    "type_b_person_017": {
+      "accepted_answers": [
+        "1564"
+      ],
+      "subject": "William Shakespeare"
+    },
+    "type_b_person_018": {
+      "accepted_answers": [
+        "1452"
+      ],
+      "subject": "Leonardo da Vinci"
+    },
+    "type_b_person_019": {
+      "accepted_answers": [
+        "1853"
+      ],
+      "subject": "Vincent van Gogh"
+    },
+    "type_b_person_020": {
+      "accepted_answers": [
+        "1881"
+      ],
+      "subject": "Pablo Picasso"
+    },
+    "type_b_person_021": {
+      "accepted_answers": [
+        "1958"
+      ],
+      "subject": "Michael Jackson"
+    },
+    "type_b_person_022": {
+      "accepted_answers": [
+        "1935"
+      ],
+      "subject": "Elvis Presley"
+    },
+    "type_b_person_023": {
+      "accepted_answers": [
+        "1940"
+      ],
+      "subject": "John Lennon"
+    },
+    "type_b_person_024": {
+      "accepted_answers": [
+        "1901"
+      ],
+      "subject": "Walt Disney"
+    },
+    "type_b_person_025": {
+      "accepted_answers": [
+        "1955"
+      ],
+      "subject": "Steve Jobs"
+    },
+    "type_b_person_026": {
+      "accepted_answers": [
+        "1955"
+      ],
+      "subject": "Bill Gates"
+    },
+    "type_b_person_027": {
+      "accepted_answers": [
+        "1856"
+      ],
+      "subject": "Sigmund Freud"
+    },
+    "type_b_person_028": {
+      "accepted_answers": [
+        "1818"
+      ],
+      "subject": "Karl Marx"
+    },
+    "type_b_person_029": {
+      "accepted_answers": [
+        "1870"
+      ],
+      "subject": "Vladimir Lenin"
+    },
+    "type_b_person_030": {
+      "accepted_answers": [
+        "1926"
+      ],
+      "subject": "Queen Elizabeth II"
+    },
+    "type_b_person_031": {
+      "accepted_answers": [
+        "1961"
+      ],
+      "subject": "Barack Obama"
+    },
+    "type_b_person_032": {
+      "accepted_answers": [
+        "1942"
+      ],
+      "subject": "Muhammad Ali"
+    },
+    "type_b_person_033": {
+      "accepted_answers": [
+        "1930"
+      ],
+      "subject": "Neil Armstrong"
+    },
+    "type_b_person_034": {
+      "accepted_answers": [
+        "1942"
+      ],
+      "subject": "Stephen Hawking"
+    },
+    "type_b_person_035": {
+      "accepted_answers": [
+        "1564"
+      ],
+      "subject": "Galileo Galilei"
+    },
+    "type_b_person_036": {
+      "accepted_answers": [
+        "1889"
+      ],
+      "subject": "Charlie Chaplin"
+    },
+    "type_b_person_037": {
+      "accepted_answers": [
+        "1897"
+      ],
+      "subject": "Amelia Earhart"
+    },
+    "type_b_person_038": {
+      "accepted_answers": [
+        "1819"
+      ],
+      "subject": "Queen Victoria"
+    },
+    "type_b_person_039": {
+      "accepted_answers": [
+        "1743"
+      ],
+      "subject": "Thomas Jefferson"
+    },
+    "type_b_person_040": {
+      "accepted_answers": [
+        "1732"
+      ],
+      "subject": "George Washington"
+    },
+    "type_b_paper_book_001": {
+      "accepted_answers": [
+        "Jane Austen"
+      ],
+      "subject": "Pride and Prejudice"
+    },
+    "type_b_paper_book_002": {
+      "accepted_answers": [
+        "Herman Melville"
+      ],
+      "subject": "Moby-Dick"
+    },
+    "type_b_paper_book_003": {
+      "accepted_answers": [
+        "Leo Tolstoy"
+      ],
+      "subject": "War and Peace"
+    },
+    "type_b_paper_book_004": {
+      "accepted_answers": [
+        "Fyodor Dostoevsky"
+      ],
+      "subject": "Crime and Punishment"
+    },
+    "type_b_paper_book_005": {
+      "accepted_answers": [
+        "George Orwell"
+      ],
+      "subject": "1984"
+    },
+    "type_b_paper_book_006": {
+      "accepted_answers": [
+        "George Orwell"
+      ],
+      "subject": "Animal Farm"
+    },
+    "type_b_paper_book_007": {
+      "accepted_answers": [
+        "Harper Lee"
+      ],
+      "subject": "To Kill a Mockingbird"
+    },
+    "type_b_paper_book_008": {
+      "accepted_answers": [
+        "F. Scott Fitzgerald"
+      ],
+      "subject": "The Great Gatsby"
+    },
+    "type_b_paper_book_009": {
+      "accepted_answers": [
+        "Mary Shelley"
+      ],
+      "subject": "Frankenstein"
+    },
+    "type_b_paper_book_010": {
+      "accepted_answers": [
+        "Bram Stoker"
+      ],
+      "subject": "Dracula"
+    },
+    "type_b_paper_book_011": {
+      "accepted_answers": [
+        "Mark Twain"
+      ],
+      "subject": "The Adventures of Huckleberry Finn"
+    },
+    "type_b_paper_book_012": {
+      "accepted_answers": [
+        "Mark Twain"
+      ],
+      "subject": "The Adventures of Tom Sawyer"
+    },
+    "type_b_paper_book_013": {
+      "accepted_answers": [
+        "Charles Dickens"
+      ],
+      "subject": "Great Expectations"
+    },
+    "type_b_paper_book_014": {
+      "accepted_answers": [
+        "Charles Dickens"
+      ],
+      "subject": "Oliver Twist"
+    },
+    "type_b_paper_book_015": {
+      "accepted_answers": [
+        "Charles Dickens"
+      ],
+      "subject": "A Tale of Two Cities"
+    },
+    "type_b_paper_book_016": {
+      "accepted_answers": [
+        "Charlotte Bronte"
+      ],
+      "subject": "Jane Eyre"
+    },
+    "type_b_paper_book_017": {
+      "accepted_answers": [
+        "Emily Bronte"
+      ],
+      "subject": "Wuthering Heights"
+    },
+    "type_b_paper_book_018": {
+      "accepted_answers": [
+        "J.D. Salinger"
+      ],
+      "subject": "The Catcher in the Rye"
+    },
+    "type_b_paper_book_019": {
+      "accepted_answers": [
+        "Aldous Huxley"
+      ],
+      "subject": "Brave New World"
+    },
+    "type_b_paper_book_020": {
+      "accepted_answers": [
+        "Ray Bradbury"
+      ],
+      "subject": "Fahrenheit 451"
+    },
+    "type_b_paper_book_021": {
+      "accepted_answers": [
+        "J.R.R. Tolkien"
+      ],
+      "subject": "The Hobbit"
+    },
+    "type_b_paper_book_022": {
+      "accepted_answers": [
+        "J.R.R. Tolkien"
+      ],
+      "subject": "The Lord of the Rings"
+    },
+    "type_b_paper_book_023": {
+      "accepted_answers": [
+        "J.K. Rowling"
+      ],
+      "subject": "Harry Potter and the Philosopher's Stone"
+    },
+    "type_b_paper_book_024": {
+      "accepted_answers": [
+        "C.S. Lewis"
+      ],
+      "subject": "The Lion, the Witch and the Wardrobe"
+    },
+    "type_b_paper_book_025": {
+      "accepted_answers": [
+        "Miguel de Cervantes"
+      ],
+      "subject": "Don Quixote"
+    },
+    "type_b_paper_book_026": {
+      "accepted_answers": [
+        "Homer"
+      ],
+      "subject": "The Odyssey"
+    },
+    "type_b_paper_book_027": {
+      "accepted_answers": [
+        "William Shakespeare"
+      ],
+      "subject": "Hamlet"
+    },
+    "type_b_paper_book_028": {
+      "accepted_answers": [
+        "William Shakespeare"
+      ],
+      "subject": "Romeo and Juliet"
+    },
+    "type_b_paper_book_029": {
+      "accepted_answers": [
+        "William Shakespeare"
+      ],
+      "subject": "Macbeth"
+    },
+    "type_b_paper_book_030": {
+      "accepted_answers": [
+        "Victor Hugo"
+      ],
+      "subject": "Les Miserables"
+    },
+    "type_b_paper_book_031": {
+      "accepted_answers": [
+        "Victor Hugo"
+      ],
+      "subject": "The Hunchback of Notre-Dame"
+    },
+    "type_b_paper_book_032": {
+      "accepted_answers": [
+        "Leo Tolstoy"
+      ],
+      "subject": "Anna Karenina"
+    },
+    "type_b_paper_book_033": {
+      "accepted_answers": [
+        "Oscar Wilde"
+      ],
+      "subject": "The Picture of Dorian Gray"
+    },
+    "type_b_paper_book_034": {
+      "accepted_answers": [
+        "Arthur Conan Doyle"
+      ],
+      "subject": "The Adventures of Sherlock Holmes"
+    },
+    "type_b_paper_book_035": {
+      "accepted_answers": [
+        "Lewis Carroll"
+      ],
+      "subject": "Alice's Adventures in Wonderland"
+    },
+    "type_b_paper_book_036": {
+      "accepted_answers": [
+        "Ernest Hemingway"
+      ],
+      "subject": "The Old Man and the Sea"
+    },
+    "type_b_paper_book_037": {
+      "accepted_answers": [
+        "Gabriel Garcia Marquez"
+      ],
+      "subject": "One Hundred Years of Solitude"
+    },
+    "type_b_paper_book_038": {
+      "accepted_answers": [
+        "Antoine de Saint-Exupery"
+      ],
+      "subject": "The Little Prince"
+    },
+    "type_b_paper_book_039": {
+      "accepted_answers": [
+        "Daniel Defoe"
+      ],
+      "subject": "Robinson Crusoe"
+    },
+    "type_b_paper_book_040": {
+      "accepted_answers": [
+        "Jonathan Swift"
+      ],
+      "subject": "Gulliver's Travels"
+    },
+    "type_b_chemical_001": {
+      "accepted_answers": [
+        "H2O"
+      ],
+      "subject": "water"
+    },
+    "type_b_chemical_002": {
+      "accepted_answers": [
+        "NaCl"
+      ],
+      "subject": "table salt (sodium chloride)"
+    },
+    "type_b_chemical_003": {
+      "accepted_answers": [
+        "CO2"
+      ],
+      "subject": "carbon dioxide"
+    },
+    "type_b_chemical_004": {
+      "accepted_answers": [
+        "O2"
+      ],
+      "subject": "oxygen gas"
+    },
+    "type_b_chemical_005": {
+      "accepted_answers": [
+        "N2"
+      ],
+      "subject": "nitrogen gas"
+    },
+    "type_b_chemical_006": {
+      "accepted_answers": [
+        "H2"
+      ],
+      "subject": "hydrogen gas"
+    },
+    "type_b_chemical_007": {
+      "accepted_answers": [
+        "CH4"
+      ],
+      "subject": "methane"
+    },
+    "type_b_chemical_008": {
+      "accepted_answers": [
+        "NH3"
+      ],
+      "subject": "ammonia"
+    },
+    "type_b_chemical_009": {
+      "accepted_answers": [
+        "C6H12O6"
+      ],
+      "subject": "glucose"
+    },
+    "type_b_chemical_010": {
+      "accepted_answers": [
+        "C2H6O",
+        "C2H5OH"
+      ],
+      "subject": "ethanol"
+    },
+    "type_b_chemical_011": {
+      "accepted_answers": [
+        "H2SO4"
+      ],
+      "subject": "sulfuric acid"
+    },
+    "type_b_chemical_012": {
+      "accepted_answers": [
+        "HCl"
+      ],
+      "subject": "hydrochloric acid"
+    },
+    "type_b_chemical_013": {
+      "accepted_answers": [
+        "NaOH"
+      ],
+      "subject": "sodium hydroxide"
+    },
+    "type_b_chemical_014": {
+      "accepted_answers": [
+        "CaCO3"
+      ],
+      "subject": "calcium carbonate"
+    },
+    "type_b_chemical_015": {
+      "accepted_answers": [
+        "CO"
+      ],
+      "subject": "carbon monoxide"
+    },
+    "type_b_chemical_016": {
+      "accepted_answers": [
+        "O3"
+      ],
+      "subject": "ozone"
+    },
+    "type_b_chemical_017": {
+      "accepted_answers": [
+        "H2O2"
+      ],
+      "subject": "hydrogen peroxide"
+    },
+    "type_b_chemical_018": {
+      "accepted_answers": [
+        "N2O"
+      ],
+      "subject": "nitrous oxide"
+    },
+    "type_b_chemical_019": {
+      "accepted_answers": [
+        "SO2"
+      ],
+      "subject": "sulfur dioxide"
+    },
+    "type_b_chemical_020": {
+      "accepted_answers": [
+        "KCl"
+      ],
+      "subject": "potassium chloride"
+    },
+    "type_b_chemical_021": {
+      "accepted_answers": [
+        "NaHCO3"
+      ],
+      "subject": "baking soda (sodium bicarbonate)"
+    },
+    "type_b_chemical_022": {
+      "accepted_answers": [
+        "CH3COOH",
+        "C2H4O2"
+      ],
+      "subject": "acetic acid"
+    },
+    "type_b_chemical_023": {
+      "accepted_answers": [
+        "SiO2"
+      ],
+      "subject": "silicon dioxide (quartz)"
+    },
+    "type_b_chemical_024": {
+      "accepted_answers": [
+        "CaO"
+      ],
+      "subject": "quicklime (calcium oxide)"
+    },
+    "type_b_chemical_025": {
+      "accepted_answers": [
+        "MgO"
+      ],
+      "subject": "magnesium oxide"
+    },
+    "type_b_chemical_026": {
+      "accepted_answers": [
+        "HNO3"
+      ],
+      "subject": "nitric acid"
+    },
+    "type_b_chemical_027": {
+      "accepted_answers": [
+        "H3PO4"
+      ],
+      "subject": "phosphoric acid"
+    },
+    "type_b_chemical_028": {
+      "accepted_answers": [
+        "KOH"
+      ],
+      "subject": "potassium hydroxide"
+    },
+    "type_b_chemical_029": {
+      "accepted_answers": [
+        "CuSO4"
+      ],
+      "subject": "copper sulfate"
+    },
+    "type_b_chemical_030": {
+      "accepted_answers": [
+        "Fe2O3"
+      ],
+      "subject": "iron oxide (rust)"
+    },
+    "type_b_chemical_031": {
+      "accepted_answers": [
+        "ZnO"
+      ],
+      "subject": "zinc oxide"
+    },
+    "type_b_chemical_032": {
+      "accepted_answers": [
+        "Ca(OH)2"
+      ],
+      "subject": "calcium hydroxide"
+    },
+    "type_b_chemical_033": {
+      "accepted_answers": [
+        "Na2CO3"
+      ],
+      "subject": "washing soda (sodium carbonate)"
+    },
+    "type_b_chemical_034": {
+      "accepted_answers": [
+        "Al2O3"
+      ],
+      "subject": "aluminum oxide"
+    },
+    "type_b_chemical_035": {
+      "accepted_answers": [
+        "H2S"
+      ],
+      "subject": "hydrogen sulfide"
+    },
+    "type_b_chemical_036": {
+      "accepted_answers": [
+        "Cl2"
+      ],
+      "subject": "chlorine gas"
+    },
+    "type_b_chemical_037": {
+      "accepted_answers": [
+        "C6H6"
+      ],
+      "subject": "benzene"
+    },
+    "type_b_chemical_038": {
+      "accepted_answers": [
+        "C3H8"
+      ],
+      "subject": "propane"
+    },
+    "type_b_chemical_039": {
+      "accepted_answers": [
+        "C4H10"
+      ],
+      "subject": "butane"
+    },
+    "type_b_chemical_040": {
+      "accepted_answers": [
+        "C12H22O11"
+      ],
+      "subject": "table sugar (sucrose)"
+    },
+    "type_b_location_001": {
+      "accepted_answers": [
+        "Paris"
+      ],
+      "subject": "France"
+    },
+    "type_b_location_002": {
+      "accepted_answers": [
+        "Berlin"
+      ],
+      "subject": "Germany"
+    },
+    "type_b_location_003": {
+      "accepted_answers": [
+        "Rome"
+      ],
+      "subject": "Italy"
+    },
+    "type_b_location_004": {
+      "accepted_answers": [
+        "Madrid"
+      ],
+      "subject": "Spain"
+    },
+    "type_b_location_005": {
+      "accepted_answers": [
+        "London"
+      ],
+      "subject": "the United Kingdom"
+    },
+    "type_b_location_006": {
+      "accepted_answers": [
+        "Tokyo"
+      ],
+      "subject": "Japan"
+    },
+    "type_b_location_007": {
+      "accepted_answers": [
+        "Beijing"
+      ],
+      "subject": "China"
+    },
+    "type_b_location_008": {
+      "accepted_answers": [
+        "Moscow"
+      ],
+      "subject": "Russia"
+    },
+    "type_b_location_009": {
+      "accepted_answers": [
+        "Ottawa"
+      ],
+      "subject": "Canada"
+    },
+    "type_b_location_010": {
+      "accepted_answers": [
+        "Canberra"
+      ],
+      "subject": "Australia"
+    },
+    "type_b_location_011": {
+      "accepted_answers": [
+        "Brasilia"
+      ],
+      "subject": "Brazil"
+    },
+    "type_b_location_012": {
+      "accepted_answers": [
+        "Cairo"
+      ],
+      "subject": "Egypt"
+    },
+    "type_b_location_013": {
+      "accepted_answers": [
+        "New Delhi"
+      ],
+      "subject": "India"
+    },
+    "type_b_location_014": {
+      "accepted_answers": [
+        "Mexico City"
+      ],
+      "subject": "Mexico"
+    },
+    "type_b_location_015": {
+      "accepted_answers": [
+        "Buenos Aires"
+      ],
+      "subject": "Argentina"
+    },
+    "type_b_location_016": {
+      "accepted_answers": [
+        "Seoul"
+      ],
+      "subject": "South Korea"
+    },
+    "type_b_location_017": {
+      "accepted_answers": [
+        "Ankara"
+      ],
+      "subject": "Turkey"
+    },
+    "type_b_location_018": {
+      "accepted_answers": [
+        "Athens"
+      ],
+      "subject": "Greece"
+    },
+    "type_b_location_019": {
+      "accepted_answers": [
+        "Lisbon"
+      ],
+      "subject": "Portugal"
+    },
+    "type_b_location_020": {
+      "accepted_answers": [
+        "Amsterdam"
+      ],
+      "subject": "the Netherlands"
+    },
+    "type_b_location_021": {
+      "accepted_answers": [
+        "Bern"
+      ],
+      "subject": "Switzerland"
+    },
+    "type_b_location_022": {
+      "accepted_answers": [
+        "Stockholm"
+      ],
+      "subject": "Sweden"
+    },
+    "type_b_location_023": {
+      "accepted_answers": [
+        "Oslo"
+      ],
+      "subject": "Norway"
+    },
+    "type_b_location_024": {
+      "accepted_answers": [
+        "Copenhagen"
+      ],
+      "subject": "Denmark"
+    },
+    "type_b_location_025": {
+      "accepted_answers": [
+        "Helsinki"
+      ],
+      "subject": "Finland"
+    },
+    "type_b_location_026": {
+      "accepted_answers": [
+        "Warsaw"
+      ],
+      "subject": "Poland"
+    },
+    "type_b_location_027": {
+      "accepted_answers": [
+        "Vienna"
+      ],
+      "subject": "Austria"
+    },
+    "type_b_location_028": {
+      "accepted_answers": [
+        "Brussels"
+      ],
+      "subject": "Belgium"
+    },
+    "type_b_location_029": {
+      "accepted_answers": [
+        "Dublin"
+      ],
+      "subject": "Ireland"
+    },
+    "type_b_location_030": {
+      "accepted_answers": [
+        "Bangkok"
+      ],
+      "subject": "Thailand"
+    },
+    "type_b_location_031": {
+      "accepted_answers": [
+        "Jakarta"
+      ],
+      "subject": "Indonesia"
+    },
+    "type_b_location_032": {
+      "accepted_answers": [
+        "Hanoi"
+      ],
+      "subject": "Vietnam"
+    },
+    "type_b_location_033": {
+      "accepted_answers": [
+        "Manila"
+      ],
+      "subject": "the Philippines"
+    },
+    "type_b_location_034": {
+      "accepted_answers": [
+        "Nairobi"
+      ],
+      "subject": "Kenya"
+    },
+    "type_b_location_035": {
+      "accepted_answers": [
+        "Abuja"
+      ],
+      "subject": "Nigeria"
+    },
+    "type_b_location_036": {
+      "accepted_answers": [
+        "Riyadh"
+      ],
+      "subject": "Saudi Arabia"
+    },
+    "type_b_location_037": {
+      "accepted_answers": [
+        "Wellington"
+      ],
+      "subject": "New Zealand"
+    },
+    "type_b_location_038": {
+      "accepted_answers": [
+        "Santiago"
+      ],
+      "subject": "Chile"
+    },
+    "type_b_location_039": {
+      "accepted_answers": [
+        "Lima"
+      ],
+      "subject": "Peru"
+    },
+    "type_b_location_040": {
+      "accepted_answers": [
+        "Bogota"
+      ],
+      "subject": "Colombia"
+    }
+  }
+}

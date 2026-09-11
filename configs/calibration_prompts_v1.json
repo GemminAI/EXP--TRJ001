@@ -1,0 +1,1002 @@
+[
+  {
+    "prompt_id": "calib_0001",
+    "category": "compare",
+    "text": "What is the difference between a crocodile and an alligator?"
+  },
+  {
+    "prompt_id": "calib_0002",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about sleep cycles."
+  },
+  {
+    "prompt_id": "calib_0003",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind black holes in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0004",
+    "category": "advice",
+    "text": "What advice would you give someone who wants to start freelancing?"
+  },
+  {
+    "prompt_id": "calib_0005",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind inflation in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0006",
+    "category": "explain_a_concept",
+    "text": "Explain how the nervous system works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0007",
+    "category": "explain_a_concept",
+    "text": "Explain how the water cycle works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0008",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about wildfire ecology."
+  },
+  {
+    "prompt_id": "calib_0009",
+    "category": "advice",
+    "text": "What advice would you give someone who wants to build a personal budget?"
+  },
+  {
+    "prompt_id": "calib_0010",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about vaccination."
+  },
+  {
+    "prompt_id": "calib_0011",
+    "category": "explain_a_concept",
+    "text": "Explain how the Industrial Revolution works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0012",
+    "category": "howto",
+    "text": "How do I prepare for a job interview? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0013",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about inflation."
+  },
+  {
+    "prompt_id": "calib_0014",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about artificial neural networks."
+  },
+  {
+    "prompt_id": "calib_0015",
+    "category": "opinion",
+    "text": "What is your perspective on coral bleaching? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0016",
+    "category": "explain_a_concept",
+    "text": "Explain how cryptography works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0017",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about the Great Barrier Reef."
+  },
+  {
+    "prompt_id": "calib_0018",
+    "category": "opinion",
+    "text": "What is your perspective on the periodic table? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0019",
+    "category": "howto",
+    "text": "How do I start composting? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0020",
+    "category": "howto",
+    "text": "How do I save money for retirement? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0021",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about the French Revolution."
+  },
+  {
+    "prompt_id": "calib_0022",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind 3D printing in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0023",
+    "category": "reasoning",
+    "text": "Why does glass appear transparent?"
+  },
+  {
+    "prompt_id": "calib_0024",
+    "category": "opinion",
+    "text": "What is your perspective on ocean currents? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0025",
+    "category": "howto",
+    "text": "How do I organize a small home office? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0026",
+    "category": "howto",
+    "text": "How do I improve my time management? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0027",
+    "category": "explain_a_concept",
+    "text": "Explain how photosynthesis works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0028",
+    "category": "advice",
+    "text": "What advice would you give someone who wants to start composting?"
+  },
+  {
+    "prompt_id": "calib_0029",
+    "category": "opinion",
+    "text": "What is your perspective on electric vehicles? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0030",
+    "category": "opinion",
+    "text": "What is your perspective on the immune system? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0031",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind space exploration in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0032",
+    "category": "howto",
+    "text": "How do I learn a new language? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0033",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind the periodic table in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0034",
+    "category": "opinion",
+    "text": "What is your perspective on 3D printing? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0035",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind plate tectonics in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0036",
+    "category": "howto",
+    "text": "How do I learn basic woodworking? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0037",
+    "category": "opinion",
+    "text": "What is your perspective on the Industrial Revolution? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0038",
+    "category": "explain_a_concept",
+    "text": "Explain how blockchain technology works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0039",
+    "category": "explain_a_concept",
+    "text": "Explain how the French Revolution works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0040",
+    "category": "opinion",
+    "text": "What is your perspective on climate change? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0041",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind wildfire ecology in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0042",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind artificial neural networks in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0043",
+    "category": "explain_a_concept",
+    "text": "Explain how ancient Roman architecture works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0044",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about genetic engineering."
+  },
+  {
+    "prompt_id": "calib_0045",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind the printing press in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0046",
+    "category": "advice",
+    "text": "What advice would you give someone who wants to organize a small home office?"
+  },
+  {
+    "prompt_id": "calib_0047",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind the stock exchange in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0048",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about ancient Roman architecture."
+  },
+  {
+    "prompt_id": "calib_0049",
+    "category": "explain_a_concept",
+    "text": "Explain how supply and demand works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0050",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind the human genome in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0051",
+    "category": "opinion",
+    "text": "What is your perspective on solar panels? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0052",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about supply chains."
+  },
+  {
+    "prompt_id": "calib_0053",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind ocean currents in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0054",
+    "category": "explain_a_concept",
+    "text": "Explain how nutrition labels works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0055",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind urban planning in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0056",
+    "category": "advice",
+    "text": "What advice would you give someone who wants to prepare for a job interview?"
+  },
+  {
+    "prompt_id": "calib_0057",
+    "category": "opinion",
+    "text": "What is your perspective on the internet's history? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0058",
+    "category": "compare",
+    "text": "What is the difference between HTTP and HTTPS?"
+  },
+  {
+    "prompt_id": "calib_0059",
+    "category": "reasoning",
+    "text": "Why does soap remove grease?"
+  },
+  {
+    "prompt_id": "calib_0060",
+    "category": "explain_a_concept",
+    "text": "Explain how the internet's history works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0061",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about the nervous system."
+  },
+  {
+    "prompt_id": "calib_0062",
+    "category": "opinion",
+    "text": "What is your perspective on plate tectonics? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0063",
+    "category": "explain_a_concept",
+    "text": "Explain how the immune system works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0064",
+    "category": "opinion",
+    "text": "What is your perspective on cybersecurity? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0065",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind photosynthesis in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0066",
+    "category": "reasoning",
+    "text": "Why does the seasons change?"
+  },
+  {
+    "prompt_id": "calib_0067",
+    "category": "opinion",
+    "text": "What is your perspective on nutrition labels? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0068",
+    "category": "opinion",
+    "text": "What is your perspective on inflation? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0069",
+    "category": "compare",
+    "text": "What is the difference between a font and a typeface?"
+  },
+  {
+    "prompt_id": "calib_0070",
+    "category": "compare",
+    "text": "What is the difference between weather and climate?"
+  },
+  {
+    "prompt_id": "calib_0071",
+    "category": "reasoning",
+    "text": "Why does bicycles stay upright while moving?"
+  },
+  {
+    "prompt_id": "calib_0072",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about coral bleaching."
+  },
+  {
+    "prompt_id": "calib_0073",
+    "category": "advice",
+    "text": "What advice would you give someone who wants to learn to cook Italian food?"
+  },
+  {
+    "prompt_id": "calib_0074",
+    "category": "explain_a_concept",
+    "text": "Explain how 3D printing works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0075",
+    "category": "compare",
+    "text": "What is the difference between an omnivore and a herbivore?"
+  },
+  {
+    "prompt_id": "calib_0076",
+    "category": "explain_a_concept",
+    "text": "Explain how the periodic table works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0077",
+    "category": "reasoning",
+    "text": "Why does the moon appear to change shape?"
+  },
+  {
+    "prompt_id": "calib_0078",
+    "category": "compare",
+    "text": "What is the difference between mitosis and meiosis?"
+  },
+  {
+    "prompt_id": "calib_0079",
+    "category": "opinion",
+    "text": "What is your perspective on the Great Barrier Reef? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0080",
+    "category": "howto",
+    "text": "How do I learn to cook Italian food? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0081",
+    "category": "opinion",
+    "text": "What is your perspective on blockchain technology? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0082",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind machine learning in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0083",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind the immune system in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0084",
+    "category": "howto",
+    "text": "How do I plan a road trip? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0085",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about plate tectonics."
+  },
+  {
+    "prompt_id": "calib_0086",
+    "category": "opinion",
+    "text": "What is your perspective on machine learning? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0087",
+    "category": "advice",
+    "text": "What advice would you give someone who wants to improve my public speaking?"
+  },
+  {
+    "prompt_id": "calib_0088",
+    "category": "explain_a_concept",
+    "text": "Explain how space exploration works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0089",
+    "category": "advice",
+    "text": "What advice would you give someone who wants to write a resume?"
+  },
+  {
+    "prompt_id": "calib_0090",
+    "category": "explain_a_concept",
+    "text": "Explain how machine learning works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0091",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind the French Revolution in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0092",
+    "category": "howto",
+    "text": "How do I improve my public speaking? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0093",
+    "category": "explain_a_concept",
+    "text": "Explain how quantum computing works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0094",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind cryptography in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0095",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about the printing press."
+  },
+  {
+    "prompt_id": "calib_0096",
+    "category": "howto",
+    "text": "How do I learn to swim as an adult? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0097",
+    "category": "reasoning",
+    "text": "Why does the sky appear blue?"
+  },
+  {
+    "prompt_id": "calib_0098",
+    "category": "reasoning",
+    "text": "Why does thunder follow lightning?"
+  },
+  {
+    "prompt_id": "calib_0099",
+    "category": "reasoning",
+    "text": "Why does echoes occur in large rooms?"
+  },
+  {
+    "prompt_id": "calib_0100",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind supply chains in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0101",
+    "category": "compare",
+    "text": "What is the difference between an island and a peninsula?"
+  },
+  {
+    "prompt_id": "calib_0102",
+    "category": "explain_a_concept",
+    "text": "Explain how compound interest works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0103",
+    "category": "explain_a_concept",
+    "text": "Explain how coral bleaching works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0104",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about the stock exchange."
+  },
+  {
+    "prompt_id": "calib_0105",
+    "category": "compare",
+    "text": "What is the difference between weather forecasting and climate modeling?"
+  },
+  {
+    "prompt_id": "calib_0106",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind ancient Roman architecture in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0107",
+    "category": "advice",
+    "text": "What advice would you give someone who wants to train for a marathon?"
+  },
+  {
+    "prompt_id": "calib_0108",
+    "category": "compare",
+    "text": "What is the difference between a virus and a bacterium?"
+  },
+  {
+    "prompt_id": "calib_0109",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind vaccination in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0110",
+    "category": "advice",
+    "text": "What advice would you give someone who wants to improve my sleep habits?"
+  },
+  {
+    "prompt_id": "calib_0111",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about black holes."
+  },
+  {
+    "prompt_id": "calib_0112",
+    "category": "opinion",
+    "text": "What is your perspective on vaccination? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0113",
+    "category": "compare",
+    "text": "What is the difference between a hurricane and a typhoon?"
+  },
+  {
+    "prompt_id": "calib_0114",
+    "category": "explain_a_concept",
+    "text": "Explain how supply chains works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0115",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind the Great Barrier Reef in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0116",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind genetic engineering in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0117",
+    "category": "opinion",
+    "text": "What is your perspective on genetic engineering? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0118",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about the periodic table."
+  },
+  {
+    "prompt_id": "calib_0119",
+    "category": "howto",
+    "text": "How do I start meditating? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0120",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind coral bleaching in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0121",
+    "category": "advice",
+    "text": "What advice would you give someone who wants to learn to swim as an adult?"
+  },
+  {
+    "prompt_id": "calib_0122",
+    "category": "advice",
+    "text": "What advice would you give someone who wants to improve my time management?"
+  },
+  {
+    "prompt_id": "calib_0123",
+    "category": "opinion",
+    "text": "What is your perspective on the stock exchange? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0124",
+    "category": "compare",
+    "text": "What is the difference between a recession and a depression?"
+  },
+  {
+    "prompt_id": "calib_0125",
+    "category": "reasoning",
+    "text": "Why does tides rise and fall?"
+  },
+  {
+    "prompt_id": "calib_0126",
+    "category": "opinion",
+    "text": "What is your perspective on sleep cycles? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0127",
+    "category": "advice",
+    "text": "What advice would you give someone who wants to learn to play the guitar?"
+  },
+  {
+    "prompt_id": "calib_0128",
+    "category": "explain_a_concept",
+    "text": "Explain how the scientific method works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0129",
+    "category": "opinion",
+    "text": "What is your perspective on cryptography? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0130",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind the stock market in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0131",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about electric vehicles."
+  },
+  {
+    "prompt_id": "calib_0132",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about the scientific method."
+  },
+  {
+    "prompt_id": "calib_0133",
+    "category": "explain_a_concept",
+    "text": "Explain how the stock exchange works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0134",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind climate change in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0135",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about the water cycle."
+  },
+  {
+    "prompt_id": "calib_0136",
+    "category": "opinion",
+    "text": "What is your perspective on wildfire ecology? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0137",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about nutrition labels."
+  },
+  {
+    "prompt_id": "calib_0138",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about supply and demand."
+  },
+  {
+    "prompt_id": "calib_0139",
+    "category": "opinion",
+    "text": "What is your perspective on compound interest? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0140",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind renewable energy in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0141",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about the human genome."
+  },
+  {
+    "prompt_id": "calib_0142",
+    "category": "howto",
+    "text": "How do I start freelancing? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0143",
+    "category": "howto",
+    "text": "How do I reduce food waste at home? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0144",
+    "category": "reasoning",
+    "text": "Why does hot air rise?"
+  },
+  {
+    "prompt_id": "calib_0145",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind the scientific method in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0146",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind blockchain technology in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0147",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about cybersecurity."
+  },
+  {
+    "prompt_id": "calib_0148",
+    "category": "explain_a_concept",
+    "text": "Explain how solar panels works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0149",
+    "category": "opinion",
+    "text": "What is your perspective on urban planning? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0150",
+    "category": "howto",
+    "text": "How do I write a resume? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0151",
+    "category": "advice",
+    "text": "What advice would you give someone who wants to reduce food waste at home?"
+  },
+  {
+    "prompt_id": "calib_0152",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about 3D printing."
+  },
+  {
+    "prompt_id": "calib_0153",
+    "category": "compare",
+    "text": "What is the difference between a republic and a democracy?"
+  },
+  {
+    "prompt_id": "calib_0154",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about renewable energy."
+  },
+  {
+    "prompt_id": "calib_0155",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about machine learning."
+  },
+  {
+    "prompt_id": "calib_0156",
+    "category": "reasoning",
+    "text": "Why does ice float on water?"
+  },
+  {
+    "prompt_id": "calib_0157",
+    "category": "compare",
+    "text": "What is the difference between a comet and an asteroid?"
+  },
+  {
+    "prompt_id": "calib_0158",
+    "category": "opinion",
+    "text": "What is your perspective on the scientific method? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0159",
+    "category": "explain_a_concept",
+    "text": "Explain how urban planning works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0160",
+    "category": "compare",
+    "text": "What is the difference between RAM and storage?"
+  },
+  {
+    "prompt_id": "calib_0161",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind quantum computing in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0162",
+    "category": "opinion",
+    "text": "What is your perspective on the French Revolution? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0163",
+    "category": "opinion",
+    "text": "What is your perspective on black holes? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0164",
+    "category": "explain_a_concept",
+    "text": "Explain how the printing press works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0165",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about climate change."
+  },
+  {
+    "prompt_id": "calib_0166",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind the Industrial Revolution in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0167",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about ocean currents."
+  },
+  {
+    "prompt_id": "calib_0168",
+    "category": "opinion",
+    "text": "What is your perspective on the human genome? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0169",
+    "category": "explain_a_concept",
+    "text": "Explain how the Great Barrier Reef works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0170",
+    "category": "reasoning",
+    "text": "Why does static electricity build up in dry weather?"
+  },
+  {
+    "prompt_id": "calib_0171",
+    "category": "opinion",
+    "text": "What is your perspective on the water cycle? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0172",
+    "category": "explain_a_concept",
+    "text": "Explain how cybersecurity works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0173",
+    "category": "reasoning",
+    "text": "Why does milk curdle when it goes sour?"
+  },
+  {
+    "prompt_id": "calib_0174",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about photosynthesis."
+  },
+  {
+    "prompt_id": "calib_0175",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind cybersecurity in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0176",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind solar panels in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0177",
+    "category": "reasoning",
+    "text": "Why does fruit ripen faster near bananas?"
+  },
+  {
+    "prompt_id": "calib_0178",
+    "category": "reasoning",
+    "text": "Why does metal rust over time?"
+  },
+  {
+    "prompt_id": "calib_0179",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind supply and demand in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0180",
+    "category": "explain_a_concept",
+    "text": "Explain how plate tectonics works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0181",
+    "category": "explain_a_concept",
+    "text": "Explain how renewable energy works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0182",
+    "category": "opinion",
+    "text": "What is your perspective on the nervous system? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0183",
+    "category": "opinion",
+    "text": "What is your perspective on space exploration? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0184",
+    "category": "reasoning",
+    "text": "Why does mirrors reverse images left-to-right but not top-to-bottom?"
+  },
+  {
+    "prompt_id": "calib_0185",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about the immune system."
+  },
+  {
+    "prompt_id": "calib_0186",
+    "category": "howto",
+    "text": "How do I improve my sleep habits? Give a step-by-step outline."
+  },
+  {
+    "prompt_id": "calib_0187",
+    "category": "opinion",
+    "text": "What is your perspective on artificial neural networks? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0188",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about space exploration."
+  },
+  {
+    "prompt_id": "calib_0189",
+    "category": "opinion",
+    "text": "What is your perspective on supply and demand? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0190",
+    "category": "reasoning",
+    "text": "Why does carbonated drinks go flat?"
+  },
+  {
+    "prompt_id": "calib_0191",
+    "category": "explain_a_concept",
+    "text": "Explain how wildfire ecology works, in terms a curious beginner would understand."
+  },
+  {
+    "prompt_id": "calib_0192",
+    "category": "reasoning",
+    "text": "Why does leaves change color in autumn?"
+  },
+  {
+    "prompt_id": "calib_0193",
+    "category": "opinion",
+    "text": "What is your perspective on supply chains? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0194",
+    "category": "reasoning",
+    "text": "Why does bread rise when baked?"
+  },
+  {
+    "prompt_id": "calib_0195",
+    "category": "opinion",
+    "text": "What is your perspective on photosynthesis? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0196",
+    "category": "summarize",
+    "text": "Summarize the main ideas behind the water cycle in a few sentences."
+  },
+  {
+    "prompt_id": "calib_0197",
+    "category": "opinion",
+    "text": "What is your perspective on the printing press? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0198",
+    "category": "opinion",
+    "text": "What is your perspective on ancient Roman architecture? Explain your reasoning."
+  },
+  {
+    "prompt_id": "calib_0199",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about compound interest."
+  },
+  {
+    "prompt_id": "calib_0200",
+    "category": "creative",
+    "text": "Write a short, engaging paragraph about the stock market."
+  }
+]

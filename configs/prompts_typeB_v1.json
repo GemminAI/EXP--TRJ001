@@ -1,0 +1,1402 @@
+[
+  {
+    "prompt_id": "type_b_movie_001",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Jaws\" released?",
+    "reference_key": "type_b_movie_001"
+  },
+  {
+    "prompt_id": "type_b_movie_002",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Star Wars\" released?",
+    "reference_key": "type_b_movie_002"
+  },
+  {
+    "prompt_id": "type_b_movie_003",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"The Godfather\" released?",
+    "reference_key": "type_b_movie_003"
+  },
+  {
+    "prompt_id": "type_b_movie_004",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Titanic\" released?",
+    "reference_key": "type_b_movie_004"
+  },
+  {
+    "prompt_id": "type_b_movie_005",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Jurassic Park\" released?",
+    "reference_key": "type_b_movie_005"
+  },
+  {
+    "prompt_id": "type_b_movie_006",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"The Matrix\" released?",
+    "reference_key": "type_b_movie_006"
+  },
+  {
+    "prompt_id": "type_b_movie_007",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Forrest Gump\" released?",
+    "reference_key": "type_b_movie_007"
+  },
+  {
+    "prompt_id": "type_b_movie_008",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Pulp Fiction\" released?",
+    "reference_key": "type_b_movie_008"
+  },
+  {
+    "prompt_id": "type_b_movie_009",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"The Shawshank Redemption\" released?",
+    "reference_key": "type_b_movie_009"
+  },
+  {
+    "prompt_id": "type_b_movie_010",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"The Lion King\" released?",
+    "reference_key": "type_b_movie_010"
+  },
+  {
+    "prompt_id": "type_b_movie_011",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Toy Story\" released?",
+    "reference_key": "type_b_movie_011"
+  },
+  {
+    "prompt_id": "type_b_movie_012",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Casablanca\" released?",
+    "reference_key": "type_b_movie_012"
+  },
+  {
+    "prompt_id": "type_b_movie_013",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Gone with the Wind\" released?",
+    "reference_key": "type_b_movie_013"
+  },
+  {
+    "prompt_id": "type_b_movie_014",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"The Wizard of Oz\" released?",
+    "reference_key": "type_b_movie_014"
+  },
+  {
+    "prompt_id": "type_b_movie_015",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Psycho\" released?",
+    "reference_key": "type_b_movie_015"
+  },
+  {
+    "prompt_id": "type_b_movie_016",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"2001: A Space Odyssey\" released?",
+    "reference_key": "type_b_movie_016"
+  },
+  {
+    "prompt_id": "type_b_movie_017",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"E.T. the Extra-Terrestrial\" released?",
+    "reference_key": "type_b_movie_017"
+  },
+  {
+    "prompt_id": "type_b_movie_018",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Back to the Future\" released?",
+    "reference_key": "type_b_movie_018"
+  },
+  {
+    "prompt_id": "type_b_movie_019",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Rocky\" released?",
+    "reference_key": "type_b_movie_019"
+  },
+  {
+    "prompt_id": "type_b_movie_020",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Grease\" released?",
+    "reference_key": "type_b_movie_020"
+  },
+  {
+    "prompt_id": "type_b_movie_021",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"The Sound of Music\" released?",
+    "reference_key": "type_b_movie_021"
+  },
+  {
+    "prompt_id": "type_b_movie_022",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Schindler's List\" released?",
+    "reference_key": "type_b_movie_022"
+  },
+  {
+    "prompt_id": "type_b_movie_023",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Braveheart\" released?",
+    "reference_key": "type_b_movie_023"
+  },
+  {
+    "prompt_id": "type_b_movie_024",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Gladiator\" released?",
+    "reference_key": "type_b_movie_024"
+  },
+  {
+    "prompt_id": "type_b_movie_025",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"The Dark Knight\" released?",
+    "reference_key": "type_b_movie_025"
+  },
+  {
+    "prompt_id": "type_b_movie_026",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Avatar\" released?",
+    "reference_key": "type_b_movie_026"
+  },
+  {
+    "prompt_id": "type_b_movie_027",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Inception\" released?",
+    "reference_key": "type_b_movie_027"
+  },
+  {
+    "prompt_id": "type_b_movie_028",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Frozen\" released?",
+    "reference_key": "type_b_movie_028"
+  },
+  {
+    "prompt_id": "type_b_movie_029",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Interstellar\" released?",
+    "reference_key": "type_b_movie_029"
+  },
+  {
+    "prompt_id": "type_b_movie_030",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"La La Land\" released?",
+    "reference_key": "type_b_movie_030"
+  },
+  {
+    "prompt_id": "type_b_movie_031",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Parasite\" released?",
+    "reference_key": "type_b_movie_031"
+  },
+  {
+    "prompt_id": "type_b_movie_032",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Avengers: Endgame\" released?",
+    "reference_key": "type_b_movie_032"
+  },
+  {
+    "prompt_id": "type_b_movie_033",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Home Alone\" released?",
+    "reference_key": "type_b_movie_033"
+  },
+  {
+    "prompt_id": "type_b_movie_034",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Aladdin\" released?",
+    "reference_key": "type_b_movie_034"
+  },
+  {
+    "prompt_id": "type_b_movie_035",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"The Lord of the Rings: The Fellowship of the Ring\" released?",
+    "reference_key": "type_b_movie_035"
+  },
+  {
+    "prompt_id": "type_b_movie_036",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Harry Potter and the Sorcerer's Stone\" released?",
+    "reference_key": "type_b_movie_036"
+  },
+  {
+    "prompt_id": "type_b_movie_037",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Spider-Man\" released?",
+    "reference_key": "type_b_movie_037"
+  },
+  {
+    "prompt_id": "type_b_movie_038",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Finding Nemo\" released?",
+    "reference_key": "type_b_movie_038"
+  },
+  {
+    "prompt_id": "type_b_movie_039",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"The Sixth Sense\" released?",
+    "reference_key": "type_b_movie_039"
+  },
+  {
+    "prompt_id": "type_b_movie_040",
+    "prompt_type": "type_b",
+    "template": "movie",
+    "text": "In what year was the film \"Jurassic World\" released?",
+    "reference_key": "type_b_movie_040"
+  },
+  {
+    "prompt_id": "type_b_person_001",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Albert Einstein born?",
+    "reference_key": "type_b_person_001"
+  },
+  {
+    "prompt_id": "type_b_person_002",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Charles Darwin born?",
+    "reference_key": "type_b_person_002"
+  },
+  {
+    "prompt_id": "type_b_person_003",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Abraham Lincoln born?",
+    "reference_key": "type_b_person_003"
+  },
+  {
+    "prompt_id": "type_b_person_004",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Wolfgang Amadeus Mozart born?",
+    "reference_key": "type_b_person_004"
+  },
+  {
+    "prompt_id": "type_b_person_005",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Ludwig van Beethoven born?",
+    "reference_key": "type_b_person_005"
+  },
+  {
+    "prompt_id": "type_b_person_006",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Napoleon Bonaparte born?",
+    "reference_key": "type_b_person_006"
+  },
+  {
+    "prompt_id": "type_b_person_007",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Mahatma Gandhi born?",
+    "reference_key": "type_b_person_007"
+  },
+  {
+    "prompt_id": "type_b_person_008",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Martin Luther King Jr. born?",
+    "reference_key": "type_b_person_008"
+  },
+  {
+    "prompt_id": "type_b_person_009",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Nelson Mandela born?",
+    "reference_key": "type_b_person_009"
+  },
+  {
+    "prompt_id": "type_b_person_010",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Marie Curie born?",
+    "reference_key": "type_b_person_010"
+  },
+  {
+    "prompt_id": "type_b_person_011",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Winston Churchill born?",
+    "reference_key": "type_b_person_011"
+  },
+  {
+    "prompt_id": "type_b_person_012",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Franklin D. Roosevelt born?",
+    "reference_key": "type_b_person_012"
+  },
+  {
+    "prompt_id": "type_b_person_013",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Thomas Edison born?",
+    "reference_key": "type_b_person_013"
+  },
+  {
+    "prompt_id": "type_b_person_014",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Nikola Tesla born?",
+    "reference_key": "type_b_person_014"
+  },
+  {
+    "prompt_id": "type_b_person_015",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Charles Dickens born?",
+    "reference_key": "type_b_person_015"
+  },
+  {
+    "prompt_id": "type_b_person_016",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Mark Twain born?",
+    "reference_key": "type_b_person_016"
+  },
+  {
+    "prompt_id": "type_b_person_017",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was William Shakespeare born?",
+    "reference_key": "type_b_person_017"
+  },
+  {
+    "prompt_id": "type_b_person_018",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Leonardo da Vinci born?",
+    "reference_key": "type_b_person_018"
+  },
+  {
+    "prompt_id": "type_b_person_019",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Vincent van Gogh born?",
+    "reference_key": "type_b_person_019"
+  },
+  {
+    "prompt_id": "type_b_person_020",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Pablo Picasso born?",
+    "reference_key": "type_b_person_020"
+  },
+  {
+    "prompt_id": "type_b_person_021",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Michael Jackson born?",
+    "reference_key": "type_b_person_021"
+  },
+  {
+    "prompt_id": "type_b_person_022",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Elvis Presley born?",
+    "reference_key": "type_b_person_022"
+  },
+  {
+    "prompt_id": "type_b_person_023",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was John Lennon born?",
+    "reference_key": "type_b_person_023"
+  },
+  {
+    "prompt_id": "type_b_person_024",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Walt Disney born?",
+    "reference_key": "type_b_person_024"
+  },
+  {
+    "prompt_id": "type_b_person_025",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Steve Jobs born?",
+    "reference_key": "type_b_person_025"
+  },
+  {
+    "prompt_id": "type_b_person_026",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Bill Gates born?",
+    "reference_key": "type_b_person_026"
+  },
+  {
+    "prompt_id": "type_b_person_027",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Sigmund Freud born?",
+    "reference_key": "type_b_person_027"
+  },
+  {
+    "prompt_id": "type_b_person_028",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Karl Marx born?",
+    "reference_key": "type_b_person_028"
+  },
+  {
+    "prompt_id": "type_b_person_029",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Vladimir Lenin born?",
+    "reference_key": "type_b_person_029"
+  },
+  {
+    "prompt_id": "type_b_person_030",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Queen Elizabeth II born?",
+    "reference_key": "type_b_person_030"
+  },
+  {
+    "prompt_id": "type_b_person_031",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Barack Obama born?",
+    "reference_key": "type_b_person_031"
+  },
+  {
+    "prompt_id": "type_b_person_032",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Muhammad Ali born?",
+    "reference_key": "type_b_person_032"
+  },
+  {
+    "prompt_id": "type_b_person_033",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Neil Armstrong born?",
+    "reference_key": "type_b_person_033"
+  },
+  {
+    "prompt_id": "type_b_person_034",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Stephen Hawking born?",
+    "reference_key": "type_b_person_034"
+  },
+  {
+    "prompt_id": "type_b_person_035",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Galileo Galilei born?",
+    "reference_key": "type_b_person_035"
+  },
+  {
+    "prompt_id": "type_b_person_036",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Charlie Chaplin born?",
+    "reference_key": "type_b_person_036"
+  },
+  {
+    "prompt_id": "type_b_person_037",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Amelia Earhart born?",
+    "reference_key": "type_b_person_037"
+  },
+  {
+    "prompt_id": "type_b_person_038",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Queen Victoria born?",
+    "reference_key": "type_b_person_038"
+  },
+  {
+    "prompt_id": "type_b_person_039",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was Thomas Jefferson born?",
+    "reference_key": "type_b_person_039"
+  },
+  {
+    "prompt_id": "type_b_person_040",
+    "prompt_type": "type_b",
+    "template": "person",
+    "text": "In what year was George Washington born?",
+    "reference_key": "type_b_person_040"
+  },
+  {
+    "prompt_id": "type_b_paper_book_001",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Pride and Prejudice\"?",
+    "reference_key": "type_b_paper_book_001"
+  },
+  {
+    "prompt_id": "type_b_paper_book_002",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Moby-Dick\"?",
+    "reference_key": "type_b_paper_book_002"
+  },
+  {
+    "prompt_id": "type_b_paper_book_003",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"War and Peace\"?",
+    "reference_key": "type_b_paper_book_003"
+  },
+  {
+    "prompt_id": "type_b_paper_book_004",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Crime and Punishment\"?",
+    "reference_key": "type_b_paper_book_004"
+  },
+  {
+    "prompt_id": "type_b_paper_book_005",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"1984\"?",
+    "reference_key": "type_b_paper_book_005"
+  },
+  {
+    "prompt_id": "type_b_paper_book_006",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Animal Farm\"?",
+    "reference_key": "type_b_paper_book_006"
+  },
+  {
+    "prompt_id": "type_b_paper_book_007",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"To Kill a Mockingbird\"?",
+    "reference_key": "type_b_paper_book_007"
+  },
+  {
+    "prompt_id": "type_b_paper_book_008",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"The Great Gatsby\"?",
+    "reference_key": "type_b_paper_book_008"
+  },
+  {
+    "prompt_id": "type_b_paper_book_009",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Frankenstein\"?",
+    "reference_key": "type_b_paper_book_009"
+  },
+  {
+    "prompt_id": "type_b_paper_book_010",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Dracula\"?",
+    "reference_key": "type_b_paper_book_010"
+  },
+  {
+    "prompt_id": "type_b_paper_book_011",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"The Adventures of Huckleberry Finn\"?",
+    "reference_key": "type_b_paper_book_011"
+  },
+  {
+    "prompt_id": "type_b_paper_book_012",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"The Adventures of Tom Sawyer\"?",
+    "reference_key": "type_b_paper_book_012"
+  },
+  {
+    "prompt_id": "type_b_paper_book_013",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Great Expectations\"?",
+    "reference_key": "type_b_paper_book_013"
+  },
+  {
+    "prompt_id": "type_b_paper_book_014",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Oliver Twist\"?",
+    "reference_key": "type_b_paper_book_014"
+  },
+  {
+    "prompt_id": "type_b_paper_book_015",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"A Tale of Two Cities\"?",
+    "reference_key": "type_b_paper_book_015"
+  },
+  {
+    "prompt_id": "type_b_paper_book_016",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Jane Eyre\"?",
+    "reference_key": "type_b_paper_book_016"
+  },
+  {
+    "prompt_id": "type_b_paper_book_017",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Wuthering Heights\"?",
+    "reference_key": "type_b_paper_book_017"
+  },
+  {
+    "prompt_id": "type_b_paper_book_018",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"The Catcher in the Rye\"?",
+    "reference_key": "type_b_paper_book_018"
+  },
+  {
+    "prompt_id": "type_b_paper_book_019",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Brave New World\"?",
+    "reference_key": "type_b_paper_book_019"
+  },
+  {
+    "prompt_id": "type_b_paper_book_020",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Fahrenheit 451\"?",
+    "reference_key": "type_b_paper_book_020"
+  },
+  {
+    "prompt_id": "type_b_paper_book_021",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"The Hobbit\"?",
+    "reference_key": "type_b_paper_book_021"
+  },
+  {
+    "prompt_id": "type_b_paper_book_022",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"The Lord of the Rings\"?",
+    "reference_key": "type_b_paper_book_022"
+  },
+  {
+    "prompt_id": "type_b_paper_book_023",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Harry Potter and the Philosopher's Stone\"?",
+    "reference_key": "type_b_paper_book_023"
+  },
+  {
+    "prompt_id": "type_b_paper_book_024",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"The Lion, the Witch and the Wardrobe\"?",
+    "reference_key": "type_b_paper_book_024"
+  },
+  {
+    "prompt_id": "type_b_paper_book_025",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Don Quixote\"?",
+    "reference_key": "type_b_paper_book_025"
+  },
+  {
+    "prompt_id": "type_b_paper_book_026",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"The Odyssey\"?",
+    "reference_key": "type_b_paper_book_026"
+  },
+  {
+    "prompt_id": "type_b_paper_book_027",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Hamlet\"?",
+    "reference_key": "type_b_paper_book_027"
+  },
+  {
+    "prompt_id": "type_b_paper_book_028",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Romeo and Juliet\"?",
+    "reference_key": "type_b_paper_book_028"
+  },
+  {
+    "prompt_id": "type_b_paper_book_029",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Macbeth\"?",
+    "reference_key": "type_b_paper_book_029"
+  },
+  {
+    "prompt_id": "type_b_paper_book_030",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Les Miserables\"?",
+    "reference_key": "type_b_paper_book_030"
+  },
+  {
+    "prompt_id": "type_b_paper_book_031",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"The Hunchback of Notre-Dame\"?",
+    "reference_key": "type_b_paper_book_031"
+  },
+  {
+    "prompt_id": "type_b_paper_book_032",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Anna Karenina\"?",
+    "reference_key": "type_b_paper_book_032"
+  },
+  {
+    "prompt_id": "type_b_paper_book_033",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"The Picture of Dorian Gray\"?",
+    "reference_key": "type_b_paper_book_033"
+  },
+  {
+    "prompt_id": "type_b_paper_book_034",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"The Adventures of Sherlock Holmes\"?",
+    "reference_key": "type_b_paper_book_034"
+  },
+  {
+    "prompt_id": "type_b_paper_book_035",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Alice's Adventures in Wonderland\"?",
+    "reference_key": "type_b_paper_book_035"
+  },
+  {
+    "prompt_id": "type_b_paper_book_036",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"The Old Man and the Sea\"?",
+    "reference_key": "type_b_paper_book_036"
+  },
+  {
+    "prompt_id": "type_b_paper_book_037",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"One Hundred Years of Solitude\"?",
+    "reference_key": "type_b_paper_book_037"
+  },
+  {
+    "prompt_id": "type_b_paper_book_038",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"The Little Prince\"?",
+    "reference_key": "type_b_paper_book_038"
+  },
+  {
+    "prompt_id": "type_b_paper_book_039",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Robinson Crusoe\"?",
+    "reference_key": "type_b_paper_book_039"
+  },
+  {
+    "prompt_id": "type_b_paper_book_040",
+    "prompt_type": "type_b",
+    "template": "paper_book",
+    "text": "Who wrote the novel \"Gulliver's Travels\"?",
+    "reference_key": "type_b_paper_book_040"
+  },
+  {
+    "prompt_id": "type_b_chemical_001",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of water?",
+    "reference_key": "type_b_chemical_001"
+  },
+  {
+    "prompt_id": "type_b_chemical_002",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of table salt (sodium chloride)?",
+    "reference_key": "type_b_chemical_002"
+  },
+  {
+    "prompt_id": "type_b_chemical_003",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of carbon dioxide?",
+    "reference_key": "type_b_chemical_003"
+  },
+  {
+    "prompt_id": "type_b_chemical_004",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of oxygen gas?",
+    "reference_key": "type_b_chemical_004"
+  },
+  {
+    "prompt_id": "type_b_chemical_005",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of nitrogen gas?",
+    "reference_key": "type_b_chemical_005"
+  },
+  {
+    "prompt_id": "type_b_chemical_006",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of hydrogen gas?",
+    "reference_key": "type_b_chemical_006"
+  },
+  {
+    "prompt_id": "type_b_chemical_007",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of methane?",
+    "reference_key": "type_b_chemical_007"
+  },
+  {
+    "prompt_id": "type_b_chemical_008",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of ammonia?",
+    "reference_key": "type_b_chemical_008"
+  },
+  {
+    "prompt_id": "type_b_chemical_009",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of glucose?",
+    "reference_key": "type_b_chemical_009"
+  },
+  {
+    "prompt_id": "type_b_chemical_010",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of ethanol?",
+    "reference_key": "type_b_chemical_010"
+  },
+  {
+    "prompt_id": "type_b_chemical_011",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of sulfuric acid?",
+    "reference_key": "type_b_chemical_011"
+  },
+  {
+    "prompt_id": "type_b_chemical_012",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of hydrochloric acid?",
+    "reference_key": "type_b_chemical_012"
+  },
+  {
+    "prompt_id": "type_b_chemical_013",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of sodium hydroxide?",
+    "reference_key": "type_b_chemical_013"
+  },
+  {
+    "prompt_id": "type_b_chemical_014",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of calcium carbonate?",
+    "reference_key": "type_b_chemical_014"
+  },
+  {
+    "prompt_id": "type_b_chemical_015",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of carbon monoxide?",
+    "reference_key": "type_b_chemical_015"
+  },
+  {
+    "prompt_id": "type_b_chemical_016",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of ozone?",
+    "reference_key": "type_b_chemical_016"
+  },
+  {
+    "prompt_id": "type_b_chemical_017",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of hydrogen peroxide?",
+    "reference_key": "type_b_chemical_017"
+  },
+  {
+    "prompt_id": "type_b_chemical_018",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of nitrous oxide?",
+    "reference_key": "type_b_chemical_018"
+  },
+  {
+    "prompt_id": "type_b_chemical_019",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of sulfur dioxide?",
+    "reference_key": "type_b_chemical_019"
+  },
+  {
+    "prompt_id": "type_b_chemical_020",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of potassium chloride?",
+    "reference_key": "type_b_chemical_020"
+  },
+  {
+    "prompt_id": "type_b_chemical_021",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of baking soda (sodium bicarbonate)?",
+    "reference_key": "type_b_chemical_021"
+  },
+  {
+    "prompt_id": "type_b_chemical_022",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of acetic acid?",
+    "reference_key": "type_b_chemical_022"
+  },
+  {
+    "prompt_id": "type_b_chemical_023",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of silicon dioxide (quartz)?",
+    "reference_key": "type_b_chemical_023"
+  },
+  {
+    "prompt_id": "type_b_chemical_024",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of quicklime (calcium oxide)?",
+    "reference_key": "type_b_chemical_024"
+  },
+  {
+    "prompt_id": "type_b_chemical_025",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of magnesium oxide?",
+    "reference_key": "type_b_chemical_025"
+  },
+  {
+    "prompt_id": "type_b_chemical_026",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of nitric acid?",
+    "reference_key": "type_b_chemical_026"
+  },
+  {
+    "prompt_id": "type_b_chemical_027",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of phosphoric acid?",
+    "reference_key": "type_b_chemical_027"
+  },
+  {
+    "prompt_id": "type_b_chemical_028",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of potassium hydroxide?",
+    "reference_key": "type_b_chemical_028"
+  },
+  {
+    "prompt_id": "type_b_chemical_029",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of copper sulfate?",
+    "reference_key": "type_b_chemical_029"
+  },
+  {
+    "prompt_id": "type_b_chemical_030",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of iron oxide (rust)?",
+    "reference_key": "type_b_chemical_030"
+  },
+  {
+    "prompt_id": "type_b_chemical_031",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of zinc oxide?",
+    "reference_key": "type_b_chemical_031"
+  },
+  {
+    "prompt_id": "type_b_chemical_032",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of calcium hydroxide?",
+    "reference_key": "type_b_chemical_032"
+  },
+  {
+    "prompt_id": "type_b_chemical_033",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of washing soda (sodium carbonate)?",
+    "reference_key": "type_b_chemical_033"
+  },
+  {
+    "prompt_id": "type_b_chemical_034",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of aluminum oxide?",
+    "reference_key": "type_b_chemical_034"
+  },
+  {
+    "prompt_id": "type_b_chemical_035",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of hydrogen sulfide?",
+    "reference_key": "type_b_chemical_035"
+  },
+  {
+    "prompt_id": "type_b_chemical_036",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of chlorine gas?",
+    "reference_key": "type_b_chemical_036"
+  },
+  {
+    "prompt_id": "type_b_chemical_037",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of benzene?",
+    "reference_key": "type_b_chemical_037"
+  },
+  {
+    "prompt_id": "type_b_chemical_038",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of propane?",
+    "reference_key": "type_b_chemical_038"
+  },
+  {
+    "prompt_id": "type_b_chemical_039",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of butane?",
+    "reference_key": "type_b_chemical_039"
+  },
+  {
+    "prompt_id": "type_b_chemical_040",
+    "prompt_type": "type_b",
+    "template": "chemical",
+    "text": "What is the chemical formula of table sugar (sucrose)?",
+    "reference_key": "type_b_chemical_040"
+  },
+  {
+    "prompt_id": "type_b_location_001",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of France?",
+    "reference_key": "type_b_location_001"
+  },
+  {
+    "prompt_id": "type_b_location_002",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Germany?",
+    "reference_key": "type_b_location_002"
+  },
+  {
+    "prompt_id": "type_b_location_003",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Italy?",
+    "reference_key": "type_b_location_003"
+  },
+  {
+    "prompt_id": "type_b_location_004",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Spain?",
+    "reference_key": "type_b_location_004"
+  },
+  {
+    "prompt_id": "type_b_location_005",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of the United Kingdom?",
+    "reference_key": "type_b_location_005"
+  },
+  {
+    "prompt_id": "type_b_location_006",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Japan?",
+    "reference_key": "type_b_location_006"
+  },
+  {
+    "prompt_id": "type_b_location_007",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of China?",
+    "reference_key": "type_b_location_007"
+  },
+  {
+    "prompt_id": "type_b_location_008",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Russia?",
+    "reference_key": "type_b_location_008"
+  },
+  {
+    "prompt_id": "type_b_location_009",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Canada?",
+    "reference_key": "type_b_location_009"
+  },
+  {
+    "prompt_id": "type_b_location_010",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Australia?",
+    "reference_key": "type_b_location_010"
+  },
+  {
+    "prompt_id": "type_b_location_011",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Brazil?",
+    "reference_key": "type_b_location_011"
+  },
+  {
+    "prompt_id": "type_b_location_012",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Egypt?",
+    "reference_key": "type_b_location_012"
+  },
+  {
+    "prompt_id": "type_b_location_013",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of India?",
+    "reference_key": "type_b_location_013"
+  },
+  {
+    "prompt_id": "type_b_location_014",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Mexico?",
+    "reference_key": "type_b_location_014"
+  },
+  {
+    "prompt_id": "type_b_location_015",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Argentina?",
+    "reference_key": "type_b_location_015"
+  },
+  {
+    "prompt_id": "type_b_location_016",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of South Korea?",
+    "reference_key": "type_b_location_016"
+  },
+  {
+    "prompt_id": "type_b_location_017",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Turkey?",
+    "reference_key": "type_b_location_017"
+  },
+  {
+    "prompt_id": "type_b_location_018",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Greece?",
+    "reference_key": "type_b_location_018"
+  },
+  {
+    "prompt_id": "type_b_location_019",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Portugal?",
+    "reference_key": "type_b_location_019"
+  },
+  {
+    "prompt_id": "type_b_location_020",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of the Netherlands?",
+    "reference_key": "type_b_location_020"
+  },
+  {
+    "prompt_id": "type_b_location_021",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Switzerland?",
+    "reference_key": "type_b_location_021"
+  },
+  {
+    "prompt_id": "type_b_location_022",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Sweden?",
+    "reference_key": "type_b_location_022"
+  },
+  {
+    "prompt_id": "type_b_location_023",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Norway?",
+    "reference_key": "type_b_location_023"
+  },
+  {
+    "prompt_id": "type_b_location_024",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Denmark?",
+    "reference_key": "type_b_location_024"
+  },
+  {
+    "prompt_id": "type_b_location_025",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Finland?",
+    "reference_key": "type_b_location_025"
+  },
+  {
+    "prompt_id": "type_b_location_026",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Poland?",
+    "reference_key": "type_b_location_026"
+  },
+  {
+    "prompt_id": "type_b_location_027",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Austria?",
+    "reference_key": "type_b_location_027"
+  },
+  {
+    "prompt_id": "type_b_location_028",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Belgium?",
+    "reference_key": "type_b_location_028"
+  },
+  {
+    "prompt_id": "type_b_location_029",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Ireland?",
+    "reference_key": "type_b_location_029"
+  },
+  {
+    "prompt_id": "type_b_location_030",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Thailand?",
+    "reference_key": "type_b_location_030"
+  },
+  {
+    "prompt_id": "type_b_location_031",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Indonesia?",
+    "reference_key": "type_b_location_031"
+  },
+  {
+    "prompt_id": "type_b_location_032",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Vietnam?",
+    "reference_key": "type_b_location_032"
+  },
+  {
+    "prompt_id": "type_b_location_033",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of the Philippines?",
+    "reference_key": "type_b_location_033"
+  },
+  {
+    "prompt_id": "type_b_location_034",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Kenya?",
+    "reference_key": "type_b_location_034"
+  },
+  {
+    "prompt_id": "type_b_location_035",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Nigeria?",
+    "reference_key": "type_b_location_035"
+  },
+  {
+    "prompt_id": "type_b_location_036",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Saudi Arabia?",
+    "reference_key": "type_b_location_036"
+  },
+  {
+    "prompt_id": "type_b_location_037",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of New Zealand?",
+    "reference_key": "type_b_location_037"
+  },
+  {
+    "prompt_id": "type_b_location_038",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Chile?",
+    "reference_key": "type_b_location_038"
+  },
+  {
+    "prompt_id": "type_b_location_039",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Peru?",
+    "reference_key": "type_b_location_039"
+  },
+  {
+    "prompt_id": "type_b_location_040",
+    "prompt_type": "type_b",
+    "template": "location",
+    "text": "What is the capital of Colombia?",
+    "reference_key": "type_b_location_040"
+  }
+]

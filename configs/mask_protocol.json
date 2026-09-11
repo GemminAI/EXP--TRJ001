@@ -1,0 +1,18 @@
+{
+  "mask_seed": 20260912,
+  "interpolation": {
+    "levels": [
+      0.2,
+      0.35,
+      0.5
+    ],
+    "description": "For each trajectory, randomly mask this fraction of its INTERNAL tokens (the same positions kappa is defined on: excluding the two endpoints t=1, t=T). Mask count = floor(level * (T - 2)). All six methods (M0-M5, plan §7.2) are evaluated against the SAME mask pattern for a given (prompt_id, sample_index, level) -- masks are derived deterministically from mask_seed plus that sample's own identity, never redrawn per method."
+  },
+  "extrapolation": {
+    "fraction": 0.2,
+    "description": "Remove the trailing 20% of each trajectory; predict those positions from the leading 80%."
+  },
+  "metric": "MSE across all 64 dimensions (plan §7.4)",
+  "hyperparameter_selection_split": "validation",
+  "reporting_split": "test"
+}

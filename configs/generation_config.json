@@ -1,0 +1,28 @@
+{
+  "_notice": "model_commit_hash and inference_engine_version are Appendix B item 1 -- explicitly unconfirmed pre-freeze items in plan v1.3. Fill them in from the real execution environment before v1.3-frozen; do not invent values here.",
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "model_revision": "main",
+  "model_commit_hash": null,
+  "quantization": "none (bfloat16)",
+  "inference_engine": "vLLM",
+  "inference_engine_version": null,
+  "inference_engine_min_version": "0.6.0",
+  "generation_language": "en",
+  "sampling": {
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "top_k": 50,
+    "max_new_tokens": 200
+  },
+  "seed_formula": "seed = hash(prompt_id, sample_index) % 2**32",
+  "stop_tokens": [
+    "<|eot_id|>",
+    "<|eom_id|>"
+  ],
+  "layers_saved": [
+    8,
+    16,
+    24
+  ],
+  "primary_layer": 16
+}
