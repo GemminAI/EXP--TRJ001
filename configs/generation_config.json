@@ -1,11 +1,11 @@
 {
-  "_notice": "model_commit_hash and inference_engine_version are Appendix B item 1 -- explicitly unconfirmed pre-freeze items in plan v1.3. Fill them in from the real execution environment before v1.3-frozen; do not invent values here.",
-  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "_notice": "v1.4 U8 (2026-09-13): model changed from meta-llama/Meta-Llama-3.1-8B-Instruct to Qwen/Qwen2.5-7B-Instruct after Rule 3 (mixed_rate >= 30%) failed twice under Llama (v1.3-worded pilot: 69% abstain, 800 samples; v1.4-worded + temperature=1.0 diagnostic: 94.5% abstain, 400 samples) -- per U7, no further prompt/parameter tuning is permitted after a second failure. See docs/EXP-2026-NVS-001_v1.4.md changelog. model_commit_hash and inference_engine_version are real-execution-environment values, recorded from an actual run, not invented.",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
   "model_revision": "main",
-  "model_commit_hash": null,
+  "model_commit_hash": "a09a35458c702b33eeacc393d103063234e8bc28",
   "quantization": "none (bfloat16)",
   "inference_engine": "vLLM",
-  "inference_engine_version": null,
+  "inference_engine_version": "0.29.0",
   "inference_engine_min_version": "0.6.0",
   "generation_language": "en",
   "sampling": {
@@ -16,13 +16,14 @@
   },
   "seed_formula": "seed = hash(prompt_id, sample_index) % 2**32",
   "stop_tokens": [
-    "<|eot_id|>",
-    "<|eom_id|>"
+    "<|im_end|>",
+    "<|endoftext|>"
   ],
   "layers_saved": [
     8,
     16,
     24
   ],
-  "primary_layer": 16
+  "primary_layer": 16,
+  "_layer_choice_notice": "v1.4 U8: layer indices {8,16,24}/primary 16 are UNCHANGED absolute values from the Llama-3.1-8B (32-layer) plan. Qwen2.5-7B-Instruct has 28 layers, so these land at 29%/57%/86% depth instead of Llama's 25%/50%/75% -- layer 24 in particular sits deeper into the unembedding-proximate zone that Sec 2.2's rationale for excluding late layers was meant to avoid. This was NOT rescaled; flagged for confirmation, not silently decided."
 }

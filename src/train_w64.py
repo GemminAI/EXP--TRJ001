@@ -39,7 +39,9 @@ DEFAULT_W_PATH = REPO_ROOT / "configs" / "W_pca128.npy"
 DEFAULT_MU_PATH = REPO_ROOT / "configs" / "mu_pca.npy"
 DEFAULT_DIAGNOSTICS_PATH = REPO_ROOT / "configs" / "pca_diagnostics.json"
 
-SOURCE_DIMENSION = 4096  # Meta-Llama-3.1-8B-Instruct hidden width, §2.1
+SOURCE_DIMENSION = 3584  # Qwen2.5-7B-Instruct hidden width, §2.1 (v1.4 U8: model
+# changed from Meta-Llama-3.1-8B-Instruct, 4096, after Rule 3 failed twice --
+# see docs/EXP-2026-NVS-001_v1.4.md changelog)
 N_COMPONENTS = 128  # §2.3 (G1): saved dimension
 PCA_RANDOM_STATE = 20260912  # matches this project's other frozen seeds
 

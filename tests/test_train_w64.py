@@ -42,7 +42,7 @@ def test_project_output_shape_and_centering(synthetic_hidden_states):
 
 def test_wrong_dimension_raises():
     bad = np.zeros((100, 10), dtype=np.float32)
-    with pytest.raises(ValueError, match="4096"):
+    with pytest.raises(ValueError, match=str(SOURCE_DIMENSION)):
         fit_pca_projection(bad)
 
 

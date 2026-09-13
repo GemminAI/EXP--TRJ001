@@ -1,5 +1,5 @@
 {
-  "_notice": "Draft lexicon for Type C (abstain) / Type D (hedge) pattern matching, plan §5.2. This is the raw phrase list only, treated as a decidable linguistic resource. It does NOT decide Type A's positive-determination method or Type D's treatment (how a hedge match combines with other signals into a final label) -- those are explicitly deferred, per instruction 2026-09-12, until real generation samples are reviewed. This list itself should also be revisited against real samples before freezing (some entries may prove too aggressive or too narrow).",
+  "_notice": "Lexicon for Type C (abstain) / Type D (hedge) pattern matching, plan v1.4 §5.2. classify_type_a resolves to Type A positive whenever neither list matches (no further test). The last four hedge_patterns entries (added 2026-09-13, from real Phase 1 v1.3-pilot samples) are a deterministic conjunction, not a plain phrase: a meta-referential subject ('this name'/'this title'/'a name or title like/matching this') within 100 characters of a generalizing predicate (typically/generally/usually/often/commonly, or 'refers to'), in either order -- catches the evasive move of pivoting from the specific fictional entity to a generic, genre-level description while still calling it only 'this name', which neither half alone would flag.",
   "abstain_patterns": [
     "i don'?t know",
     "i do not know",
@@ -42,6 +42,10 @@
     "it is possible that",
     "i'?m not 100% sure",
     "without more (context|information)",
-    "to (my|the best of my) knowledge"
+    "to (my|the best of my) knowledge",
+    "(this (name|title)|a (name|title) (like|matching) this).{0,100}?\\b(typically|generally|usually|often|commonly)\\b",
+    "\\b(typically|generally|usually|often|commonly)\\b.{0,100}?(this (name|title)|a (name|title) (like|matching) this)",
+    "(this (name|title)|a (name|title) (like|matching) this).{0,100}?refers? to",
+    "refers? to.{0,100}?(this (name|title)|a (name|title) (like|matching) this)"
   ]
 }

@@ -1,4 +1,4 @@
-"""Trajectory collection pipeline for EXP-2026-NVS-001 (plan v1.3 §5, "採取スクリプト").
+"""Trajectory collection pipeline for EXP-2026-NVS-001 (plan v1.4 §5, "採取スクリプト").
 
 Orchestrates: prompt -> model generation (`Generator` interface) -> per-layer
 hidden-state extraction -> projection via the frozen Layer-16 PCA basis
@@ -8,25 +8,20 @@ used as a common coordinate system across layers, to compare layer dynamics
 in the same space -- not a separate per-layer PCA fit) -> kappa(t) on Layer
 16 PC1-64 -> hallucination-label evaluation.
 
-Real model execution (vLLM, plan §2.1) needs a GPU this environment does not
-have. `Generator` is an interface so the rest of the pipeline is testable now
-via `MockGenerator`; a real `VLLMGenerator` can be dropped in later without
-touching anything else here.
+Real model execution (vLLM, plan §2.1) runs via `run_gpu_pipeline.
+RealGenerator` on the real GPU environment. `Generator` is an interface so
+the rest of the pipeline is also testable without a GPU via `MockGenerator`.
 
-Label-evaluation note: for a Type A prompt whose response is not Type C/D,
-`eval_hallucination.evaluate()` deliberately raises `TypeADecisionPending`
-(§5.2's positive-determination method is still undecided, per instruction
-2026-09-12). This collector does NOT treat that as a collection failure --
-it catches it, stores the raw diagnostic text/signals, and marks the record
-`label: "pending_type_a"` so collection is never blocked on a labeling
-decision that has not been made yet; re-labeling later needs no
-re-generation.
+Label-evaluation note (v1.4): `eval_hallucination.evaluate()` now always
+returns a definite label -- the Type A positive-determination rule that v1.3
+left pending is resolved (§5.2), so `process_sample` no longer needs to
+special-case an undecided-label exception.
 
-PCA-weights note: unlike an earlier draft, this module does NOT silently
-fall back to an identity/random projection when `configs/W_pca128.npy` /
-`configs/mu_pca.npy` are missing -- for a pre-registered experiment, running
-collection without the real frozen projection must fail loudly, not
-silently produce meaningless data.
+PCA-weights note: this module does NOT silently fall back to an
+identity/random projection when `configs/W_pca128.npy` / `configs/mu_pca.npy`
+are missing -- for a pre-registered experiment, running collection without
+the real frozen projection must fail loudly, not silently produce
+meaningless data.
 """
 
 from __future__ import annotations
@@ -45,7 +40,6 @@ from eval_hallucination import (
     GenerationRecord,
     PromptRecord,
     PromptType,
-    TypeADecisionPending,
     evaluate,
 )
 
@@ -54,7 +48,6 @@ DEFAULT_W_PATH = REPO_ROOT / "configs" / "W_pca128.npy"
 DEFAULT_MU_PATH = REPO_ROOT / "configs" / "mu_pca.npy"
 LAYERS = (8, 16, 24)  # §2.2: saved at collection time; 16 is primary
 PRIMARY_LAYER = 16
-PENDING_TYPE_A_LABEL = "pending_type_a"
 
 
 def deterministic_seed(prompt_id: str, sample_index: int) -> int:
@@ -147,7 +140,15 @@ class TrajectoryCollector:
         eval_config: EvalConfig,
         w_path: Path = DEFAULT_W_PATH,
         mu_path: Path = DEFAULT_MU_PATH,
+        ablation_prompt_ids: Optional[set[str]] = None,
+        ablation_raw_dir: Optional[Path] = None,
     ):
+        """`ablation_prompt_ids`/`ablation_raw_dir` (§2.3 F1, §6.3 ABL-1):
+        for prompts in this set, ALSO persist the raw (unprojected) Layer-16
+        hidden states to `ablation_raw_dir` as one .npy per sample, so ABL-1
+        can compute kappa directly on the raw high-dimensional trajectory.
+        Both must be given together or not at all; omitted by default so
+        Phase 0/1 callers (no ablation set yet) are unaffected."""
         if not w_path.exists() or not mu_path.exists():
             raise FileNotFoundError(
                 f"frozen projection not found ({w_path}, {mu_path}) -- run "
@@ -155,14 +156,20 @@ class TrajectoryCollector:
                 f"first; this collector refuses to fall back to a placeholder "
                 f"projection for a pre-registered experiment"
             )
-        self.W = np.load(w_path)  # (4096, 128)
-        self.mu = np.load(mu_path)  # (4096,)
+        if bool(ablation_prompt_ids) != bool(ablation_raw_dir):
+            raise ValueError("ablation_prompt_ids and ablation_raw_dir must be given together")
+        self.W = np.load(w_path)  # (SOURCE_DIMENSION, 128)
+        self.mu = np.load(mu_path)  # (SOURCE_DIMENSION,)
         self._eval_config = eval_config
         self._reference = (
             json.loads(eval_config.typeB_reference_path.read_text(encoding="utf-8"))
             if eval_config.typeB_reference_path.exists()
             else None
         )
+        self._ablation_prompt_ids = ablation_prompt_ids or set()
+        self._ablation_raw_dir = ablation_raw_dir
+        if self._ablation_raw_dir:
+            self._ablation_raw_dir.mkdir(parents=True, exist_ok=True)
 
     def project(self, hidden_states_4096: np.ndarray) -> np.ndarray:
         """`z = (h - mu) @ W`, applied identically across Layers 8/16/24 --
@@ -180,22 +187,26 @@ class TrajectoryCollector:
             generation_error=sample.generation_error,
         )
 
-        try:
-            eval_result = evaluate(prompt, gen, self._eval_config, reference=self._reference)
-            label = eval_result.label.value
-            label_details: dict[str, Any] = asdict(eval_result)
-        except TypeADecisionPending as exc:
-            # Deliberately not a collection failure -- see module docstring.
-            label = PENDING_TYPE_A_LABEL
-            label_details = {"pending_reason": str(exc)}
+        eval_result = evaluate(prompt, gen, self._eval_config, reference=self._reference)
+        label = eval_result.label.value
+        label_details: dict[str, Any] = asdict(eval_result)
 
         projected_layers: dict[str, np.ndarray] = {}
         kappa_result: Optional[KappaResult] = None
+        raw_ablation_path: Optional[str] = None
         for layer, h_4096 in sample.hidden_states.items():
             proj_128 = self.project(h_4096)
             projected_layers[f"layer_{layer}_128d"] = proj_128
             if layer == PRIMARY_LAYER and sample.token_count >= MIN_SEQUENCE_LENGTH:
                 kappa_result = compute_kappa(proj_128[:, :64])
+            if (
+                layer == PRIMARY_LAYER
+                and sample.prompt_id in self._ablation_prompt_ids
+                and self._ablation_raw_dir is not None
+            ):
+                fname = f"{sample.prompt_id}__{sample.sample_index}.npy"
+                np.save(self._ablation_raw_dir / fname, h_4096.astype(np.float32))
+                raw_ablation_path = fname
 
         return {
             "prompt_id": sample.prompt_id,
@@ -207,6 +218,7 @@ class TrajectoryCollector:
             "label_details": label_details,
             "projected_layers": projected_layers,
             "kappa": kappa_result,
+            "raw_ablation_path": raw_ablation_path,
         }
 
 

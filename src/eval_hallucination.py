@@ -1,28 +1,45 @@
-"""Label judger for EXP-2026-NVS-001 (plan v1.2, §5.2).
+"""Label judger for EXP-2026-NVS-001 (plan v1.4, §5.2).
 
-Frozen behavior (spec-fixed in the plan; safe to implement now):
-  - Class E gating (§3.2 / §5.2): T < 20, generation error, or judge exception.
-  - Type C abstention detection via `configs/refusal_patterns_en.json`
-    ("abstain_patterns").
+v1.3 -> v1.4 (2026-09-13, decided from the real Phase 1 pilot's 800 samples --
+see `results/phase1_pilot_trajectories.json`, collected under v1.3): the two
+items v1.3 deliberately left undecided are now resolved.
+
+  - **Type A positive-determination**: resolved to exactly what v1.3 §5.2
+    already stated as the target rule -- "not Type C, not Type D" -- with no
+    further "substantiveness" test. Once C/D are ruled out, a Type A response
+    is positive. `classify_type_a` returns this outcome directly instead of
+    raising `TypeADecisionPending` (removed; it never fires anymore).
+  - **Type D treatment**: any hedge-pattern match routes a response to Type D
+    outright (no further combination logic) -- unchanged from what v1.3
+    already implied, now confirmed rather than deferred.
+
+**Order of judgment (v1.4 §5.2 change)**: semantic classification (Type C
+abstain / Type D hedge) now runs BEFORE the length/truncation gate (Class E),
+reversed from v1.3. A short-but-genuine abstention ("I don't know.", T=5) is
+therefore Type C, not Class E -- semantics take precedence over length.
+`generation_error` remains an unconditional, first-priority Class E trigger
+independent of this reordering: it is a pipeline failure, not a
+length/truncation judgment, and there is no text to classify. Hitting
+`max_new_tokens` (200) without an EOS is likewise NOT a separate Class E
+trigger (v1.4 §5.2) -- a truncated response is classified normally like any
+other, gated only by `T < 20` same as before.
+
+**Type D pattern hardening (v1.4 §5.2)**: `configs/refusal_patterns_en.json`
+gained a syntactic-skeleton pattern class for a specific evasive move seen in
+real Phase 1 samples -- pivoting from the specific (fictional) entity to a
+generic, genre-level description while still referring back to it only as
+"this name"/"this title" (never asserting it exists under that description).
+This is a deterministic conjunction of a meta-referential subject phrase
+("this name", "this title", "a name/title like/matching this") and a
+generalizing predicate (typically/generally/usually/often/commonly, or
+"refers to") within a bounded distance, in either order -- not a simple
+phrase list entry, since neither half alone is hedging language on its own.
+
+Frozen behavior (spec-fixed in the plan; unaffected by v1.4):
   - Type B factual-error detection: normalization (§5.2) + match against
     `configs/typeB_reference.json`, EXCEPT the numeric-tolerance rule, which
     plan Appendix B item 2 lists as an open pre-freeze item and is not decided
     here.
-
-Deliberately NOT decided here (per instruction, 2026-09-12 — do not guess):
-  - §5.2's Type A positive-determination method: what, beyond "not Type C,
-    not Type D", makes a response an actual Type A positive ("実質的記述を
-    展開した応答").
-  - Type D's treatment: whether any hedge-pattern match routes a response to
-    Type D outright, or something more nuanced is needed.
-  Both require inspecting real generation samples first (none exist yet —
-  prompt generation and collection come after this module in the build
-  order). `classify_type_a` raises `TypeADecisionPending` instead of
-  guessing, so a caller gets a loud, explicit signal rather than a silent
-  default. Every raw signal needed to make that decision later (response
-  text, hedge matches, abstain matches, token count) is still computed and
-  carried on the exception / in `TypeASignals`, so no re-generation is
-  needed once the rule is set — only this one function need be filled in.
 """
 
 from __future__ import annotations
@@ -70,17 +87,6 @@ class GenerationRecord:
     text: str
     token_count: int  # T — §2.2 primary time axis, §3.2 Class-E length check
     generation_error: bool = False
-
-
-class TypeADecisionPending(RuntimeError):
-    """Raised instead of guessing a Type A label.
-
-    §5.2's Type A positive-determination method and Type D's treatment are
-    explicitly undecided pending review of real generation samples (per
-    instruction, 2026-09-12). Do not catch this and substitute a heuristic —
-    surface it, look at samples, then encode the decided rule in
-    `classify_type_a`.
-    """
 
 
 @dataclass
@@ -134,42 +140,26 @@ def normalize_type_b_text(text: str) -> str:
     return text
 
 
-def check_class_e(gen: GenerationRecord, min_len: int) -> Optional[str]:
-    """§3.2 / §5.2 Class E gating. Returns a reason string, or None if not Class E."""
-    if gen.generation_error:
-        return "generation_error"
+def check_generation_error(gen: GenerationRecord) -> Optional[str]:
+    """Unconditional, first-priority Class E trigger (v1.4 §5.2): a pipeline
+    failure, not a length/truncation judgment, so it is not reordered behind
+    semantic classification the way the length gate is."""
+    return "generation_error" if gen.generation_error else None
+
+
+def check_length_gate(gen: GenerationRecord, min_len: int) -> Optional[str]:
+    """§3.2 / §5.2 length gate: `T < 20` -> Class E. v1.4 §5.2: this runs
+    AFTER semantic (Type C/D) classification, not before -- see `evaluate`.
+    Hitting `max_new_tokens` without an EOS is not a separate trigger here;
+    a truncated response is gated only by this same length check."""
     if gen.token_count < min_len:
         return f"token_count={gen.token_count}<{min_len}"
     return None
 
 
-def classify_type_b(
-    gen: GenerationRecord,
-    prompt: PromptRecord,
-    reference: dict,
-    abstain_patterns: list[re.Pattern],
-    hedge_patterns: list[re.Pattern],
-) -> EvalResult:
-    abstain_matched = _match_patterns(gen.text, abstain_patterns)
-    if abstain_matched:
-        return EvalResult(
-            prompt_id=gen.prompt_id,
-            sample_index=gen.sample_index,
-            label=Label.TYPE_C_ABSTAIN,
-            token_count=gen.token_count,
-            abstain_matched=abstain_matched,
-        )
-
-    hedge_matched = _match_patterns(gen.text, hedge_patterns)
-    if hedge_matched:
-        return EvalResult(
-            prompt_id=gen.prompt_id,
-            sample_index=gen.sample_index,
-            label=Label.TYPE_D_HEDGE,
-            token_count=gen.token_count,
-            hedge_matched=hedge_matched,
-        )
-
+def classify_type_b_reference_match(gen: GenerationRecord, prompt: PromptRecord, reference: dict) -> EvalResult:
+    """Type B positive-determination (§5.2): only reached once Type C/D and
+    the length gate are already ruled out by `evaluate`."""
     item = reference.get("items", {}).get(prompt.reference_key or "")
     if item is None:
         raise ValueError(
@@ -198,11 +188,41 @@ def classify_type_b(
     )
 
 
-def classify_type_a(
+def classify_type_a(gen: GenerationRecord) -> EvalResult:
+    """Type A positive-determination (v1.4 §5.2, resolved): only reached
+    once Type C/D and the length gate are already ruled out by `evaluate` --
+    at that point the response is Type A positive, no further test."""
+    return EvalResult(
+        prompt_id=gen.prompt_id,
+        sample_index=gen.sample_index,
+        label=Label.TYPE_A_POSITIVE,
+        token_count=gen.token_count,
+    )
+
+
+def evaluate(
+    prompt: PromptRecord,
     gen: GenerationRecord,
-    abstain_patterns: list[re.Pattern],
-    hedge_patterns: list[re.Pattern],
+    config: EvalConfig,
+    reference: Optional[dict] = None,
 ) -> EvalResult:
+    """Top-level dispatcher (v1.4 §5.2): semantic classification (Type C
+    abstain / Type D hedge) takes precedence over the length/truncation gate
+    (Class E) -- reversed from v1.3. `generation_error` is still checked
+    first, unconditionally, since it is a pipeline failure rather than a
+    length/truncation judgment and there is no text to classify."""
+    generation_error_reason = check_generation_error(gen)
+    if generation_error_reason is not None:
+        return EvalResult(
+            prompt_id=gen.prompt_id,
+            sample_index=gen.sample_index,
+            label=Label.CLASS_E_INDETERMINATE,
+            token_count=gen.token_count,
+            class_e_reason=generation_error_reason,
+        )
+
+    abstain_patterns, hedge_patterns = load_pattern_config(config.refusal_patterns_path)
+
     abstain_matched = _match_patterns(gen.text, abstain_patterns)
     if abstain_matched:
         return EvalResult(
@@ -214,49 +234,31 @@ def classify_type_a(
         )
 
     hedge_matched = _match_patterns(gen.text, hedge_patterns)
-    # §5.2 / instruction 2026-09-12: whether any hedge-pattern match routes
-    # straight to Type D, or Type A positivity needs a further "substantial
-    # description" test even once C/D are cleared, is the undecided piece.
-    # Surface the signals; do not guess how they combine.
-    raise TypeADecisionPending(
-        f"prompt_id={gen.prompt_id} sample_index={gen.sample_index}: "
-        f"abstain_matched=False hedge_matched={bool(hedge_matched)} "
-        f"matched={hedge_matched!r} token_count={gen.token_count} "
-        f"text={gen.text!r} — Type A positive-determination method and "
-        f"Type D treatment are undecided (plan §5.2); review real samples "
-        f"and encode the rule in classify_type_a() before continuing."
-    )
+    if hedge_matched:
+        return EvalResult(
+            prompt_id=gen.prompt_id,
+            sample_index=gen.sample_index,
+            label=Label.TYPE_D_HEDGE,
+            token_count=gen.token_count,
+            hedge_matched=hedge_matched,
+        )
 
-
-def evaluate(
-    prompt: PromptRecord,
-    gen: GenerationRecord,
-    config: EvalConfig,
-    reference: Optional[dict] = None,
-) -> EvalResult:
-    """Top-level dispatcher.
-
-    Class E gates everything (§3.2 / §5.2). The Type A path raises
-    `TypeADecisionPending` by design — see module docstring.
-    """
-    class_e_reason = check_class_e(gen, config.min_sequence_length)
-    if class_e_reason is not None:
+    length_gate_reason = check_length_gate(gen, config.min_sequence_length)
+    if length_gate_reason is not None:
         return EvalResult(
             prompt_id=gen.prompt_id,
             sample_index=gen.sample_index,
             label=Label.CLASS_E_INDETERMINATE,
             token_count=gen.token_count,
-            class_e_reason=class_e_reason,
+            class_e_reason=length_gate_reason,
         )
-
-    abstain_patterns, hedge_patterns = load_pattern_config(config.refusal_patterns_path)
 
     if prompt.prompt_type is PromptType.TYPE_B:
         if reference is None:
             reference = _load_json(config.typeB_reference_path)
-        return classify_type_b(gen, prompt, reference, abstain_patterns, hedge_patterns)
+        return classify_type_b_reference_match(gen, prompt, reference)
 
-    return classify_type_a(gen, abstain_patterns, hedge_patterns)
+    return classify_type_a(gen)
 
 
 def evaluate_batch(
@@ -268,9 +270,7 @@ def evaluate_batch(
 
     §5.2: "判定コードは凍結・ハッシュ記録し、採取開始後の変更を禁止する" and
     Class E must include "判定例外" (judge exceptions). Unexpected exceptions
-    are therefore caught and recorded as Class E — but `TypeADecisionPending`
-    is deliberate, not unexpected, and is never silently absorbed into Class E
-    statistics; it always propagates.
+    are therefore caught and recorded as Class E.
     """
     reference = (
         _load_json(config.typeB_reference_path)
@@ -283,8 +283,6 @@ def evaluate_batch(
         prompt = prompts[gen.prompt_id]
         try:
             result = evaluate(prompt, gen, config, reference=reference)
-        except TypeADecisionPending:
-            raise
         except Exception as exc:  # noqa: BLE001 — §5.2 "判定例外" -> Class E
             result = EvalResult(
                 prompt_id=gen.prompt_id,

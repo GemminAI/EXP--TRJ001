@@ -1,0 +1,3002 @@
+[
+  {
+    "candidate_id": "cand_p2_fictional_movie_0001",
+    "template": "fictional_movie",
+    "entity": "The Signal of Vesmoor",
+    "text": "Summarize the plot of the movie \"The Signal of Vesmoor\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0002",
+    "template": "fictional_movie",
+    "entity": "The Verdict of Vesdale",
+    "text": "Describe the plot and main characters of \"The Verdict of Vesdale\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0003",
+    "template": "fictional_movie",
+    "entity": "The Garden of Vesgard",
+    "text": "Write a brief synopsis of \"The Garden of Vesgard\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0004",
+    "template": "fictional_movie",
+    "entity": "The Signal of Vesholt",
+    "text": "What happens in \"The Signal of Vesholt\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0005",
+    "template": "fictional_movie",
+    "entity": "Velvet Tide",
+    "text": "Summarize the plot of the movie \"Velvet Tide\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0006",
+    "template": "fictional_movie",
+    "entity": "The Ledger of Vesstead",
+    "text": "Describe the plot and main characters of \"The Ledger of Vesstead\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0007",
+    "template": "fictional_movie",
+    "entity": "Amber Threshold",
+    "text": "Write a brief synopsis of \"Amber Threshold\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0008",
+    "template": "fictional_movie",
+    "entity": "The Season of Kalthorn",
+    "text": "What happens in \"The Season of Kalthorn\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0009",
+    "template": "fictional_movie",
+    "entity": "The Threshold of Kalbrook",
+    "text": "Summarize the plot of the movie \"The Threshold of Kalbrook\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0010",
+    "template": "fictional_movie",
+    "entity": "Iron Tide",
+    "text": "Describe the plot and main characters of \"Iron Tide\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0011",
+    "template": "fictional_movie",
+    "entity": "Last Lantern",
+    "text": "Write a brief synopsis of \"Last Lantern\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0012",
+    "template": "fictional_movie",
+    "entity": "The Tide of Vesridge",
+    "text": "What happens in \"The Tide of Vesridge\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0013",
+    "template": "fictional_movie",
+    "entity": "The Archive of Kalthorn",
+    "text": "Summarize the plot of the movie \"The Archive of Kalthorn\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0014",
+    "template": "fictional_movie",
+    "entity": "The Cipher of Kalcrest",
+    "text": "Describe the plot and main characters of \"The Cipher of Kalcrest\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0015",
+    "template": "fictional_movie",
+    "entity": "The Harbor of Kalholt",
+    "text": "Write a brief synopsis of \"The Harbor of Kalholt\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0016",
+    "template": "fictional_movie",
+    "entity": "The Lantern of Kalbrook",
+    "text": "What happens in \"The Lantern of Kalbrook\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0017",
+    "template": "fictional_movie",
+    "entity": "The Signal of Kalgard",
+    "text": "Summarize the plot of the movie \"The Signal of Kalgard\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0018",
+    "template": "fictional_movie",
+    "entity": "The Passage of Kalmere",
+    "text": "Describe the plot and main characters of \"The Passage of Kalmere\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0019",
+    "template": "fictional_movie",
+    "entity": "The Current of Kalgard",
+    "text": "Write a brief synopsis of \"The Current of Kalgard\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0020",
+    "template": "fictional_movie",
+    "entity": "Quiet Signal",
+    "text": "What happens in \"Quiet Signal\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0021",
+    "template": "fictional_movie",
+    "entity": "Restless Archive",
+    "text": "Summarize the plot of the movie \"Restless Archive\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0022",
+    "template": "fictional_movie",
+    "entity": "Golden Threshold",
+    "text": "Describe the plot and main characters of \"Golden Threshold\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0023",
+    "template": "fictional_movie",
+    "entity": "Hollow Passage",
+    "text": "Write a brief synopsis of \"Hollow Passage\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0024",
+    "template": "fictional_movie",
+    "entity": "The Archive of Kalcrest",
+    "text": "What happens in \"The Archive of Kalcrest\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0025",
+    "template": "fictional_movie",
+    "entity": "The Orbit of Vesridge",
+    "text": "Summarize the plot of the movie \"The Orbit of Vesridge\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0026",
+    "template": "fictional_movie",
+    "entity": "Quiet Orbit",
+    "text": "Describe the plot and main characters of \"Quiet Orbit\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0027",
+    "template": "fictional_movie",
+    "entity": "Crimson Refuge",
+    "text": "Write a brief synopsis of \"Crimson Refuge\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0028",
+    "template": "fictional_movie",
+    "entity": "The Garden of Kalthorn",
+    "text": "What happens in \"The Garden of Kalthorn\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0029",
+    "template": "fictional_movie",
+    "entity": "The Harbor of Vesspire",
+    "text": "Summarize the plot of the movie \"The Harbor of Vesspire\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0030",
+    "template": "fictional_movie",
+    "entity": "Hollow Cipher",
+    "text": "Describe the plot and main characters of \"Hollow Cipher\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0031",
+    "template": "fictional_movie",
+    "entity": "The Passage of Kalthorn",
+    "text": "Write a brief synopsis of \"The Passage of Kalthorn\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0032",
+    "template": "fictional_movie",
+    "entity": "Forgotten Cipher",
+    "text": "What happens in \"Forgotten Cipher\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0033",
+    "template": "fictional_movie",
+    "entity": "Wandering Horizon",
+    "text": "Summarize the plot of the movie \"Wandering Horizon\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0034",
+    "template": "fictional_movie",
+    "entity": "Pale Shadow",
+    "text": "Describe the plot and main characters of \"Pale Shadow\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0035",
+    "template": "fictional_movie",
+    "entity": "The Season of Vesthorn",
+    "text": "Write a brief synopsis of \"The Season of Vesthorn\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0036",
+    "template": "fictional_movie",
+    "entity": "The Ledger of Kalorne",
+    "text": "What happens in \"The Ledger of Kalorne\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0037",
+    "template": "fictional_movie",
+    "entity": "The Refuge of Kalcrest",
+    "text": "Summarize the plot of the movie \"The Refuge of Kalcrest\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0038",
+    "template": "fictional_movie",
+    "entity": "Quiet Tide",
+    "text": "Describe the plot and main characters of \"Quiet Tide\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0039",
+    "template": "fictional_movie",
+    "entity": "Distant Verdict",
+    "text": "Write a brief synopsis of \"Distant Verdict\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0040",
+    "template": "fictional_movie",
+    "entity": "Restless Signal",
+    "text": "What happens in \"Restless Signal\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0041",
+    "template": "fictional_movie",
+    "entity": "Velvet Shadow",
+    "text": "Summarize the plot of the movie \"Velvet Shadow\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0042",
+    "template": "fictional_movie",
+    "entity": "The Current of Vesorne",
+    "text": "Describe the plot and main characters of \"The Current of Vesorne\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0043",
+    "template": "fictional_movie",
+    "entity": "Frozen Archive",
+    "text": "Write a brief synopsis of \"Frozen Archive\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0044",
+    "template": "fictional_movie",
+    "entity": "Wandering Archive",
+    "text": "What happens in \"Wandering Archive\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0045",
+    "template": "fictional_movie",
+    "entity": "The Orbit of Vesspire",
+    "text": "Summarize the plot of the movie \"The Orbit of Vesspire\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0046",
+    "template": "fictional_movie",
+    "entity": "Last Horizon",
+    "text": "Describe the plot and main characters of \"Last Horizon\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0047",
+    "template": "fictional_movie",
+    "entity": "Golden Static",
+    "text": "Write a brief synopsis of \"Golden Static\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0048",
+    "template": "fictional_movie",
+    "entity": "Golden Refuge",
+    "text": "What happens in \"Golden Refuge\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0049",
+    "template": "fictional_movie",
+    "entity": "The Shadow of Kalspire",
+    "text": "Summarize the plot of the movie \"The Shadow of Kalspire\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0050",
+    "template": "fictional_movie",
+    "entity": "The Current of Kalthorn",
+    "text": "Describe the plot and main characters of \"The Current of Kalthorn\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0051",
+    "template": "fictional_movie",
+    "entity": "Wandering Garden",
+    "text": "Write a brief synopsis of \"Wandering Garden\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0052",
+    "template": "fictional_movie",
+    "entity": "The Ledger of Kalmere",
+    "text": "What happens in \"The Ledger of Kalmere\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0053",
+    "template": "fictional_movie",
+    "entity": "Endless Passage",
+    "text": "Summarize the plot of the movie \"Endless Passage\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0054",
+    "template": "fictional_movie",
+    "entity": "The Season of Vesvale",
+    "text": "Describe the plot and main characters of \"The Season of Vesvale\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0055",
+    "template": "fictional_movie",
+    "entity": "The Ledger of Vescrest",
+    "text": "Write a brief synopsis of \"The Ledger of Vescrest\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0056",
+    "template": "fictional_movie",
+    "entity": "Wandering Verdict",
+    "text": "What happens in \"Wandering Verdict\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0057",
+    "template": "fictional_movie",
+    "entity": "The Archive of Vesstead",
+    "text": "Summarize the plot of the movie \"The Archive of Vesstead\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0058",
+    "template": "fictional_movie",
+    "entity": "The Compass of Vescrest",
+    "text": "Describe the plot and main characters of \"The Compass of Vescrest\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0059",
+    "template": "fictional_movie",
+    "entity": "The Horizon of Vesstead",
+    "text": "Write a brief synopsis of \"The Horizon of Vesstead\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0060",
+    "template": "fictional_movie",
+    "entity": "Wandering Lantern",
+    "text": "What happens in \"Wandering Lantern\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0061",
+    "template": "fictional_movie",
+    "entity": "The Compass of Kalvale",
+    "text": "Summarize the plot of the movie \"The Compass of Kalvale\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0062",
+    "template": "fictional_movie",
+    "entity": "Pale Horizon",
+    "text": "Describe the plot and main characters of \"Pale Horizon\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0063",
+    "template": "fictional_movie",
+    "entity": "The Lantern of Kalmere",
+    "text": "Write a brief synopsis of \"The Lantern of Kalmere\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0064",
+    "template": "fictional_movie",
+    "entity": "The Ledger of Vesspire",
+    "text": "What happens in \"The Ledger of Vesspire\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0065",
+    "template": "fictional_movie",
+    "entity": "The Cipher of Vesmere",
+    "text": "Summarize the plot of the movie \"The Cipher of Vesmere\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0066",
+    "template": "fictional_movie",
+    "entity": "The Refuge of Vesstead",
+    "text": "Describe the plot and main characters of \"The Refuge of Vesstead\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0067",
+    "template": "fictional_movie",
+    "entity": "The Threshold of Vesvale",
+    "text": "Write a brief synopsis of \"The Threshold of Vesvale\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0068",
+    "template": "fictional_movie",
+    "entity": "The Tide of Kalmere",
+    "text": "What happens in \"The Tide of Kalmere\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0069",
+    "template": "fictional_movie",
+    "entity": "The Orbit of Vesvale",
+    "text": "Summarize the plot of the movie \"The Orbit of Vesvale\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0070",
+    "template": "fictional_movie",
+    "entity": "Velvet Echo",
+    "text": "Describe the plot and main characters of \"Velvet Echo\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0071",
+    "template": "fictional_movie",
+    "entity": "The Garden of Vesdale",
+    "text": "Write a brief synopsis of \"The Garden of Vesdale\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0072",
+    "template": "fictional_movie",
+    "entity": "Restless Shadow",
+    "text": "What happens in \"Restless Shadow\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0073",
+    "template": "fictional_movie",
+    "entity": "The Lantern of Kalcrest",
+    "text": "Summarize the plot of the movie \"The Lantern of Kalcrest\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0074",
+    "template": "fictional_movie",
+    "entity": "The Static of Vesbrook",
+    "text": "Describe the plot and main characters of \"The Static of Vesbrook\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0075",
+    "template": "fictional_movie",
+    "entity": "Hollow Compass",
+    "text": "Write a brief synopsis of \"Hollow Compass\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0076",
+    "template": "fictional_movie",
+    "entity": "Forgotten Harbor",
+    "text": "What happens in \"Forgotten Harbor\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0077",
+    "template": "fictional_movie",
+    "entity": "The Archive of Vesvale",
+    "text": "Summarize the plot of the movie \"The Archive of Vesvale\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0078",
+    "template": "fictional_movie",
+    "entity": "The Shadow of Vesorne",
+    "text": "Describe the plot and main characters of \"The Shadow of Vesorne\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0079",
+    "template": "fictional_movie",
+    "entity": "Restless Orbit",
+    "text": "Write a brief synopsis of \"Restless Orbit\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0080",
+    "template": "fictional_movie",
+    "entity": "The Shadow of Kalwick",
+    "text": "What happens in \"The Shadow of Kalwick\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0081",
+    "template": "fictional_movie",
+    "entity": "The Tide of Kalreach",
+    "text": "Summarize the plot of the movie \"The Tide of Kalreach\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0082",
+    "template": "fictional_movie",
+    "entity": "The Ledger of Kalwick",
+    "text": "Describe the plot and main characters of \"The Ledger of Kalwick\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0083",
+    "template": "fictional_movie",
+    "entity": "Distant Refuge",
+    "text": "Write a brief synopsis of \"Distant Refuge\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0084",
+    "template": "fictional_movie",
+    "entity": "Hollow Horizon",
+    "text": "What happens in \"Hollow Horizon\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0085",
+    "template": "fictional_movie",
+    "entity": "The Lantern of Vescrest",
+    "text": "Summarize the plot of the movie \"The Lantern of Vescrest\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0086",
+    "template": "fictional_movie",
+    "entity": "Deep Passage",
+    "text": "Describe the plot and main characters of \"Deep Passage\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0087",
+    "template": "fictional_movie",
+    "entity": "Amber Ledger",
+    "text": "Write a brief synopsis of \"Amber Ledger\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0088",
+    "template": "fictional_movie",
+    "entity": "The Ledger of Kaldale",
+    "text": "What happens in \"The Ledger of Kaldale\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0089",
+    "template": "fictional_movie",
+    "entity": "Broken Archive",
+    "text": "Summarize the plot of the movie \"Broken Archive\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0090",
+    "template": "fictional_movie",
+    "entity": "The Shadow of Vesholt",
+    "text": "Describe the plot and main characters of \"The Shadow of Vesholt\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0091",
+    "template": "fictional_movie",
+    "entity": "Broken Threshold",
+    "text": "Write a brief synopsis of \"Broken Threshold\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0092",
+    "template": "fictional_movie",
+    "entity": "The Lantern of Vesfell",
+    "text": "What happens in \"The Lantern of Vesfell\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0093",
+    "template": "fictional_movie",
+    "entity": "The Harbor of Veshollow",
+    "text": "Summarize the plot of the movie \"The Harbor of Veshollow\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0094",
+    "template": "fictional_movie",
+    "entity": "The Echo of Vesspire",
+    "text": "Describe the plot and main characters of \"The Echo of Vesspire\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0095",
+    "template": "fictional_movie",
+    "entity": "The Echo of Kalmoor",
+    "text": "Write a brief synopsis of \"The Echo of Kalmoor\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0096",
+    "template": "fictional_movie",
+    "entity": "Pale Current",
+    "text": "What happens in \"Pale Current\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0097",
+    "template": "fictional_movie",
+    "entity": "Pale Passage",
+    "text": "Summarize the plot of the movie \"Pale Passage\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0098",
+    "template": "fictional_movie",
+    "entity": "The Passage of Vesdale",
+    "text": "Describe the plot and main characters of \"The Passage of Vesdale\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0099",
+    "template": "fictional_movie",
+    "entity": "Midnight Cipher",
+    "text": "Write a brief synopsis of \"Midnight Cipher\", including its ending."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_movie_0100",
+    "template": "fictional_movie",
+    "entity": "The Verdict of Vesvale",
+    "text": "What happens in \"The Verdict of Vesvale\"? Summarize the story from beginning to end."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0001",
+    "template": "fictional_person",
+    "entity": "Yulia Orith",
+    "text": "Describe Yulia Orith's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0002",
+    "template": "fictional_person",
+    "entity": "Nyla Junipdale",
+    "text": "Summarize Nyla Junipdale's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0003",
+    "template": "fictional_person",
+    "entity": "Callum Ashenven",
+    "text": "What is Callum Ashenven best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0004",
+    "template": "fictional_person",
+    "entity": "Wren Morfell",
+    "text": "Give an overview of Wren Morfell's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0005",
+    "template": "fictional_person",
+    "entity": "Ivo Elyreach",
+    "text": "Describe Ivo Elyreach's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0006",
+    "template": "fictional_person",
+    "entity": "Godric Corviith",
+    "text": "Summarize Godric Corviith's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0007",
+    "template": "fictional_person",
+    "entity": "Soren Kalwick",
+    "text": "What is Soren Kalwick best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0008",
+    "template": "fictional_person",
+    "entity": "Ronan Brenorne",
+    "text": "Give an overview of Ronan Brenorne's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0009",
+    "template": "fictional_person",
+    "entity": "Vera Istbrook",
+    "text": "Describe Vera Istbrook's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0010",
+    "template": "fictional_person",
+    "entity": "Bastian Ulricgard",
+    "text": "Summarize Bastian Ulricgard's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0011",
+    "template": "fictional_person",
+    "entity": "Lucian Ilanwick",
+    "text": "What is Lucian Ilanwick best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0012",
+    "template": "fictional_person",
+    "entity": "Sable Solstead",
+    "text": "Give an overview of Sable Solstead's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0013",
+    "template": "fictional_person",
+    "entity": "Iona Lashowick",
+    "text": "Describe Iona Lashowick's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0014",
+    "template": "fictional_person",
+    "entity": "Dorian Wrenorne",
+    "text": "Summarize Dorian Wrenorne's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0015",
+    "template": "fictional_person",
+    "entity": "Tobias Lashocrest",
+    "text": "What is Tobias Lashocrest best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0016",
+    "template": "fictional_person",
+    "entity": "Petra Kaldale",
+    "text": "Give an overview of Petra Kaldale's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0017",
+    "template": "fictional_person",
+    "entity": "Esme Ombradale",
+    "text": "Describe Esme Ombradale's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0018",
+    "template": "fictional_person",
+    "entity": "Talia Skolspire",
+    "text": "Summarize Talia Skolspire's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0019",
+    "template": "fictional_person",
+    "entity": "Nadia Tarnvale",
+    "text": "What is Nadia Tarnvale best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0020",
+    "template": "fictional_person",
+    "entity": "Selin Brenmoor",
+    "text": "Give an overview of Selin Brenmoor's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0021",
+    "template": "fictional_person",
+    "entity": "Elena Solmere",
+    "text": "Describe Elena Solmere's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0022",
+    "template": "fictional_person",
+    "entity": "Miriel Morridge",
+    "text": "Summarize Miriel Morridge's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0023",
+    "template": "fictional_person",
+    "entity": "Ines Morspire",
+    "text": "What is Ines Morspire best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0024",
+    "template": "fictional_person",
+    "entity": "Anselm Kalthorn",
+    "text": "Give an overview of Anselm Kalthorn's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0025",
+    "template": "fictional_person",
+    "entity": "Renata Orhaven",
+    "text": "Describe Renata Orhaven's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0026",
+    "template": "fictional_person",
+    "entity": "Rowan Nythreach",
+    "text": "Summarize Rowan Nythreach's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0027",
+    "template": "fictional_person",
+    "entity": "Marcus Nythspire",
+    "text": "What is Marcus Nythspire best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0028",
+    "template": "fictional_person",
+    "entity": "Cormac Elymere",
+    "text": "Give an overview of Cormac Elymere's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0029",
+    "template": "fictional_person",
+    "entity": "Faris Gornridge",
+    "text": "Describe Faris Gornridge's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0030",
+    "template": "fictional_person",
+    "entity": "Adele Tarnhaven",
+    "text": "Summarize Adele Tarnhaven's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0031",
+    "template": "fictional_person",
+    "entity": "Yulia Haldenhaven",
+    "text": "What is Yulia Haldenhaven best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0032",
+    "template": "fictional_person",
+    "entity": "Nyla Tarnfell",
+    "text": "Give an overview of Nyla Tarnfell's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0033",
+    "template": "fictional_person",
+    "entity": "Callum Kalbrook",
+    "text": "Describe Callum Kalbrook's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0034",
+    "template": "fictional_person",
+    "entity": "Wren Ravhaven",
+    "text": "Summarize Wren Ravhaven's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0035",
+    "template": "fictional_person",
+    "entity": "Ivo Nythcrest",
+    "text": "What is Ivo Nythcrest best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0036",
+    "template": "fictional_person",
+    "entity": "Godric Quorith",
+    "text": "Give an overview of Godric Quorith's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0037",
+    "template": "fictional_person",
+    "entity": "Soren Mororne",
+    "text": "Describe Soren Mororne's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0038",
+    "template": "fictional_person",
+    "entity": "Ronan Veskcrest",
+    "text": "Summarize Ronan Veskcrest's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0039",
+    "template": "fictional_person",
+    "entity": "Vera Skolhollow",
+    "text": "What is Vera Skolhollow best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0040",
+    "template": "fictional_person",
+    "entity": "Bastian Veskven",
+    "text": "Give an overview of Bastian Veskven's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0041",
+    "template": "fictional_person",
+    "entity": "Lucian Elycrest",
+    "text": "Describe Lucian Elycrest's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0042",
+    "template": "fictional_person",
+    "entity": "Sable Morthorn",
+    "text": "Summarize Sable Morthorn's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0043",
+    "template": "fictional_person",
+    "entity": "Iona Istgard",
+    "text": "What is Iona Istgard best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0044",
+    "template": "fictional_person",
+    "entity": "Dorian Brendale",
+    "text": "Give an overview of Dorian Brendale's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0045",
+    "template": "fictional_person",
+    "entity": "Tobias Ravbrook",
+    "text": "Describe Tobias Ravbrook's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0046",
+    "template": "fictional_person",
+    "entity": "Petra Quorbrook",
+    "text": "Summarize Petra Quorbrook's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0047",
+    "template": "fictional_person",
+    "entity": "Esme Morhollow",
+    "text": "What is Esme Morhollow best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0048",
+    "template": "fictional_person",
+    "entity": "Talia Thalmere",
+    "text": "Give an overview of Talia Thalmere's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0049",
+    "template": "fictional_person",
+    "entity": "Nadia Ashenridge",
+    "text": "Describe Nadia Ashenridge's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0050",
+    "template": "fictional_person",
+    "entity": "Selin Caldergard",
+    "text": "Summarize Selin Caldergard's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0051",
+    "template": "fictional_person",
+    "entity": "Elena Dunwick",
+    "text": "What is Elena Dunwick best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0052",
+    "template": "fictional_person",
+    "entity": "Miriel Haldenhollow",
+    "text": "Give an overview of Miriel Haldenhollow's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0053",
+    "template": "fictional_person",
+    "entity": "Ines Ashencrest",
+    "text": "Describe Ines Ashencrest's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0054",
+    "template": "fictional_person",
+    "entity": "Anselm Ilancrest",
+    "text": "Summarize Anselm Ilancrest's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0055",
+    "template": "fictional_person",
+    "entity": "Renata Junipwick",
+    "text": "What is Renata Junipwick best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0056",
+    "template": "fictional_person",
+    "entity": "Rowan Isthaven",
+    "text": "Give an overview of Rowan Isthaven's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0057",
+    "template": "fictional_person",
+    "entity": "Marcus Junipcrest",
+    "text": "Describe Marcus Junipcrest's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0058",
+    "template": "fictional_person",
+    "entity": "Cormac Gornhollow",
+    "text": "Summarize Cormac Gornhollow's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0059",
+    "template": "fictional_person",
+    "entity": "Faris Kalmere",
+    "text": "What is Faris Kalmere best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0060",
+    "template": "fictional_person",
+    "entity": "Adele Solfell",
+    "text": "Give an overview of Adele Solfell's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0061",
+    "template": "fictional_person",
+    "entity": "Yulia Junipvale",
+    "text": "Describe Yulia Junipvale's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0062",
+    "template": "fictional_person",
+    "entity": "Nyla Skolven",
+    "text": "Summarize Nyla Skolven's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0063",
+    "template": "fictional_person",
+    "entity": "Callum Ilangard",
+    "text": "What is Callum Ilangard best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0064",
+    "template": "fictional_person",
+    "entity": "Wren Veskmere",
+    "text": "Give an overview of Wren Veskmere's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0065",
+    "template": "fictional_person",
+    "entity": "Ivo Vesmere",
+    "text": "Describe Ivo Vesmere's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0066",
+    "template": "fictional_person",
+    "entity": "Soren Nythdale",
+    "text": "Summarize Soren Nythdale's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0067",
+    "template": "fictional_person",
+    "entity": "Ronan Gornholt",
+    "text": "What is Ronan Gornholt best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0068",
+    "template": "fictional_person",
+    "entity": "Vera Corvispire",
+    "text": "Give an overview of Vera Corvispire's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0069",
+    "template": "fictional_person",
+    "entity": "Bastian Caldermere",
+    "text": "Describe Bastian Caldermere's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0070",
+    "template": "fictional_person",
+    "entity": "Sable Elyhollow",
+    "text": "Summarize Sable Elyhollow's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0071",
+    "template": "fictional_person",
+    "entity": "Iona Lashodale",
+    "text": "What is Iona Lashodale best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0072",
+    "template": "fictional_person",
+    "entity": "Dorian Morcrest",
+    "text": "Give an overview of Dorian Morcrest's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0073",
+    "template": "fictional_person",
+    "entity": "Tobias Tarnwick",
+    "text": "Describe Tobias Tarnwick's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0074",
+    "template": "fictional_person",
+    "entity": "Petra Elyfell",
+    "text": "Summarize Petra Elyfell's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0075",
+    "template": "fictional_person",
+    "entity": "Esme Junipridge",
+    "text": "What is Esme Junipridge best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0076",
+    "template": "fictional_person",
+    "entity": "Talia Ashengard",
+    "text": "Give an overview of Talia Ashengard's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0077",
+    "template": "fictional_person",
+    "entity": "Nadia Istmere",
+    "text": "Describe Nadia Istmere's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0078",
+    "template": "fictional_person",
+    "entity": "Selin Thalstead",
+    "text": "Summarize Selin Thalstead's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0079",
+    "template": "fictional_person",
+    "entity": "Elena Veskvale",
+    "text": "What is Elena Veskvale best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0080",
+    "template": "fictional_person",
+    "entity": "Miriel Haldenmere",
+    "text": "Give an overview of Miriel Haldenmere's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0081",
+    "template": "fictional_person",
+    "entity": "Ines Quormere",
+    "text": "Describe Ines Quormere's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0082",
+    "template": "fictional_person",
+    "entity": "Anselm Zephridge",
+    "text": "Summarize Anselm Zephridge's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0083",
+    "template": "fictional_person",
+    "entity": "Renata Istfell",
+    "text": "What is Renata Istfell best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0084",
+    "template": "fictional_person",
+    "entity": "Rowan Veskbrook",
+    "text": "Give an overview of Rowan Veskbrook's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0085",
+    "template": "fictional_person",
+    "entity": "Marcus Corvihaven",
+    "text": "Describe Marcus Corvihaven's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0086",
+    "template": "fictional_person",
+    "entity": "Cormac Ashenhollow",
+    "text": "Summarize Cormac Ashenhollow's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0087",
+    "template": "fictional_person",
+    "entity": "Faris Lashoridge",
+    "text": "What is Faris Lashoridge best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0088",
+    "template": "fictional_person",
+    "entity": "Adele Quorreach",
+    "text": "Give an overview of Adele Quorreach's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0089",
+    "template": "fictional_person",
+    "entity": "Yulia Calderholt",
+    "text": "Describe Yulia Calderholt's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0090",
+    "template": "fictional_person",
+    "entity": "Nyla Tarnholt",
+    "text": "Summarize Nyla Tarnholt's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0091",
+    "template": "fictional_person",
+    "entity": "Callum Fenthorn",
+    "text": "What is Callum Fenthorn best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0092",
+    "template": "fictional_person",
+    "entity": "Wren Brenholt",
+    "text": "Give an overview of Wren Brenholt's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0093",
+    "template": "fictional_person",
+    "entity": "Ivo Caldervale",
+    "text": "Describe Ivo Caldervale's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0094",
+    "template": "fictional_person",
+    "entity": "Godric Ferrinven",
+    "text": "Summarize Godric Ferrinven's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0095",
+    "template": "fictional_person",
+    "entity": "Soren Dunmere",
+    "text": "What is Soren Dunmere best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0096",
+    "template": "fictional_person",
+    "entity": "Ronan Dunridge",
+    "text": "Give an overview of Ronan Dunridge's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0097",
+    "template": "fictional_person",
+    "entity": "Vera Ravwick",
+    "text": "Describe Vera Ravwick's main accomplishments and career."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0098",
+    "template": "fictional_person",
+    "entity": "Bastian Skolorne",
+    "text": "Summarize Bastian Skolorne's life and the work they are known for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0099",
+    "template": "fictional_person",
+    "entity": "Lucian Ormoor",
+    "text": "What is Lucian Ormoor best known for? Describe their most notable achievements."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_person_0100",
+    "template": "fictional_person",
+    "entity": "Sable Nythfell",
+    "text": "Give an overview of Sable Nythfell's career and contributions to their field."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0001",
+    "template": "fictional_paper",
+    "entity": "Cascaded Signal Rebinding in Low-Resource Dialogue Systems",
+    "text": "Summarize the main claims and findings of the paper \"Cascaded Signal Rebinding in Low-Resource Dialogue Systems\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0002",
+    "template": "fictional_paper",
+    "entity": "Asymmetric Drift Regularization in Time-Series Anomaly Detection",
+    "text": "Describe the methodology used in \"Asymmetric Drift Regularization in Time-Series Anomaly Detection\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0003",
+    "template": "fictional_paper",
+    "entity": "Anisotropic Feature Collapse in Decentralized Sensor Fusion",
+    "text": "What are the main contributions of \"Anisotropic Feature Collapse in Decentralized Sensor Fusion\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0004",
+    "template": "fictional_paper",
+    "entity": "Cross-Modal Attenuation in Streaming Recommendation Systems",
+    "text": "Summarize the argument and conclusions of \"Cross-Modal Attenuation in Streaming Recommendation Systems\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0005",
+    "template": "fictional_paper",
+    "entity": "Anisotropic Feature Collapse in Edge-Device Inference",
+    "text": "Summarize the main claims and findings of the paper \"Anisotropic Feature Collapse in Edge-Device Inference\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0006",
+    "template": "fictional_paper",
+    "entity": "Sequential Manifold Pruning in Synthetic Cohort Studies",
+    "text": "Describe the methodology used in \"Sequential Manifold Pruning in Synthetic Cohort Studies\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0007",
+    "template": "fictional_paper",
+    "entity": "Piecewise Embedding Contraction in Sequential Encoders",
+    "text": "What are the main contributions of \"Piecewise Embedding Contraction in Sequential Encoders\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0008",
+    "template": "fictional_paper",
+    "entity": "Cascaded Signal Rebinding in Distributed Sensor Arrays",
+    "text": "Summarize the argument and conclusions of \"Cascaded Signal Rebinding in Distributed Sensor Arrays\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0009",
+    "template": "fictional_paper",
+    "entity": "Cascaded Signal Rebinding in Procedural Audio Synthesis",
+    "text": "Summarize the main claims and findings of the paper \"Cascaded Signal Rebinding in Procedural Audio Synthesis\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0010",
+    "template": "fictional_paper",
+    "entity": "Discrete Saliency Reweighting in Edge-Device Inference",
+    "text": "Describe the methodology used in \"Discrete Saliency Reweighting in Edge-Device Inference\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0011",
+    "template": "fictional_paper",
+    "entity": "Stochastic Gradient Folding in Federated Query Systems",
+    "text": "What are the main contributions of \"Stochastic Gradient Folding in Federated Query Systems\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0012",
+    "template": "fictional_paper",
+    "entity": "Sparse Attention Redistribution in Graph-Structured Memory",
+    "text": "Summarize the argument and conclusions of \"Sparse Attention Redistribution in Graph-Structured Memory\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0013",
+    "template": "fictional_paper",
+    "entity": "Discrete Saliency Reweighting in Synthetic Cohort Studies",
+    "text": "Summarize the main claims and findings of the paper \"Discrete Saliency Reweighting in Synthetic Cohort Studies\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0014",
+    "template": "fictional_paper",
+    "entity": "Discrete Saliency Reweighting in Streaming Recommendation Systems",
+    "text": "Describe the methodology used in \"Discrete Saliency Reweighting in Streaming Recommendation Systems\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0015",
+    "template": "fictional_paper",
+    "entity": "Cross-Modal Attenuation in Low-Resource Dialogue Systems",
+    "text": "What are the main contributions of \"Cross-Modal Attenuation in Low-Resource Dialogue Systems\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0016",
+    "template": "fictional_paper",
+    "entity": "Hierarchical Context Bleaching in Procedural Audio Synthesis",
+    "text": "Summarize the argument and conclusions of \"Hierarchical Context Bleaching in Procedural Audio Synthesis\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0017",
+    "template": "fictional_paper",
+    "entity": "Asymmetric Drift Regularization in Federated Query Systems",
+    "text": "Summarize the main claims and findings of the paper \"Asymmetric Drift Regularization in Federated Query Systems\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0018",
+    "template": "fictional_paper",
+    "entity": "Nonlinear Phase Recovery in Graph-Structured Memory",
+    "text": "Describe the methodology used in \"Nonlinear Phase Recovery in Graph-Structured Memory\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0019",
+    "template": "fictional_paper",
+    "entity": "Piecewise Embedding Contraction in Neuromorphic Substrates",
+    "text": "What are the main contributions of \"Piecewise Embedding Contraction in Neuromorphic Substrates\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0020",
+    "template": "fictional_paper",
+    "entity": "Stochastic Gradient Folding in Low-Resource Dialogue Systems",
+    "text": "Summarize the argument and conclusions of \"Stochastic Gradient Folding in Low-Resource Dialogue Systems\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0021",
+    "template": "fictional_paper",
+    "entity": "Marginal Trajectory Flattening in Time-Series Anomaly Detection",
+    "text": "Summarize the main claims and findings of the paper \"Marginal Trajectory Flattening in Time-Series Anomaly Detection\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0022",
+    "template": "fictional_paper",
+    "entity": "Recursive Boundary Inference in Sparse Tensor Networks",
+    "text": "Describe the methodology used in \"Recursive Boundary Inference in Sparse Tensor Networks\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0023",
+    "template": "fictional_paper",
+    "entity": "Latent Drift Correction in Sparse Tensor Networks",
+    "text": "What are the main contributions of \"Latent Drift Correction in Sparse Tensor Networks\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0024",
+    "template": "fictional_paper",
+    "entity": "Recursive Boundary Inference in Distributed Sensor Arrays",
+    "text": "Summarize the argument and conclusions of \"Recursive Boundary Inference in Distributed Sensor Arrays\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0025",
+    "template": "fictional_paper",
+    "entity": "Cross-Modal Attenuation in Cross-Lingual Retrieval",
+    "text": "Summarize the main claims and findings of the paper \"Cross-Modal Attenuation in Cross-Lingual Retrieval\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0026",
+    "template": "fictional_paper",
+    "entity": "Cross-Modal Attenuation in Edge-Device Inference",
+    "text": "Describe the methodology used in \"Cross-Modal Attenuation in Edge-Device Inference\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0027",
+    "template": "fictional_paper",
+    "entity": "Temporal Manifold Realignment in Adaptive Control Loops",
+    "text": "What are the main contributions of \"Temporal Manifold Realignment in Adaptive Control Loops\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0028",
+    "template": "fictional_paper",
+    "entity": "Residual Topology Smoothing in Streaming Recommendation Systems",
+    "text": "Summarize the argument and conclusions of \"Residual Topology Smoothing in Streaming Recommendation Systems\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0029",
+    "template": "fictional_paper",
+    "entity": "Asymmetric Drift Regularization in Multi-Agent Simulation",
+    "text": "Summarize the main claims and findings of the paper \"Asymmetric Drift Regularization in Multi-Agent Simulation\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0030",
+    "template": "fictional_paper",
+    "entity": "Sparse Curvature Estimation in Streaming Recommendation Systems",
+    "text": "Describe the methodology used in \"Sparse Curvature Estimation in Streaming Recommendation Systems\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0031",
+    "template": "fictional_paper",
+    "entity": "Latent Frame Interleaving in Decentralized Sensor Fusion",
+    "text": "What are the main contributions of \"Latent Frame Interleaving in Decentralized Sensor Fusion\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0032",
+    "template": "fictional_paper",
+    "entity": "Anisotropic Feature Collapse in Synthetic Cohort Studies",
+    "text": "Summarize the argument and conclusions of \"Anisotropic Feature Collapse in Synthetic Cohort Studies\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0033",
+    "template": "fictional_paper",
+    "entity": "Cascaded Signal Rebinding in Adaptive Control Loops",
+    "text": "Summarize the main claims and findings of the paper \"Cascaded Signal Rebinding in Adaptive Control Loops\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0034",
+    "template": "fictional_paper",
+    "entity": "Latent Drift Correction in Robotic Grasp Planning",
+    "text": "Describe the methodology used in \"Latent Drift Correction in Robotic Grasp Planning\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0035",
+    "template": "fictional_paper",
+    "entity": "Adaptive Noise Disentanglement in Synthetic Cohort Studies",
+    "text": "What are the main contributions of \"Adaptive Noise Disentanglement in Synthetic Cohort Studies\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0036",
+    "template": "fictional_paper",
+    "entity": "Sparse Curvature Estimation in Synthetic Cohort Studies",
+    "text": "Summarize the argument and conclusions of \"Sparse Curvature Estimation in Synthetic Cohort Studies\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0037",
+    "template": "fictional_paper",
+    "entity": "Adaptive Noise Disentanglement in Multi-Agent Simulation",
+    "text": "Summarize the main claims and findings of the paper \"Adaptive Noise Disentanglement in Multi-Agent Simulation\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0038",
+    "template": "fictional_paper",
+    "entity": "Latent Frame Interleaving in Sparse Tensor Networks",
+    "text": "Describe the methodology used in \"Latent Frame Interleaving in Sparse Tensor Networks\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0039",
+    "template": "fictional_paper",
+    "entity": "Discrete Saliency Reweighting in Cross-Lingual Retrieval",
+    "text": "What are the main contributions of \"Discrete Saliency Reweighting in Cross-Lingual Retrieval\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0040",
+    "template": "fictional_paper",
+    "entity": "Anisotropic Feature Collapse in Adaptive Control Loops",
+    "text": "Summarize the argument and conclusions of \"Anisotropic Feature Collapse in Adaptive Control Loops\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0041",
+    "template": "fictional_paper",
+    "entity": "Hierarchical Context Bleaching in Embedded Vision Pipelines",
+    "text": "Summarize the main claims and findings of the paper \"Hierarchical Context Bleaching in Embedded Vision Pipelines\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0042",
+    "template": "fictional_paper",
+    "entity": "Temporal Manifold Realignment in Sequential Encoders",
+    "text": "Describe the methodology used in \"Temporal Manifold Realignment in Sequential Encoders\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0043",
+    "template": "fictional_paper",
+    "entity": "Bounded Entropy Backpropagation in Decentralized Sensor Fusion",
+    "text": "What are the main contributions of \"Bounded Entropy Backpropagation in Decentralized Sensor Fusion\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0044",
+    "template": "fictional_paper",
+    "entity": "Bounded Entropy Backpropagation in Time-Series Anomaly Detection",
+    "text": "Summarize the argument and conclusions of \"Bounded Entropy Backpropagation in Time-Series Anomaly Detection\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0045",
+    "template": "fictional_paper",
+    "entity": "Anisotropic Feature Collapse in Low-Resource Dialogue Systems",
+    "text": "Summarize the main claims and findings of the paper \"Anisotropic Feature Collapse in Low-Resource Dialogue Systems\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0046",
+    "template": "fictional_paper",
+    "entity": "Sequential Manifold Pruning in Distributed Sensor Arrays",
+    "text": "Describe the methodology used in \"Sequential Manifold Pruning in Distributed Sensor Arrays\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0047",
+    "template": "fictional_paper",
+    "entity": "Residual Topology Smoothing in Weakly Supervised Segmentation",
+    "text": "What are the main contributions of \"Residual Topology Smoothing in Weakly Supervised Segmentation\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0048",
+    "template": "fictional_paper",
+    "entity": "Adaptive Noise Disentanglement in Procedural Audio Synthesis",
+    "text": "Summarize the argument and conclusions of \"Adaptive Noise Disentanglement in Procedural Audio Synthesis\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0049",
+    "template": "fictional_paper",
+    "entity": "Piecewise Embedding Contraction in Procedural Audio Synthesis",
+    "text": "Summarize the main claims and findings of the paper \"Piecewise Embedding Contraction in Procedural Audio Synthesis\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0050",
+    "template": "fictional_paper",
+    "entity": "Discrete Saliency Reweighting in Sparse Tensor Networks",
+    "text": "Describe the methodology used in \"Discrete Saliency Reweighting in Sparse Tensor Networks\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0051",
+    "template": "fictional_paper",
+    "entity": "Latent Drift Correction in Streaming Recommendation Systems",
+    "text": "What are the main contributions of \"Latent Drift Correction in Streaming Recommendation Systems\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0052",
+    "template": "fictional_paper",
+    "entity": "Residual Topology Smoothing in Synthetic Cohort Studies",
+    "text": "Summarize the argument and conclusions of \"Residual Topology Smoothing in Synthetic Cohort Studies\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0053",
+    "template": "fictional_paper",
+    "entity": "Sparse Curvature Estimation in Time-Series Anomaly Detection",
+    "text": "Summarize the main claims and findings of the paper \"Sparse Curvature Estimation in Time-Series Anomaly Detection\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0054",
+    "template": "fictional_paper",
+    "entity": "Piecewise Embedding Contraction in Mixed-Precision Training",
+    "text": "Describe the methodology used in \"Piecewise Embedding Contraction in Mixed-Precision Training\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0055",
+    "template": "fictional_paper",
+    "entity": "Latent Drift Correction in Cross-Lingual Retrieval",
+    "text": "What are the main contributions of \"Latent Drift Correction in Cross-Lingual Retrieval\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0056",
+    "template": "fictional_paper",
+    "entity": "Asymmetric Drift Regularization in Low-Resource Dialogue Systems",
+    "text": "Summarize the argument and conclusions of \"Asymmetric Drift Regularization in Low-Resource Dialogue Systems\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0057",
+    "template": "fictional_paper",
+    "entity": "Asymmetric Drift Regularization in Decentralized Sensor Fusion",
+    "text": "Summarize the main claims and findings of the paper \"Asymmetric Drift Regularization in Decentralized Sensor Fusion\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0058",
+    "template": "fictional_paper",
+    "entity": "Adaptive Noise Disentanglement in Sequential Encoders",
+    "text": "Describe the methodology used in \"Adaptive Noise Disentanglement in Sequential Encoders\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0059",
+    "template": "fictional_paper",
+    "entity": "Sequential Manifold Pruning in Robotic Grasp Planning",
+    "text": "What are the main contributions of \"Sequential Manifold Pruning in Robotic Grasp Planning\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0060",
+    "template": "fictional_paper",
+    "entity": "Marginal Trajectory Flattening in Procedural Audio Synthesis",
+    "text": "Summarize the argument and conclusions of \"Marginal Trajectory Flattening in Procedural Audio Synthesis\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0061",
+    "template": "fictional_paper",
+    "entity": "Temporal Manifold Realignment in Sparse Tensor Networks",
+    "text": "Summarize the main claims and findings of the paper \"Temporal Manifold Realignment in Sparse Tensor Networks\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0062",
+    "template": "fictional_paper",
+    "entity": "Piecewise Embedding Contraction in Distributed Sensor Arrays",
+    "text": "Describe the methodology used in \"Piecewise Embedding Contraction in Distributed Sensor Arrays\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0063",
+    "template": "fictional_paper",
+    "entity": "Latent Frame Interleaving in Multi-Agent Simulation",
+    "text": "What are the main contributions of \"Latent Frame Interleaving in Multi-Agent Simulation\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0064",
+    "template": "fictional_paper",
+    "entity": "Sparse Curvature Estimation in Cross-Lingual Retrieval",
+    "text": "Summarize the argument and conclusions of \"Sparse Curvature Estimation in Cross-Lingual Retrieval\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0065",
+    "template": "fictional_paper",
+    "entity": "Latent Drift Correction in Weakly Supervised Segmentation",
+    "text": "Summarize the main claims and findings of the paper \"Latent Drift Correction in Weakly Supervised Segmentation\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0066",
+    "template": "fictional_paper",
+    "entity": "Marginal Trajectory Flattening in Cross-Lingual Retrieval",
+    "text": "Describe the methodology used in \"Marginal Trajectory Flattening in Cross-Lingual Retrieval\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0067",
+    "template": "fictional_paper",
+    "entity": "Discrete Saliency Reweighting in Embedded Vision Pipelines",
+    "text": "What are the main contributions of \"Discrete Saliency Reweighting in Embedded Vision Pipelines\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0068",
+    "template": "fictional_paper",
+    "entity": "Residual Topology Smoothing in Embedded Vision Pipelines",
+    "text": "Summarize the argument and conclusions of \"Residual Topology Smoothing in Embedded Vision Pipelines\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0069",
+    "template": "fictional_paper",
+    "entity": "Sparse Attention Redistribution in Edge-Device Inference",
+    "text": "Summarize the main claims and findings of the paper \"Sparse Attention Redistribution in Edge-Device Inference\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0070",
+    "template": "fictional_paper",
+    "entity": "Cascaded Signal Rebinding in Multi-Agent Simulation",
+    "text": "Describe the methodology used in \"Cascaded Signal Rebinding in Multi-Agent Simulation\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0071",
+    "template": "fictional_paper",
+    "entity": "Adaptive Noise Disentanglement in Streaming Recommendation Systems",
+    "text": "What are the main contributions of \"Adaptive Noise Disentanglement in Streaming Recommendation Systems\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0072",
+    "template": "fictional_paper",
+    "entity": "Piecewise Embedding Contraction in Embedded Vision Pipelines",
+    "text": "Summarize the argument and conclusions of \"Piecewise Embedding Contraction in Embedded Vision Pipelines\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0073",
+    "template": "fictional_paper",
+    "entity": "Discrete Saliency Reweighting in Procedural Audio Synthesis",
+    "text": "Summarize the main claims and findings of the paper \"Discrete Saliency Reweighting in Procedural Audio Synthesis\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0074",
+    "template": "fictional_paper",
+    "entity": "Hierarchical Context Bleaching in Low-Resource Dialogue Systems",
+    "text": "Describe the methodology used in \"Hierarchical Context Bleaching in Low-Resource Dialogue Systems\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0075",
+    "template": "fictional_paper",
+    "entity": "Adaptive Noise Disentanglement in Embedded Vision Pipelines",
+    "text": "What are the main contributions of \"Adaptive Noise Disentanglement in Embedded Vision Pipelines\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0076",
+    "template": "fictional_paper",
+    "entity": "Bounded Entropy Backpropagation in Sparse Tensor Networks",
+    "text": "Summarize the argument and conclusions of \"Bounded Entropy Backpropagation in Sparse Tensor Networks\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0077",
+    "template": "fictional_paper",
+    "entity": "Nonlinear Phase Recovery in Federated Query Systems",
+    "text": "Summarize the main claims and findings of the paper \"Nonlinear Phase Recovery in Federated Query Systems\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0078",
+    "template": "fictional_paper",
+    "entity": "Hierarchical Context Bleaching in Synthetic Cohort Studies",
+    "text": "Describe the methodology used in \"Hierarchical Context Bleaching in Synthetic Cohort Studies\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0079",
+    "template": "fictional_paper",
+    "entity": "Cascaded Signal Rebinding in Embedded Vision Pipelines",
+    "text": "What are the main contributions of \"Cascaded Signal Rebinding in Embedded Vision Pipelines\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0080",
+    "template": "fictional_paper",
+    "entity": "Marginal Trajectory Flattening in Low-Resource Dialogue Systems",
+    "text": "Summarize the argument and conclusions of \"Marginal Trajectory Flattening in Low-Resource Dialogue Systems\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0081",
+    "template": "fictional_paper",
+    "entity": "Recursive Boundary Inference in Robotic Grasp Planning",
+    "text": "Summarize the main claims and findings of the paper \"Recursive Boundary Inference in Robotic Grasp Planning\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0082",
+    "template": "fictional_paper",
+    "entity": "Residual Topology Smoothing in Robotic Grasp Planning",
+    "text": "Describe the methodology used in \"Residual Topology Smoothing in Robotic Grasp Planning\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0083",
+    "template": "fictional_paper",
+    "entity": "Anisotropic Feature Collapse in Sparse Tensor Networks",
+    "text": "What are the main contributions of \"Anisotropic Feature Collapse in Sparse Tensor Networks\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0084",
+    "template": "fictional_paper",
+    "entity": "Sparse Curvature Estimation in Procedural Audio Synthesis",
+    "text": "Summarize the argument and conclusions of \"Sparse Curvature Estimation in Procedural Audio Synthesis\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0085",
+    "template": "fictional_paper",
+    "entity": "Latent Drift Correction in Distributed Sensor Arrays",
+    "text": "Summarize the main claims and findings of the paper \"Latent Drift Correction in Distributed Sensor Arrays\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0086",
+    "template": "fictional_paper",
+    "entity": "Stochastic Gradient Folding in Cross-Lingual Retrieval",
+    "text": "Describe the methodology used in \"Stochastic Gradient Folding in Cross-Lingual Retrieval\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0087",
+    "template": "fictional_paper",
+    "entity": "Recursive Boundary Inference in Graph-Structured Memory",
+    "text": "What are the main contributions of \"Recursive Boundary Inference in Graph-Structured Memory\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0088",
+    "template": "fictional_paper",
+    "entity": "Asymmetric Drift Regularization in Edge-Device Inference",
+    "text": "Summarize the argument and conclusions of \"Asymmetric Drift Regularization in Edge-Device Inference\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0089",
+    "template": "fictional_paper",
+    "entity": "Recursive Boundary Inference in Cross-Lingual Retrieval",
+    "text": "Summarize the main claims and findings of the paper \"Recursive Boundary Inference in Cross-Lingual Retrieval\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0090",
+    "template": "fictional_paper",
+    "entity": "Adaptive Noise Disentanglement in Edge-Device Inference",
+    "text": "Describe the methodology used in \"Adaptive Noise Disentanglement in Edge-Device Inference\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0091",
+    "template": "fictional_paper",
+    "entity": "Stochastic Gradient Folding in Synthetic Cohort Studies",
+    "text": "What are the main contributions of \"Stochastic Gradient Folding in Synthetic Cohort Studies\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0092",
+    "template": "fictional_paper",
+    "entity": "Piecewise Embedding Contraction in Low-Resource Dialogue Systems",
+    "text": "Summarize the argument and conclusions of \"Piecewise Embedding Contraction in Low-Resource Dialogue Systems\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0093",
+    "template": "fictional_paper",
+    "entity": "Asymmetric Drift Regularization in Weakly Supervised Segmentation",
+    "text": "Summarize the main claims and findings of the paper \"Asymmetric Drift Regularization in Weakly Supervised Segmentation\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0094",
+    "template": "fictional_paper",
+    "entity": "Cascaded Signal Rebinding in Streaming Recommendation Systems",
+    "text": "Describe the methodology used in \"Cascaded Signal Rebinding in Streaming Recommendation Systems\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0095",
+    "template": "fictional_paper",
+    "entity": "Sequential Manifold Pruning in Time-Series Anomaly Detection",
+    "text": "What are the main contributions of \"Sequential Manifold Pruning in Time-Series Anomaly Detection\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0096",
+    "template": "fictional_paper",
+    "entity": "Sequential Manifold Pruning in Sparse Tensor Networks",
+    "text": "Summarize the argument and conclusions of \"Sequential Manifold Pruning in Sparse Tensor Networks\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0097",
+    "template": "fictional_paper",
+    "entity": "Anisotropic Feature Collapse in Mixed-Precision Training",
+    "text": "Summarize the main claims and findings of the paper \"Anisotropic Feature Collapse in Mixed-Precision Training\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0098",
+    "template": "fictional_paper",
+    "entity": "Anisotropic Feature Collapse in Federated Query Systems",
+    "text": "Describe the methodology used in \"Anisotropic Feature Collapse in Federated Query Systems\" and what its key results were."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0099",
+    "template": "fictional_paper",
+    "entity": "Residual Topology Smoothing in Adaptive Control Loops",
+    "text": "What are the main contributions of \"Residual Topology Smoothing in Adaptive Control Loops\"? Summarize them."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_paper_0100",
+    "template": "fictional_paper",
+    "entity": "Sparse Curvature Estimation in Distributed Sensor Arrays",
+    "text": "Summarize the argument and conclusions of \"Sparse Curvature Estimation in Distributed Sensor Arrays\"."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0001",
+    "template": "fictional_chemical",
+    "entity": "Nitrooxindole",
+    "text": "Describe the synthesis and chemical properties of Nitrooxindole."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0002",
+    "template": "fictional_chemical",
+    "entity": "Carbosulfonate",
+    "text": "Summarize how Carbosulfonate is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0003",
+    "template": "fictional_chemical",
+    "entity": "Phosphasulfonate",
+    "text": "Describe the structure, reactivity, and applications of Phosphasulfonate."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0004",
+    "template": "fictional_chemical",
+    "entity": "Nitroaminate",
+    "text": "What are the chemical properties of Nitroaminate, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0005",
+    "template": "fictional_chemical",
+    "entity": "Thalfuranate",
+    "text": "Describe the synthesis and chemical properties of Thalfuranate."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0006",
+    "template": "fictional_chemical",
+    "entity": "Sulfaphosphonium",
+    "text": "Summarize how Sulfaphosphonium is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0007",
+    "template": "fictional_chemical",
+    "entity": "Tresinzolamide",
+    "text": "Describe the structure, reactivity, and applications of Tresinzolamide."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0008",
+    "template": "fictional_chemical",
+    "entity": "Nitrophenolate",
+    "text": "What are the chemical properties of Nitrophenolate, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0009",
+    "template": "fictional_chemical",
+    "entity": "Tresincarbamide",
+    "text": "Describe the synthesis and chemical properties of Tresincarbamide."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0010",
+    "template": "fictional_chemical",
+    "entity": "Methglycoside",
+    "text": "Summarize how Methglycoside is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0011",
+    "template": "fictional_chemical",
+    "entity": "Pyratriazole",
+    "text": "Describe the structure, reactivity, and applications of Pyratriazole."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0012",
+    "template": "fictional_chemical",
+    "entity": "Methsulfonate",
+    "text": "What are the chemical properties of Methsulfonate, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0013",
+    "template": "fictional_chemical",
+    "entity": "Phosphacarbamide",
+    "text": "Describe the synthesis and chemical properties of Phosphacarbamide."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0014",
+    "template": "fictional_chemical",
+    "entity": "Phosphafuranate",
+    "text": "Summarize how Phosphafuranate is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0015",
+    "template": "fictional_chemical",
+    "entity": "Xylochromide",
+    "text": "Describe the structure, reactivity, and applications of Xylochromide."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0016",
+    "template": "fictional_chemical",
+    "entity": "Ethoxoxindole",
+    "text": "What are the chemical properties of Ethoxoxindole, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0017",
+    "template": "fictional_chemical",
+    "entity": "Ethoxaminate",
+    "text": "Describe the synthesis and chemical properties of Ethoxaminate."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0018",
+    "template": "fictional_chemical",
+    "entity": "Sulfatriazole",
+    "text": "Summarize how Sulfatriazole is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0019",
+    "template": "fictional_chemical",
+    "entity": "Tresinaminate",
+    "text": "Describe the structure, reactivity, and applications of Tresinaminate."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0020",
+    "template": "fictional_chemical",
+    "entity": "Phosphatriazole",
+    "text": "What are the chemical properties of Phosphatriazole, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0021",
+    "template": "fictional_chemical",
+    "entity": "Methtriazole",
+    "text": "Describe the synthesis and chemical properties of Methtriazole."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0022",
+    "template": "fictional_chemical",
+    "entity": "Chlorovalinate",
+    "text": "Summarize how Chlorovalinate is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0023",
+    "template": "fictional_chemical",
+    "entity": "Quinalaminate",
+    "text": "Describe the structure, reactivity, and applications of Quinalaminate."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0024",
+    "template": "fictional_chemical",
+    "entity": "Thalaminate",
+    "text": "What are the chemical properties of Thalaminate, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0025",
+    "template": "fictional_chemical",
+    "entity": "Thaltherin",
+    "text": "Describe the synthesis and chemical properties of Thaltherin."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0026",
+    "template": "fictional_chemical",
+    "entity": "Ethoxtherin",
+    "text": "Summarize how Ethoxtherin is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0027",
+    "template": "fictional_chemical",
+    "entity": "Carbooxindole",
+    "text": "Describe the structure, reactivity, and applications of Carbooxindole."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0028",
+    "template": "fictional_chemical",
+    "entity": "Fluorvalinate",
+    "text": "What are the chemical properties of Fluorvalinate, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0029",
+    "template": "fictional_chemical",
+    "entity": "Vinylcarbamide",
+    "text": "Describe the synthesis and chemical properties of Vinylcarbamide."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0030",
+    "template": "fictional_chemical",
+    "entity": "Cervpeptin",
+    "text": "Summarize how Cervpeptin is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0031",
+    "template": "fictional_chemical",
+    "entity": "Acetoxysilane",
+    "text": "Describe the structure, reactivity, and applications of Acetoxysilane."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0032",
+    "template": "fictional_chemical",
+    "entity": "Methfuranate",
+    "text": "What are the chemical properties of Methfuranate, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0033",
+    "template": "fictional_chemical",
+    "entity": "Silorzolamide",
+    "text": "Describe the synthesis and chemical properties of Silorzolamide."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0034",
+    "template": "fictional_chemical",
+    "entity": "Sulfavalinate",
+    "text": "Summarize how Sulfavalinate is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0035",
+    "template": "fictional_chemical",
+    "entity": "Quinalnitrile",
+    "text": "Describe the structure, reactivity, and applications of Quinalnitrile."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0036",
+    "template": "fictional_chemical",
+    "entity": "Fluorphosphonium",
+    "text": "What are the chemical properties of Fluorphosphonium, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0037",
+    "template": "fictional_chemical",
+    "entity": "Silorphenolate",
+    "text": "Describe the synthesis and chemical properties of Silorphenolate."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0038",
+    "template": "fictional_chemical",
+    "entity": "Phosphazolamide",
+    "text": "Summarize how Phosphazolamide is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0039",
+    "template": "fictional_chemical",
+    "entity": "Nitrocresylate",
+    "text": "Describe the structure, reactivity, and applications of Nitrocresylate."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0040",
+    "template": "fictional_chemical",
+    "entity": "Bromophosphonium",
+    "text": "What are the chemical properties of Bromophosphonium, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0041",
+    "template": "fictional_chemical",
+    "entity": "Acettriazole",
+    "text": "Describe the synthesis and chemical properties of Acettriazole."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0042",
+    "template": "fictional_chemical",
+    "entity": "Tresinvalinate",
+    "text": "Summarize how Tresinvalinate is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0043",
+    "template": "fictional_chemical",
+    "entity": "Fluornitrile",
+    "text": "Describe the structure, reactivity, and applications of Fluornitrile."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0044",
+    "template": "fictional_chemical",
+    "entity": "Cervchromide",
+    "text": "What are the chemical properties of Cervchromide, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0045",
+    "template": "fictional_chemical",
+    "entity": "Xylozolamide",
+    "text": "Describe the synthesis and chemical properties of Xylozolamide."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0046",
+    "template": "fictional_chemical",
+    "entity": "Thalphosphonium",
+    "text": "Summarize how Thalphosphonium is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0047",
+    "template": "fictional_chemical",
+    "entity": "Sulfanitrile",
+    "text": "Describe the structure, reactivity, and applications of Sulfanitrile."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0048",
+    "template": "fictional_chemical",
+    "entity": "Carboglycoside",
+    "text": "What are the chemical properties of Carboglycoside, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0049",
+    "template": "fictional_chemical",
+    "entity": "Silorcresylate",
+    "text": "Describe the synthesis and chemical properties of Silorcresylate."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0050",
+    "template": "fictional_chemical",
+    "entity": "Ethoxsiloxide",
+    "text": "Summarize how Ethoxsiloxide is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0051",
+    "template": "fictional_chemical",
+    "entity": "Quinalchromide",
+    "text": "Describe the structure, reactivity, and applications of Quinalchromide."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0052",
+    "template": "fictional_chemical",
+    "entity": "Phosphaoxindole",
+    "text": "What are the chemical properties of Phosphaoxindole, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0053",
+    "template": "fictional_chemical",
+    "entity": "Pyraphosphonium",
+    "text": "Describe the synthesis and chemical properties of Pyraphosphonium."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0054",
+    "template": "fictional_chemical",
+    "entity": "Thalsulfonate",
+    "text": "Summarize how Thalsulfonate is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0055",
+    "template": "fictional_chemical",
+    "entity": "Carbotriazole",
+    "text": "Describe the structure, reactivity, and applications of Carbotriazole."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0056",
+    "template": "fictional_chemical",
+    "entity": "Pyranitrile",
+    "text": "What are the chemical properties of Pyranitrile, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0057",
+    "template": "fictional_chemical",
+    "entity": "Fluoraminate",
+    "text": "Describe the synthesis and chemical properties of Fluoraminate."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0058",
+    "template": "fictional_chemical",
+    "entity": "Silortherin",
+    "text": "Summarize how Silortherin is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0059",
+    "template": "fictional_chemical",
+    "entity": "Vinylzolamide",
+    "text": "Describe the structure, reactivity, and applications of Vinylzolamide."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0060",
+    "template": "fictional_chemical",
+    "entity": "Methnitrile",
+    "text": "What are the chemical properties of Methnitrile, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0061",
+    "template": "fictional_chemical",
+    "entity": "Silorcarbamide",
+    "text": "Describe the synthesis and chemical properties of Silorcarbamide."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0062",
+    "template": "fictional_chemical",
+    "entity": "Fluoroxysilane",
+    "text": "Summarize how Fluoroxysilane is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0063",
+    "template": "fictional_chemical",
+    "entity": "Pyraoxindole",
+    "text": "Describe the structure, reactivity, and applications of Pyraoxindole."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0064",
+    "template": "fictional_chemical",
+    "entity": "Bromopeptin",
+    "text": "What are the chemical properties of Bromopeptin, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0065",
+    "template": "fictional_chemical",
+    "entity": "Acetnitrile",
+    "text": "Describe the synthesis and chemical properties of Acetnitrile."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0066",
+    "template": "fictional_chemical",
+    "entity": "Fluoroxindole",
+    "text": "Summarize how Fluoroxindole is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0067",
+    "template": "fictional_chemical",
+    "entity": "Sulfasulfonate",
+    "text": "Describe the structure, reactivity, and applications of Sulfasulfonate."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0068",
+    "template": "fictional_chemical",
+    "entity": "Acetoxindole",
+    "text": "What are the chemical properties of Acetoxindole, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0069",
+    "template": "fictional_chemical",
+    "entity": "Thalglycoside",
+    "text": "Describe the synthesis and chemical properties of Thalglycoside."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0070",
+    "template": "fictional_chemical",
+    "entity": "Chlorophenolate",
+    "text": "Summarize how Chlorophenolate is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0071",
+    "template": "fictional_chemical",
+    "entity": "Bromooxysilane",
+    "text": "Describe the structure, reactivity, and applications of Bromooxysilane."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0072",
+    "template": "fictional_chemical",
+    "entity": "Carbophenolate",
+    "text": "What are the chemical properties of Carbophenolate, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0073",
+    "template": "fictional_chemical",
+    "entity": "Xylooxindole",
+    "text": "Describe the synthesis and chemical properties of Xylooxindole."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0074",
+    "template": "fictional_chemical",
+    "entity": "Chlorocresylate",
+    "text": "Summarize how Chlorocresylate is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0075",
+    "template": "fictional_chemical",
+    "entity": "Chlorochromide",
+    "text": "Describe the structure, reactivity, and applications of Chlorochromide."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0076",
+    "template": "fictional_chemical",
+    "entity": "Phosphanitrile",
+    "text": "What are the chemical properties of Phosphanitrile, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0077",
+    "template": "fictional_chemical",
+    "entity": "Phosphapeptin",
+    "text": "Describe the synthesis and chemical properties of Phosphapeptin."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0078",
+    "template": "fictional_chemical",
+    "entity": "Cervsulfonate",
+    "text": "Summarize how Cervsulfonate is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0079",
+    "template": "fictional_chemical",
+    "entity": "Ethoxglycoside",
+    "text": "Describe the structure, reactivity, and applications of Ethoxglycoside."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0080",
+    "template": "fictional_chemical",
+    "entity": "Quinaltherin",
+    "text": "What are the chemical properties of Quinaltherin, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0081",
+    "template": "fictional_chemical",
+    "entity": "Ethoxchromide",
+    "text": "Describe the synthesis and chemical properties of Ethoxchromide."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0082",
+    "template": "fictional_chemical",
+    "entity": "Tresinsulfonate",
+    "text": "Summarize how Tresinsulfonate is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0083",
+    "template": "fictional_chemical",
+    "entity": "Silorpeptin",
+    "text": "Describe the structure, reactivity, and applications of Silorpeptin."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0084",
+    "template": "fictional_chemical",
+    "entity": "Ethoxcarbamide",
+    "text": "What are the chemical properties of Ethoxcarbamide, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0085",
+    "template": "fictional_chemical",
+    "entity": "Acetsiloxide",
+    "text": "Describe the synthesis and chemical properties of Acetsiloxide."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0086",
+    "template": "fictional_chemical",
+    "entity": "Tresinoxindole",
+    "text": "Summarize how Tresinoxindole is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0087",
+    "template": "fictional_chemical",
+    "entity": "Quinalglycoside",
+    "text": "Describe the structure, reactivity, and applications of Quinalglycoside."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0088",
+    "template": "fictional_chemical",
+    "entity": "Carbofuranate",
+    "text": "What are the chemical properties of Carbofuranate, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0089",
+    "template": "fictional_chemical",
+    "entity": "Acetpeptin",
+    "text": "Describe the synthesis and chemical properties of Acetpeptin."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0090",
+    "template": "fictional_chemical",
+    "entity": "Ethoxphosphonium",
+    "text": "Summarize how Ethoxphosphonium is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0091",
+    "template": "fictional_chemical",
+    "entity": "Chlorosiloxide",
+    "text": "Describe the structure, reactivity, and applications of Chlorosiloxide."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0092",
+    "template": "fictional_chemical",
+    "entity": "Acetphosphonium",
+    "text": "What are the chemical properties of Acetphosphonium, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0093",
+    "template": "fictional_chemical",
+    "entity": "Quinaloxysilane",
+    "text": "Describe the synthesis and chemical properties of Quinaloxysilane."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0094",
+    "template": "fictional_chemical",
+    "entity": "Phosphaaminate",
+    "text": "Summarize how Phosphaaminate is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0095",
+    "template": "fictional_chemical",
+    "entity": "Bromotherin",
+    "text": "Describe the structure, reactivity, and applications of Bromotherin."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0096",
+    "template": "fictional_chemical",
+    "entity": "Bromotriazole",
+    "text": "What are the chemical properties of Bromotriazole, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0097",
+    "template": "fictional_chemical",
+    "entity": "Chlorooxysilane",
+    "text": "Describe the synthesis and chemical properties of Chlorooxysilane."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0098",
+    "template": "fictional_chemical",
+    "entity": "Ethoxvalinate",
+    "text": "Summarize how Ethoxvalinate is synthesized and what it is typically used for."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0099",
+    "template": "fictional_chemical",
+    "entity": "Vinyltriazole",
+    "text": "Describe the structure, reactivity, and applications of Vinyltriazole."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_chemical_0100",
+    "template": "fictional_chemical",
+    "entity": "Quinaltriazole",
+    "text": "What are the chemical properties of Quinaltriazole, and how is it produced?"
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0001",
+    "template": "fictional_location",
+    "entity": "Thalven",
+    "text": "Describe the history and population of Thalven."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0002",
+    "template": "fictional_location",
+    "entity": "Elywick Crossing",
+    "text": "Summarize the history and geography of Elywick Crossing."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0003",
+    "template": "fictional_location",
+    "entity": "Veskwick Crossing",
+    "text": "Describe what Veskwick Crossing is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0004",
+    "template": "fictional_location",
+    "entity": "Morcrest Crossing",
+    "text": "Give an overview of Morcrest Crossing's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0005",
+    "template": "fictional_location",
+    "entity": "Wrenven",
+    "text": "Describe the history and population of Wrenven."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0006",
+    "template": "fictional_location",
+    "entity": "Istspire Crossing",
+    "text": "Summarize the history and geography of Istspire Crossing."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0007",
+    "template": "fictional_location",
+    "entity": "Elyfell Basin",
+    "text": "Describe what Elyfell Basin is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0008",
+    "template": "fictional_location",
+    "entity": "Ulricven Highlands",
+    "text": "Give an overview of Ulricven Highlands's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0009",
+    "template": "fictional_location",
+    "entity": "Thalspire Valley",
+    "text": "Describe the history and population of Thalspire Valley."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0010",
+    "template": "fictional_location",
+    "entity": "Junipholt",
+    "text": "Summarize the history and geography of Junipholt."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0011",
+    "template": "fictional_location",
+    "entity": "Gornridge Province",
+    "text": "Describe what Gornridge Province is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0012",
+    "template": "fictional_location",
+    "entity": "Wrencrest",
+    "text": "Give an overview of Wrencrest's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0013",
+    "template": "fictional_location",
+    "entity": "Solmoor Crossing",
+    "text": "Describe the history and population of Solmoor Crossing."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0014",
+    "template": "fictional_location",
+    "entity": "Veskfell Province",
+    "text": "Summarize the history and geography of Veskfell Province."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0015",
+    "template": "fictional_location",
+    "entity": "Morfell Crossing",
+    "text": "Describe what Morfell Crossing is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0016",
+    "template": "fictional_location",
+    "entity": "Vesreach",
+    "text": "Give an overview of Vesreach's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0017",
+    "template": "fictional_location",
+    "entity": "Kalthorn",
+    "text": "Describe the history and population of Kalthorn."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0018",
+    "template": "fictional_location",
+    "entity": "Wrenhollow Province",
+    "text": "Summarize the history and geography of Wrenhollow Province."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0019",
+    "template": "fictional_location",
+    "entity": "Istith Valley",
+    "text": "Describe what Istith Valley is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0020",
+    "template": "fictional_location",
+    "entity": "Lashoorne Valley",
+    "text": "Give an overview of Lashoorne Valley's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0021",
+    "template": "fictional_location",
+    "entity": "Gornreach Crossing",
+    "text": "Describe the history and population of Gornreach Crossing."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0022",
+    "template": "fictional_location",
+    "entity": "Brenridge Province",
+    "text": "Summarize the history and geography of Brenridge Province."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0023",
+    "template": "fictional_location",
+    "entity": "Thalwick",
+    "text": "Describe what Thalwick is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0024",
+    "template": "fictional_location",
+    "entity": "Quorspire Province",
+    "text": "Give an overview of Quorspire Province's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0025",
+    "template": "fictional_location",
+    "entity": "Ombrastead Valley",
+    "text": "Describe the history and population of Ombrastead Valley."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0026",
+    "template": "fictional_location",
+    "entity": "Lashodale Basin",
+    "text": "Summarize the history and geography of Lashodale Basin."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0027",
+    "template": "fictional_location",
+    "entity": "Dunmere",
+    "text": "Describe what Dunmere is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0028",
+    "template": "fictional_location",
+    "entity": "Tarncrest Province",
+    "text": "Give an overview of Tarncrest Province's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0029",
+    "template": "fictional_location",
+    "entity": "Juniporne Valley",
+    "text": "Describe the history and population of Juniporne Valley."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0030",
+    "template": "fictional_location",
+    "entity": "Zephwick Province",
+    "text": "Summarize the history and geography of Zephwick Province."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0031",
+    "template": "fictional_location",
+    "entity": "Skolridge Province",
+    "text": "Describe what Skolridge Province is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0032",
+    "template": "fictional_location",
+    "entity": "Wrendale Basin",
+    "text": "Give an overview of Wrendale Basin's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0033",
+    "template": "fictional_location",
+    "entity": "Dunthorn Valley",
+    "text": "Describe the history and population of Dunthorn Valley."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0034",
+    "template": "fictional_location",
+    "entity": "Calderspire",
+    "text": "Summarize the history and geography of Calderspire."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0035",
+    "template": "fictional_location",
+    "entity": "Junipcrest",
+    "text": "Describe what Junipcrest is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0036",
+    "template": "fictional_location",
+    "entity": "Zephhollow Province",
+    "text": "Give an overview of Zephhollow Province's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0037",
+    "template": "fictional_location",
+    "entity": "Junipmoor Highlands",
+    "text": "Describe the history and population of Junipmoor Highlands."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0038",
+    "template": "fictional_location",
+    "entity": "Ashengard Crossing",
+    "text": "Summarize the history and geography of Ashengard Crossing."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0039",
+    "template": "fictional_location",
+    "entity": "Tarnmere Basin",
+    "text": "Describe what Tarnmere Basin is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0040",
+    "template": "fictional_location",
+    "entity": "Zephstead Basin",
+    "text": "Give an overview of Zephstead Basin's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0041",
+    "template": "fictional_location",
+    "entity": "Tarndale",
+    "text": "Describe the history and population of Tarndale."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0042",
+    "template": "fictional_location",
+    "entity": "Haldenholt",
+    "text": "Summarize the history and geography of Haldenholt."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0043",
+    "template": "fictional_location",
+    "entity": "Ulricbrook Province",
+    "text": "Describe what Ulricbrook Province is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0044",
+    "template": "fictional_location",
+    "entity": "Ilangard Province",
+    "text": "Give an overview of Ilangard Province's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0045",
+    "template": "fictional_location",
+    "entity": "Lashoholt Reach",
+    "text": "Describe the history and population of Lashoholt Reach."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0046",
+    "template": "fictional_location",
+    "entity": "Kalfell Reach",
+    "text": "Summarize the history and geography of Kalfell Reach."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0047",
+    "template": "fictional_location",
+    "entity": "Gornthorn Reach",
+    "text": "Describe what Gornthorn Reach is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0048",
+    "template": "fictional_location",
+    "entity": "Nythorne Crossing",
+    "text": "Give an overview of Nythorne Crossing's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0049",
+    "template": "fictional_location",
+    "entity": "Nythbrook Highlands",
+    "text": "Describe the history and population of Nythbrook Highlands."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0050",
+    "template": "fictional_location",
+    "entity": "Elyreach Province",
+    "text": "Summarize the history and geography of Elyreach Province."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0051",
+    "template": "fictional_location",
+    "entity": "Ilancrest Valley",
+    "text": "Describe what Ilancrest Valley is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0052",
+    "template": "fictional_location",
+    "entity": "Quorwick Province",
+    "text": "Give an overview of Quorwick Province's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0053",
+    "template": "fictional_location",
+    "entity": "Vesgard Harbor",
+    "text": "Describe the history and population of Vesgard Harbor."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0054",
+    "template": "fictional_location",
+    "entity": "Tarnorne Highlands",
+    "text": "Summarize the history and geography of Tarnorne Highlands."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0055",
+    "template": "fictional_location",
+    "entity": "Elyridge Province",
+    "text": "Describe what Elyridge Province is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0056",
+    "template": "fictional_location",
+    "entity": "Thalmere Province",
+    "text": "Give an overview of Thalmere Province's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0057",
+    "template": "fictional_location",
+    "entity": "Fenorne Basin",
+    "text": "Describe the history and population of Fenorne Basin."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0058",
+    "template": "fictional_location",
+    "entity": "Zephmere Reach",
+    "text": "Summarize the history and geography of Zephmere Reach."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0059",
+    "template": "fictional_location",
+    "entity": "Lashothorn Reach",
+    "text": "Describe what Lashothorn Reach is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0060",
+    "template": "fictional_location",
+    "entity": "Ferrinthorn Valley",
+    "text": "Give an overview of Ferrinthorn Valley's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0061",
+    "template": "fictional_location",
+    "entity": "Wrenorne Valley",
+    "text": "Describe the history and population of Wrenorne Valley."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0062",
+    "template": "fictional_location",
+    "entity": "Calderwick",
+    "text": "Summarize the history and geography of Calderwick."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0063",
+    "template": "fictional_location",
+    "entity": "Ororne Harbor",
+    "text": "Describe what Ororne Harbor is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0064",
+    "template": "fictional_location",
+    "entity": "Corvivale Crossing",
+    "text": "Give an overview of Corvivale Crossing's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0065",
+    "template": "fictional_location",
+    "entity": "Ferrinridge Highlands",
+    "text": "Describe the history and population of Ferrinridge Highlands."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0066",
+    "template": "fictional_location",
+    "entity": "Gornspire Harbor",
+    "text": "Summarize the history and geography of Gornspire Harbor."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0067",
+    "template": "fictional_location",
+    "entity": "Ulricthorn Highlands",
+    "text": "Describe what Ulricthorn Highlands is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0068",
+    "template": "fictional_location",
+    "entity": "Orreach Harbor",
+    "text": "Give an overview of Orreach Harbor's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0069",
+    "template": "fictional_location",
+    "entity": "Brenfell Reach",
+    "text": "Describe the history and population of Brenfell Reach."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0070",
+    "template": "fictional_location",
+    "entity": "Solreach Valley",
+    "text": "Summarize the history and geography of Solreach Valley."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0071",
+    "template": "fictional_location",
+    "entity": "Ferrinven Basin",
+    "text": "Describe what Ferrinven Basin is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0072",
+    "template": "fictional_location",
+    "entity": "Junipdale Reach",
+    "text": "Give an overview of Junipdale Reach's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0073",
+    "template": "fictional_location",
+    "entity": "Calderbrook",
+    "text": "Describe the history and population of Calderbrook."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0074",
+    "template": "fictional_location",
+    "entity": "Kalbrook Highlands",
+    "text": "Summarize the history and geography of Kalbrook Highlands."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0075",
+    "template": "fictional_location",
+    "entity": "Ombraridge Province",
+    "text": "Describe what Ombraridge Province is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0076",
+    "template": "fictional_location",
+    "entity": "Solstead Valley",
+    "text": "Give an overview of Solstead Valley's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0077",
+    "template": "fictional_location",
+    "entity": "Nythith Highlands",
+    "text": "Describe the history and population of Nythith Highlands."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0078",
+    "template": "fictional_location",
+    "entity": "Tarnwick Crossing",
+    "text": "Summarize the history and geography of Tarnwick Crossing."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0079",
+    "template": "fictional_location",
+    "entity": "Orthorn Reach",
+    "text": "Describe what Orthorn Reach is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0080",
+    "template": "fictional_location",
+    "entity": "Ravven Harbor",
+    "text": "Give an overview of Ravven Harbor's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0081",
+    "template": "fictional_location",
+    "entity": "Veshollow Crossing",
+    "text": "Describe the history and population of Veshollow Crossing."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0082",
+    "template": "fictional_location",
+    "entity": "Elybrook Province",
+    "text": "Summarize the history and geography of Elybrook Province."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0083",
+    "template": "fictional_location",
+    "entity": "Fenbrook Valley",
+    "text": "Describe what Fenbrook Valley is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0084",
+    "template": "fictional_location",
+    "entity": "Brengard",
+    "text": "Give an overview of Brengard's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0085",
+    "template": "fictional_location",
+    "entity": "Tarnbrook Basin",
+    "text": "Describe the history and population of Tarnbrook Basin."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0086",
+    "template": "fictional_location",
+    "entity": "Tarnreach",
+    "text": "Summarize the history and geography of Tarnreach."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0087",
+    "template": "fictional_location",
+    "entity": "Solbrook Harbor",
+    "text": "Describe what Solbrook Harbor is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0088",
+    "template": "fictional_location",
+    "entity": "Brenholt Highlands",
+    "text": "Give an overview of Brenholt Highlands's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0089",
+    "template": "fictional_location",
+    "entity": "Caldervale Harbor",
+    "text": "Describe the history and population of Caldervale Harbor."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0090",
+    "template": "fictional_location",
+    "entity": "Lashomere Crossing",
+    "text": "Summarize the history and geography of Lashomere Crossing."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0091",
+    "template": "fictional_location",
+    "entity": "Ombramere Highlands",
+    "text": "Describe what Ombramere Highlands is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0092",
+    "template": "fictional_location",
+    "entity": "Ombrawick Province",
+    "text": "Give an overview of Ombrawick Province's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0093",
+    "template": "fictional_location",
+    "entity": "Nythreach Basin",
+    "text": "Describe the history and population of Nythreach Basin."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0094",
+    "template": "fictional_location",
+    "entity": "Fenmere Harbor",
+    "text": "Summarize the history and geography of Fenmere Harbor."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0095",
+    "template": "fictional_location",
+    "entity": "Orridge",
+    "text": "Describe what Orridge is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0096",
+    "template": "fictional_location",
+    "entity": "Ferrinfell Crossing",
+    "text": "Give an overview of Ferrinfell Crossing's history and demographics."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0097",
+    "template": "fictional_location",
+    "entity": "Fendale Valley",
+    "text": "Describe the history and population of Fendale Valley."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0098",
+    "template": "fictional_location",
+    "entity": "Solfell Reach",
+    "text": "Summarize the history and geography of Solfell Reach."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0099",
+    "template": "fictional_location",
+    "entity": "Lashocrest Reach",
+    "text": "Describe what Lashocrest Reach is known for and give an overview of its population."
+  },
+  {
+    "candidate_id": "cand_p2_fictional_location_0100",
+    "template": "fictional_location",
+    "entity": "Fenith Crossing",
+    "text": "Give an overview of Fenith Crossing's history and demographics."
+  }
+]
