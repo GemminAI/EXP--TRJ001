@@ -53,9 +53,9 @@ Evidence That Variance-Maximizing {PCA} Can Obscure Hallucination Trajectory Sig
 \maketitle
 
 \begin{abstract}
-This study evaluates whether token-level hidden-state trajectories from selected layers of a large language model ({LLM}) can provide non-destructive signals for detecting response reliability and hedging/hallucination-related behavior~\citep{ji2023survey,azaria2023internal,farquhar2024semantic}. The study was conducted under a pre-registered protocol~\citep{nosek2018prereg,exptrj001plan} in which the primary confirmatory analysis used a $64$-dimensional principal component analysis ({PCA}) projection of the original $3584$-dimensional hidden states.
+This study evaluates whether token-level hidden-state trajectories from selected layers of a large language model ({LLM}) can provide non-destructive signals for detecting response reliability and hedging/hallucination-related behavior~\citep{ji2023survey,azaria2023internal,farquhar2024semantic}. The evaluation instrument (Gram-determinant curvature $\kappa$, Gate~3 procedure, clustered bootstrap/{Holm} methodology) was pre-registered~\citep{nosek2018prereg,exptrj001planv13} for a different model (\texttt{meta-llama/Meta-Llama-3.1-8B-Instruct}, $D=4096$). Execution used \texttt{Qwen/Qwen2.5-7B-Instruct} ($D=3584$); the plan revision documenting that change~\citep{exptrj001plan} was written 2026-09-14, \emph{after} Phase~0--3 execution on 2026-09-13. Every result that depends on the model and dimension actually used is therefore reported as \emph{exploratory}, not confirmatory (Section~\ref{sec:prereg-status}).
 
-All five Layer~16 representations---{PCA} $64${D} ($0.7806$), {PC4}--{67} ($0.7969$), $\bllen$ ($0.8077$), raw $3584${D} $\propk$ ($0.8472$), and $\blnorm$ ($0.8588$)---are compared as \emph{paired} evaluations on the same $98$-prompt test inventory ($n=496$ eligible generations). Under the pre-registered {PCA} condition, $\propk$ failed the Gate~3 criterion for exceeding the response-length baseline ($\Delta=-0.0271$, $p=0.8685$; Gate~3: \textbf{fail}). Removing compression recovered $\auroc=0.8472$ versus $\bllen$ ($\Delta=+0.0395$, $95\%$~{CI} $[0.0114, 0.0726]$, $p=0.004$; exploratory). Discarding {PC1}--{3} ({PC4}--{67}) raised {AUROC} only to $0.7969$ ($\Delta=-0.0108$, $p=0.6935$). The hidden-state $L_2$-norm baseline $\blnorm$ is the strongest single predictor ($0.8588$, $95\%$~{CI} $[0.8239, 0.8903]$).
+All five Layer~16 representations---{PCA} $64${D} ($0.7806$), {PC4}--{67} ($0.7969$), $\bllen$ ($0.8077$), raw $3584${D} $\propk$ ($0.8472$), and $\blnorm$ ($0.8588$)---are compared as \emph{paired} evaluations on the same $98$-prompt test inventory ($n=496$ eligible generations). $\bllen$ and $\blnorm$ occupy the same $496$ rows as the trajectory methods. Under the {PCA} condition, $\propk$ failed the Gate~3 criterion for exceeding the response-length baseline ($\Delta=-0.0271$, $p=0.8685$; Gate~3: \textbf{fail}; exploratory). Removing compression recovered $\auroc=0.8472$ versus $\bllen$ ($\Delta=+0.0395$, $95\%$~{CI} $[0.0114, 0.0726]$, $p=0.004$; exploratory). Discarding {PC1}--{3} ({PC4}--{67}) raised {AUROC} only to $0.7969$ ($\Delta=-0.0108$, $p=0.6935$; $+0.0163$ vs.\ {PCA} $64${D}). The hidden-state $L_2$-norm baseline $\blnorm$ is the strongest single predictor ($0.8588$, $95\%$~{CI} $[0.8239, 0.8903]$).
 
 {PCA} diagnostics show that {PC1}--{3} capture $99.933\%$ of calibration variance, consistent with massive-activation dimensions monopolizing global variance in modern {LLMs}~\citep{sun2024massive}. Variance-maximizing {PCA} therefore collapses the state space to a very low effective rank and can discard directional trajectory geometry. The findings indicate that variance-preserving representation is not equivalent to signal-preserving representation for internal trajectory probing. The load-bearing paired contrast on this split is {PC4}--{67} versus {PCA} $64${D} ($\Delta=+0.0163$): discarding the three variance-dominant axes is not a sufficient repair.
 \end{abstract}
@@ -64,7 +64,7 @@ All five Layer~16 representations---{PCA} $64${D} ($0.7806$), {PC4}--{67} ($0.79
 The problem is not dimensionality reduction itself; it is reducing the wrong geometry. Variance-preserving dimensionality reduction is not necessarily signal-preserving dimensionality reduction for {LLM} internal-state trajectory analysis.
 
 \paragraph{Study metadata.}
-Experiment~\exptag{} / {EXP-2026-NVS-001}. Primary model: \texttt{Qwen/Qwen2.5-7B-Instruct}~\citep{qwen25,yang2024qwen2}. Evaluated layers: $8$, $16$, $24$. Hidden dimension $D=3584$. Primary confirmatory representation: $64${D} {PCA}. Paired exploratory and baseline conditions on the same $98$-prompt test set: raw $3584${D} trajectory features, {PC4}--{67}, $\bllen$, and $\blnorm$.
+Experiment~\exptag{} / {EXP-2026-NVS-001}. Primary model: \texttt{Qwen/Qwen2.5-7B-Instruct}~\citep{qwen25,yang2024qwen2}. Evaluated layers: $8$, $16$, $24$. Hidden dimension $D=3584$. Primary $64${D} {PCA} representation: \emph{exploratory, not confirmatory} (Section~\ref{sec:prereg-status}). Paired conditions on the same $98$-prompt test set ($n=496$): raw $3584${D} trajectory features, {PC4}--{67}, $\bllen$, and $\blnorm$.
 
 %======================================================================
 \section{Introduction}
@@ -94,7 +94,7 @@ This study examines that distinction directly.
 \subsection{The dimensionality-reduction problem}
 \label{sec:intro-dr}
 
-The primary confirmatory protocol specified a $64$-dimensional {PCA} projection. This creates a controlled comparison, executed on one paired $98$-prompt test inventory, among
+The executed protocol used a $64$-dimensional {PCA} projection of $3584$-dimensional hidden states. This creates a controlled comparison, executed on one paired $98$-prompt test inventory, among
 (i)~uncompressed $3584${D} hidden-state trajectories,
 (ii)~a variance-maximizing $64${D} {PCA} representation and the {PC4}--{67} subspace ablation,
 (iii)~an output-level length baseline ($\bllen$), and
@@ -108,7 +108,7 @@ The point of the present study is not to argue that {PCA} is intrinsically defec
 \label{sec:rqs}
 
 \paragraph{{RQ1} --- Signal existence and localization.}
-Can token-level hidden-state trajectories from the evaluated layers predict response reliability, and does their discriminative strength vary systematically across the evaluated layers?
+Can token-level hidden-state trajectories from the evaluated layers predict response reliability, and does their discriminative strength vary systematically across the evaluated layers? Intermediate-layer superiority is treated as a reconfirmation of a known probing pattern via trajectory curvature, not as a novel localization discovery.
 
 \paragraph{{RQ2} --- {PCA} signal preservation.}
 Does a variance-maximizing linear {PCA} projection to $64$ dimensions preserve trajectory-based discriminative signal sufficient to outperform the response-length baseline?
@@ -122,8 +122,8 @@ Can trajectory features derived from the uncompressed $3584$-dimensional hidden 
 This study makes three primary contributions.
 
 \begin{enumerate}[leftmargin=1.4em,itemsep=2pt]
-\item \textbf{Transparent confirmatory negative result.}
-The pre-registered $64${D} {PCA} condition did not satisfy the primary comparative Gate~3 criterion. The failure is reported directly rather than being replaced by a post hoc successful configuration~\citep{simmons2011false,nosek2018prereg}.
+\item \textbf{Transparent negative result (exploratory; Section~\ref{sec:prereg-status}).}
+The $64${D} {PCA} condition did not satisfy Gate~3 versus $\bllen$. The failure is reported directly rather than being replaced by a post hoc successful configuration~\citep{simmons2011false,nosek2018prereg}. This is not a confirmatory pre-registered result for the model actually executed.
 
 \item \textbf{Paired recovery of trajectory signal without variance-max {PCA}.}
 On the same $98$-prompt test inventory, raw $3584${D} $\propk$ reached {AUROC} $0.8472$ ($\Delta=+0.0395$ vs.\ $\bllen$, $p=0.004$; exploratory). {PC4}--{67} improved on {PCA} $64${D} by only $\Delta=+0.0163$ and remained below $\bllen$. $\blnorm$ ($0.8588$) is reported in full on the identical $n=496$ eligible generations.
@@ -156,7 +156,7 @@ Variance-maximizing projection can therefore collapse $D=3584$ into an extremely
 \subsection{Trajectory $\kappa$: cosine change and discrete curvature}
 \label{sec:kappa}
 
-Let $\mathbf{z}_t \in \mathbb{R}^{D}$ denote the (possibly {PCA}-projected) hidden state at generated-token index $t\in\{1,\ldots,T\}$ and selected layer $\ell$, with $D=3584$ in raw space and $D=64$ after the confirmatory projection.
+Let $\mathbf{z}_t \in \mathbb{R}^{D}$ denote the (possibly {PCA}-projected) hidden state at generated-token index $t\in\{1,\ldots,T\}$ and selected layer $\ell$, with $D=3584$ in raw space and $D=64$ after the $64${D} {PCA} projection.
 Two geometric summaries of successive states are relevant.
 
 \paragraph{Directional (cosine) transition.}
@@ -175,10 +175,10 @@ The one-step cosine change, evaluated after per-token $L_2$ normalization $\hat{
   \qquad t=1,\ldots,T-1.
 \label{eq:kappa-cos}
 \end{equation}
-Equation~\eqref{eq:kappa-cos} is a \emph{scale-invariant directional} statistic: it is unchanged under any per-token rescaling $\mathbf{z}_t\mapsto \alpha_t\mathbf{z}_t$ with $\alpha_t>0$. Gram curvature~\eqref{eq:kappa-curv} is \emph{not} scale-invariant (it scales as inverse length). Confirmatory $\propk$ remains the frozen Gram estimator; $\kappa^{\mathrm{cos}}$ is the diagnostic that isolates turning from magnitude. Spearman correlation of \texttt{kappa\_mean} with mean $\lVert\mathbf{z}_t\rVert_2$, $\kappa^{\mathrm{cos}}$ {AUROC} on $L_2$-normalized trajectories, and the residual of $\kappa$ after regression on norm are the empirical checks of this distinction (\texttt{scripts/run\_trj001\_reanalysis.py}, Task~B).
+Equation~\eqref{eq:kappa-cos} is a \emph{scale-invariant directional} statistic: it is unchanged under any per-token rescaling $\mathbf{z}_t\mapsto \alpha_t\mathbf{z}_t$ with $\alpha_t>0$. Gram curvature~\eqref{eq:kappa-curv} is \emph{not} scale-invariant (it scales as inverse length). Reported $\propk$ is \emph{not} $\kappa^{\mathrm{cos}}$; it remains the frozen Gram estimator from the v1.3 instrument. $\kappa^{\mathrm{cos}}$ is the diagnostic that isolates turning from magnitude. Spearman correlation of \texttt{kappa\_mean} with mean $\lVert\mathbf{z}_t\rVert_2$, $\kappa^{\mathrm{cos}}$ {AUROC} on $L_2$-normalized trajectories, and the residual of $\kappa$ after regression on norm are the empirical checks of this distinction (\texttt{scripts/run\_trj001\_reanalysis.py}, Task~B).
 
-\paragraph{Frozen confirmatory curvature.}
-The reported $\propk$ scores use the pre-registered discrete curvature of~\citet{exptrj001plan}, implemented in \texttt{src/compute\_kappa.py}. Parameterization is by token index, not arc length (an explicit, frozen choice: arc-length reparameterization would remove token-to-token speed variation). Central differences are
+\paragraph{Frozen Gram curvature.}
+The reported $\propk$ scores use the discrete curvature specified in the v1.3 instrument~\citep{exptrj001planv13}, implemented in \texttt{src/compute\_kappa.py}. Parameterization is by token index, not arc length (an explicit, frozen choice: arc-length reparameterization would remove token-to-token speed variation). Central differences are
 \begin{equation}
   \mathbf{v}_t
   \;=\;
@@ -206,7 +206,7 @@ where $\varepsilon=10^{-8}$ is frozen. Endpoints $t=1$ and $t=T$ are undefined b
 From the valid scalar series $\{\kappa_t\}$, five length-normalized summaries form $\mathbf{x}_{\kappa}\in\mathbb{R}^{5}$:
 mean, maximum, $95$th percentile, standard deviation, and {AUC} density $\frac{1}{T-2}\sum_t \kappa_t$
 (\texttt{kappa\_mean}, \texttt{kappa\_max}, \texttt{kappa\_p95}, \texttt{kappa\_std}, \texttt{kappa\_auc\_density}).
-The confirmatory feature set also includes \texttt{spike\_rate}$=(T-2)^{-1}\sum_t \mathbf{1}[\kappa_t>\theta]$, with $\theta$ the $90$th percentile of train-split $\kappa_t$. The raw $3584${D} ablation dropped \texttt{spike\_rate} because train-split raw states were unavailable to calibrate $\theta$; that condition difference is why {ABL-1} is exploratory. A matched $5$-feature {PCA} $64${D} probe (same summaries, no \texttt{spike\_rate}) is the confounder control for feature cardinality and is computed by the reanalysis script (Task~D).
+The v1.3 feature set also includes \texttt{spike\_rate}$=(T-2)^{-1}\sum_t \mathbf{1}[\kappa_t>\theta]$, with $\theta$ the $90$th percentile of train-split $\kappa_t$. The raw $3584${D} ablation dropped \texttt{spike\_rate} because train-split raw states were unavailable to calibrate $\theta$; that condition difference is why {ABL-1} is additionally exploratory relative to the $6$-feature probe. A matched $5$-feature {PCA} $64${D} probe (same summaries, no \texttt{spike\_rate}) is the confounder control for feature cardinality and is computed by the reanalysis script (Task~D).
 
 \subsection{Classifier specification}
 \label{sec:clf}
@@ -250,7 +250,7 @@ A candidate mechanism, not established as unique, is that task-relevant directio
 \subsection{Model and inference environment}
 \label{sec:env}
 
-The frozen experimental environment records the configuration in Table~\ref{tab:env}. These values are recorded in the experimental freeze manifest~\citep{exptrj001freeze}. The model entry explicitly records the migration to {Qwen} from the previously considered {Llama} configuration. Inference used \texttt{vLLM}~\citep{kwon2023vllm}.
+The frozen experimental environment records the configuration in Table~\ref{tab:env}. These values are recorded in the experimental freeze manifest~\citep{exptrj001freeze}. The model entry records the migration to {Qwen} from the {Llama} configuration named in v1.3~\citep{exptrj001planv13}. Inference used \texttt{vLLM}~\citep{kwon2023vllm}. The companion \texttt{configs/generation\_config.json} still names the pre-U8 {Llama} draft and is \emph{not} the execution environment.
 
 \begin{table}[t]
 \centering
@@ -272,6 +272,19 @@ Hidden dimension & $3584$ \\
 \bottomrule
 \end{tabular}
 \end{table}
+
+\subsection{Pre-registration status of this execution}
+\label{sec:prereg-status}
+
+Plan v1.3~\citep{exptrj001planv13} pre-registers the evaluation instrument (Gram-determinant $\kappa$; Gate~3; clustered bootstrap/{Holm} methodology) for \texttt{meta-llama/Meta-Llama-3.1-8B-Instruct} ($D=4096$). The model actually executed, \texttt{Qwen/Qwen2.5-7B-Instruct} ($D=3584$), is a deviation from that pre-registration (update {U8}). A revised plan describing this and other deviations ({U1}, {U4}, {U8}, {U9})~\citep{exptrj001plan} exists only as of 2026-09-14---written \emph{after} Phase~0--3 execution (2026-09-13) and after the numeric results in this manuscript were already known.
+
+Per the plan's own stated purpose (v1.3~\S1: freezing hypotheses and criteria before seeing data in order to prevent post-hoc reinterpretation and metric-selection bias), a plan revision written after the results are known cannot retroactively confer confirmatory status on those results, regardless of how faithfully the pre-specified statistical \emph{procedure} (bootstrap {CIs}, {Holm} correction, Gate~3's two-condition rule) was otherwise followed. Consequently:
+\begin{itemize}[leftmargin=1.4em,itemsep=2pt]
+\item Every result in this manuscript that depends on the {Qwen2.5-7B}/$3584${D} execution (the Gate~3 verdict and all {AUROC}/{CI}/$p$ values in Sections~\ref{sec:results}--\ref{sec:disc}) is \emph{exploratory}, not confirmatory---despite earlier drafts labeling some of them ``confirmatory'' or ``pre-registered.''
+\item This does not mean the numbers are fabricated. The freeze record~\citep{exptrj001freeze} documents hash-verified artifacts and measured statistics. It means the numbers cannot claim the evidentiary weight of a true pre-registered confirmatory test (protection against $p$-hacking via advance commitment).
+\item A genuine confirmatory test of {H0}/Gate~3 for the model actually pre-registered in v1.3 ({Llama-3.1-8B-Instruct}) has not been run.
+\item The freeze manifest's own \texttt{v1.4-frozen} tag has not been applied (timestamp and commit fields remain blank), which is a separate, additional reason this data do not yet meet the plan's definition of a completed freeze.
+\end{itemize}
 
 \subsection{Dataset construction and filtering}
 \label{sec:data}
@@ -321,7 +334,7 @@ The manifest records $98$ of $200$ originally targeted ablation prompts as avail
 \begin{figure}[t]
 \centering
 \includegraphics[width=\linewidth]{fig1_pipeline.pdf}
-\caption{Experimental pipeline. Confirmatory analysis projects token-level hidden states with variance-maximizing {PCA} before $\kappa$-feature construction. The exploratory {ABL-1} branch derives the same curvature statistics from uncompressed $3584${D} states. Both branches, together with $\bllen$ and $\blnorm$, are scored by the same $L_2$-regularized logistic regression on the paired $98$-prompt test set.}
+\caption{Experimental pipeline. The $64${D} {PCA} branch (exploratory for this execution; Section~\ref{sec:prereg-status}) projects token-level hidden states with variance-maximizing {PCA} before $\kappa$-feature construction. The {ABL-1} branch derives the same curvature statistics from uncompressed $3584${D} states. Both branches, together with $\bllen$ and $\blnorm$, are scored by the same $L_2$-regularized logistic regression on the paired $98$-prompt test set.}
 \label{fig:pipeline}
 \end{figure}
 
@@ -358,19 +371,19 @@ Number of calibration tokens & $8{,}357$ \\
 
 Five Layer~16 representations are scored on the paired test set (Figure~\ref{fig:pipeline}):
 \begin{enumerate}[leftmargin=1.4em,itemsep=2pt]
-\item \textbf{{PCA} $64${D} (confirmatory).}
+\item \textbf{{PCA} $64${D} (exploratory; Section~\ref{sec:prereg-status}).}
 Centered hidden states are projected onto {PC1}--{64} (fit on $8{,}357$ calibration tokens) before $\kappa$ extraction.
 \item \textbf{{PC4}--{67} (subspace ablation).}
 The same protocol on principal components $4$ through $67$, discarding {PC1}--{3}.
 \item \textbf{Raw $3584${D} (exploratory).}
 $\kappa$ features from uncompressed hidden vectors; \texttt{spike\_rate} omitted (no train-split raw $\theta$).
 \item \textbf{$\bllen$ (output baseline).}
-Response token length $T$ only. This is the pre-registered Gate~3 comparator.
+Response token length $T$ only. This is the Gate~3 comparator specified in the v1.3 instrument.
 \item \textbf{$\blnorm$ (magnitude baseline).}
 Statistics of $\lVert\mathbf{z}_t\rVert_2$ along the trajectory (mean, maximum, standard deviation). Reported in full: it is a first-class baseline, not a suppressed comparator.
 \end{enumerate}
 
-{PCA} diagnostics (Table~\ref{tab:pca-diag}) show that the confirmatory $64${D} representation retains $99.992\%$ of global variance while still failing Gate~3. Explained variance is therefore a representation diagnostic, not evidence of task-signal preservation.
+{PCA} diagnostics (Table~\ref{tab:pca-diag}) show that the $64${D} representation retains $99.992\%$ of global variance while still failing Gate~3. Explained variance is therefore a representation diagnostic, not evidence of task-signal preservation.
 
 \subsection{Statistical evaluation}
 \label{sec:stats}
@@ -383,12 +396,7 @@ For comparisons against $\bllen$, the analysis reports
 
 Layer-family comparisons use Holm correction~\citep{holm1979} across the specified pairwise comparisons.
 
-The study maintains a distinction between
-\begin{enumerate}[leftmargin=1.4em]
-\item \textbf{confirmatory analysis}, defined by the pre-registered protocol; and
-\item \textbf{exploratory analysis}, performed after the pre-registered outcome was obtained.
-\end{enumerate}
-This distinction is maintained throughout the Results and Discussion sections.
+Because the executed model is a post-hoc deviation from v1.3 (Section~\ref{sec:prereg-status}), the study does \emph{not} maintain a confirmatory/exploratory split among the {Qwen} results: \emph{all} {AUROC}, $\Delta$, {CI}, and $p$ values that depend on this execution are exploratory. The v1.3 instrument (Gate~3 rule, clustered bootstrap, {Holm} correction) was specified in advance for a different model; that fact does not restore confirmatory status here.
 
 \subsection{Pre-registration and freeze protocol}
 \label{sec:freeze}
@@ -399,16 +407,16 @@ Data generated before the freeze is not to be adopted as an experimental result.
 \end{quote}
 The manifest also lists hashes for the experimental plan, {PCA} matrix, centering vector, prompt inventories, label logic, generation configuration, masking procedure, and Type~B reference assets.
 
-The current uploaded manifest still shows the freeze timestamp, freeze commit, and approver fields as unfilled. The document also specifies that the freeze becomes formally established when all hash fields are complete and the \texttt{v1.4-frozen} tag has been applied. This administrative state must be checked and finalized before submission as a formally frozen study.
+The current uploaded manifest still shows the freeze timestamp, freeze commit, and approver fields as unfilled. The document also specifies that the freeze becomes formally established when all hash fields are complete and the \texttt{v1.4-frozen} tag has been applied. That unfilled tag is an additional reason, independent of Section~\ref{sec:prereg-status}, that these data do not yet meet the plan's definition of a completed freeze.
 
 %======================================================================
 \section{Results}
 \label{sec:results}
 
-\subsection{Confirmatory Gate~3 evaluation ({RQ2})}
+\subsection{Gate~3 evaluation ({RQ2}) --- exploratory}
 \label{sec:act1}
 
-The primary confirmatory evaluation used {PCA} $64${D} $\propk$ at Layer~16 on the paired $98$-prompt test set:
+The primary {PCA} $64${D} $\propk$ evaluation at Layer~16 on the paired $98$-prompt test set is reported as exploratory (Section~\ref{sec:prereg-status}):
 \begin{equation}
   \auroc_{\propk}=0.7806,
   \qquad
@@ -420,19 +428,19 @@ Gate~3 condition~1 ({AUROC}$>0.5$) passed; condition~2 (exceed $\bllen$) failed:
 \boxed{\ \text{Gate 3 = FAIL}\ }.
 \label{eq:gate3}
 \end{equation}
-This negative result is the principal confirmatory finding. It does \emph{not} imply that hidden-state trajectories contain no useful information; it establishes only that the evaluated {PCA} trajectory representation did not beat $\bllen$ under the pre-registered criterion.
+This negative result does \emph{not} imply that hidden-state trajectories contain no useful information; it indicates only that the evaluated {PCA} trajectory representation did not beat $\bllen$ under the Gate~3 criterion, applied here in an exploratory (post-hoc-plan) capacity rather than as a confirmatory pre-registered test (Section~\ref{sec:prereg-status}).
 
 \subsection{Layer localization ({RQ1})}
 \label{sec:act2}
 
-Confirmatory $\propk$ {AUROC} varies across the three sampled layers (Table~\ref{tab:layer}, Figure~\ref{fig:layer}): $0.7090$ at Layer~8, $0.7806$ at Layer~16, and $0.7167$ at Layer~24.
+$\propk$ {AUROC} under the $64${D} {PCA} representation varies across the three sampled layers (Table~\ref{tab:layer}, Figure~\ref{fig:layer}): $0.7090$ at Layer~8, $0.7806$ at Layer~16, and $0.7167$ at Layer~24.
 Holm-corrected pairwise tests~\citep{holm1979} give Layer~16 vs.\ Layer~8 $\Delta=+0.0717$ ($95\%$~{CI} $[0.0359, 0.1080]$, $p<0.001$) and Layer~16 vs.\ Layer~24 $\Delta=+0.0639$ ($95\%$~{CI} $[0.0368, 0.0944]$, $p<0.001$).
 This is localization \emph{within the evaluated set}, not a claim that Layer~16 is globally optimal.
 When $\propk$ is concatenated with length, Layer~24 reaches $0.8314$ versus Layer~16's $0.8293$, indicating complementary sequence-length information in deeper layers.
 
 \begin{table}[t]
 \centering
-\caption{Layer-wise confirmatory $\propk$ test {AUROC} with $95\%$ bootstrap confidence intervals.}
+\caption{Layer-wise $\propk$ test {AUROC} ($64${D} {PCA}; exploratory; Section~\ref{sec:prereg-status}) with $95\%$ bootstrap confidence intervals.}
 \label{tab:layer}
 \small
 \begin{tabular}{@{}crr@{}}
@@ -468,7 +476,7 @@ Table~\ref{tab:hero} and Figure~\ref{fig:hero} report every Layer~16 condition o
 \toprule
 Representation & {AUROC} & $\Delta$ vs.\ $\bllen$ & $p$ & $95\%$ {CI} \\
 \midrule
-{PCA} $64${D} (confirmatory) & $0.7806$ & $-0.0271$ & $0.8685$ & $[0.7298,\ 0.8232]$ \\
+{PCA} $64${D} (exploratory; Section~\ref{sec:prereg-status}) & $0.7806$ & $-0.0271$ & $0.8685$ & $[0.7298,\ 0.8232]$ \\
 {PC4}--{67} (ablation) & $0.7969$ & $-0.0108$ & $0.6935$ & $[0.7498,\ 0.8390]$ \\
 $\bllen$ (output baseline) & $0.8077$ & --- & --- & $[0.7632,\ 0.8475]$ \\
 Raw $3584${D} $\propk$ (exploratory) & $0.8472$ & $+0.0395$ & $0.004$ & $[0.8060,\ 0.8824]$ \\
@@ -480,12 +488,12 @@ $\blnorm$ (magnitude baseline) & $\mathbf{0.8588}$ & $+0.0511$ & --- & $[0.8239,
 \begin{figure}[t]
 \centering
 \includegraphics[width=\linewidth]{fig3_hero_comparison.pdf}
-\caption{Paired Layer~16 test {AUROC} on the $98$-prompt set: {PCA} $64${D} ($0.7806$), {PC4}--{67} ($0.7969$), $\bllen$ ($0.8077$), raw $3584${D} ($0.8472$), and $\blnorm$ ($0.8588$). $\blnorm$ and {PC4}--{67} are reported in full. Raw vs.\ $\bllen$ is exploratory ($p=0.004$).}
+\caption{Paired Layer~16 test {AUROC} on the $98$-prompt set ($n=496$): {PCA} $64${D} ($0.7806$; exploratory), {PC4}--{67} ($0.7969$), $\bllen$ ($0.8077$), raw $3584${D} ($0.8472$; exploratory), and $\blnorm$ ($0.8588$). $\blnorm$ and {PC4}--{67} are reported in full. All {Qwen} results are exploratory (Section~\ref{sec:prereg-status}).}
 \label{fig:hero}
 \end{figure}
 
 \paragraph{Raw $3584${D}.}
-Removing {PCA} yields exploratory $\auroc=0.8472$ ($\Delta=+0.0395$ vs.\ $\bllen$, $p=0.004$). This is not a confirmatory Gate~3 success.
+Removing {PCA} yields exploratory $\auroc=0.8472$ ($\Delta=+0.0395$ vs.\ $\bllen$, $p=0.004$). This is not a Gate~3 success, confirmatory or otherwise.
 
 \paragraph{{PC4}--{67}.}
 Discarding {PC1}--{3} improves on {PCA} $64${D} by $\Delta=+0.0163$ but remains below $\bllen$ ($0.7969$, $p=0.6935$ vs.\ $\bllen$). Leading-component removal is therefore not a sufficient fix.
@@ -582,23 +590,29 @@ This motivates task-aware projection rather than variance-only compression.
 \subsection{Limitations}
 \label{sec:limits}
 
+\subsubsection{Exploratory status of the executed model}
+All results that depend on the executed model are exploratory, not confirmatory (Section~\ref{sec:prereg-status}). The plan revision to \texttt{Qwen/Qwen2.5-7B-Instruct}/$3584${D}~\citep{exptrj001plan} was written after Phase~0--3 execution and after the numeric results were known; it cannot satisfy the pre-registration guarantee described in v1.3~\S1~\citep{exptrj001planv13}. This is the most significant limitation of the study as currently reported and is not merely a documentation formality.
+
 \subsubsection{Exploratory status of {ABL-1}}
-Raw $3584${D} $\propk$ was obtained after the confirmatory outcome and dropped \texttt{spike\_rate}; it is exploratory.
+Raw $3584${D} $\propk$ was obtained after the $64${D} {PCA} outcome and dropped \texttt{spike\_rate}; Task~D is the $5$-feature control.
 
 \subsubsection{Target definition}
 Binary labels map factual-positive versus hedge/abstain. The classifiers therefore probe hedging propensity, not unhedged factual hallucination alone.
 
 \subsubsection{Limited layer sampling}
-Only Layers~$8$, $16$, and $24$ were evaluated.
+Only Layers~$8$, $16$, and $24$ were evaluated. Layer-$16$ superiority is a reconfirmation within that set.
 
 \subsubsection{Limited ablation inventory}
 $98$ of $200$ designated ablation prompts were available; that shortfall is retained.
 
 \subsubsection{Single-model evaluation}
-Results are for \texttt{Qwen/Qwen2.5-7B-Instruct} only.
+Results are for \texttt{Qwen/Qwen2.5-7B-Instruct} only, which is itself a deviation from the model actually pre-registered before any data existed (\texttt{meta-llama/Meta-Llama-3.1-8B-Instruct}, v1.3).
 
 \subsubsection{Mechanism not identified}
 Massive-activation dominance of {PC1}--{3} is a supported interpretation, not a unique geometric localization of the lost $\kappa$ signal.
+
+\subsubsection{Incomplete freeze tag}
+The freeze manifest's \texttt{v1.4-frozen} tag has not been applied (freeze date and commit fields remain blank), a separate gap from the post-hoc plan-document issue above.
 
 %======================================================================
 \section{Conclusions and future work}
@@ -607,13 +621,12 @@ Massive-activation dominance of {PC1}--{3} is a supported interpretation, not a 
 \subsection{Conclusion}
 \label{sec:concl-main}
 
-This study began with a pre-registered hypothesis concerning whether a $64${D} {PCA} representation of {LLM} hidden-state trajectories could exceed a response-length baseline in hallucination/reliability discrimination.
-
-The primary confirmatory analysis did not meet the Gate~3 criterion ($\auroc_{\mathrm{PCA64}}=0.7806<\auroc_{\bllen}=0.8077$, $\Delta=-0.0271$, $p=0.8685$).
-On the same $98$-prompt test set, {PC4}--{67} reached only $0.7969$, raw $3584${D} $\propk$ reached $0.8472$ ($p=0.004$ vs.\ $\bllen$; exploratory), and $\blnorm$ reached $0.8588$.
+Experiment~\exptag{} shows that variance-maximizing {PCA} can obscure task-critical trajectory signals because massive activations monopolize global variance.
+The $64${D} {PCA} condition failed Gate~3 versus $\bllen$ ($\auroc_{\mathrm{PCA64}}=0.7806<\auroc_{\bllen}=0.8077$, $\Delta=-0.0271$, $p=0.8685$); this is an exploratory result for the executed model, \texttt{Qwen/Qwen2.5-7B-Instruct} (Section~\ref{sec:prereg-status}). A confirmatory test of the originally pre-registered model, {Llama-3.1-8B-Instruct}, has not been run.
+On the same $98$-prompt test set ($n=496$), {PC4}--{67} reached only $0.7969$ ($+0.0163$ vs.\ {PCA} $64${D}), raw $3584${D} $\propk$ reached $0.8472$ ($p=0.004$ vs.\ $\bllen$; exploratory), and $\blnorm$ reached $0.8588$.
 {PC1}--{3} occupy $99.933\%$ of calibration variance, consistent with massive-activation monopoly of global variance~\citep{sun2024massive}.
 
-The resulting scientific interpretation is deliberately narrower than a claim that {PCA} is universally harmful:
+The findings \emph{indicate}---they do not establish as a universal law---that variance-preserving reduction is not signal-preserving reduction for this trajectory probe. The resulting scientific interpretation is deliberately narrower than a claim that {PCA} is universally harmful:
 \begin{quote}
 \textbf{The evaluated variance-maximizing {PCA} projection did not preserve all of the task-relevant trajectory signal available in the raw hidden-state representation.}
 \end{quote}
@@ -671,7 +684,7 @@ The key requirement is not merely low dimensionality. It is preservation of the 
 \label{sec:repro}
 
 Artifact hashes, split files, and Phase~1--3 counts are recorded in Appendix~\ref{app:freeze}. Prompt inventories and Wikipedia filtering are specified in Appendix~\ref{app:filtering}. Detailed {AUROC} tables, including $\blnorm$ by layer, appear in Appendix~\ref{app:tables}.
-Confirmatory statements are those of the pre-registered $64${D} {PCA} Gate~3 test; raw $3584${D} recovery is exploratory; massive-activation dominance of {PC1}--{3} is a mechanistic hypothesis~\citep{nosek2018prereg,simmons2011false,sun2024massive}.
+All {AUROC}, $\Delta$, {CI}, and $p$ values that depend on the {Qwen2.5-7B}/$3584${D} execution are exploratory (Section~\ref{sec:prereg-status}); massive-activation dominance of {PC1}--{3} is a mechanistic hypothesis~\citep{nosek2018prereg,simmons2011false,sun2024massive}.
 Administrative freeze fields (timestamp, commit, approver) remain unfilled in the uploaded manifest and are not claimed complete.
 
 \begin{ack}
@@ -790,7 +803,7 @@ Phase~1 pilot & $1{,}000\times 8=8{,}000$ generations; Rule~3 \textbf{pass} \\
 
 \begin{table}[t]
 \centering
-\caption{Phase~3 confirmatory and ablation outcomes (Layer~16 unless noted).}
+\caption{Phase~3 exploratory {PCA} $64${D} and ablation outcomes (Layer~16 unless noted).}
 \label{tab:phase3}
 \small
 \begin{tabular}{@{}ll@{}}

@@ -68,7 +68,7 @@ LAYER_AUROC = {
 }
 
 HERO = [
-    {"name": "PCA 64D", "auroc": 0.7806, "kind": "confirmatory", "delta": -0.0271, "p": 0.8685},
+    {"name": "PCA 64D", "auroc": 0.7806, "kind": "exploratory", "delta": -0.0271, "p": 0.8685},
     {"name": "PC4--67", "auroc": 0.7969, "kind": "ablation", "delta": -0.0108, "p": 0.6935},
     {"name": "BL-LEN", "auroc": 0.8077, "kind": "baseline", "delta": 0.0, "p": None},
     {"name": "Raw 3584D", "auroc": 0.8472, "kind": "exploratory", "delta": 0.0395, "p": 0.004},
@@ -180,7 +180,7 @@ def figure1_pipeline() -> None:
     ax.set_ylim(-0.25, 11.15)
     ax.axis("off")
     ax.set_title(
-        "Experimental pipeline: confirmatory PCA vs. exploratory raw trajectories",
+        "Experimental pipeline: 64D PCA vs. uncompressed raw trajectories (both exploratory)",
         fontsize=11.2,
         pad=8,
         color=C["ink"],
@@ -209,8 +209,8 @@ def figure1_pipeline() -> None:
     )
     ax.add_patch(left_panel)
     ax.add_patch(right_panel)
-    ax.text(2.82, 6.45, "Exploratory  (ABL-1)", ha="center", va="center", fontsize=8.0, color=C["expl"], fontweight="bold", zorder=5)
-    ax.text(9.17, 6.45, "Confirmatory  (pre-registered)", ha="center", va="center", fontsize=8.0, color=C["conf"], fontweight="bold", zorder=5)
+    ax.text(2.82, 6.45, "Raw 3584D  (exploratory)", ha="center", va="center", fontsize=8.0, color=C["expl"], fontweight="bold", zorder=5)
+    ax.text(9.17, 6.45, "64D PCA  (exploratory)", ha="center", va="center", fontsize=8.0, color=C["conf"], fontweight="bold", zorder=5)
 
     _round_box(ax, (4.05, 10.05), 3.90, 0.78, "Prompt", C["ink"], C["ink"], fontsize=9.2)
     _round_box(ax, (3.25, 8.90), 5.50, 0.78, "LLM generation   (Qwen2.5-7B-Instruct)", C["ink"], C["ink"], fontsize=8.3)
@@ -292,8 +292,8 @@ def figure1_pipeline() -> None:
         fontsize=7.8,
     )
 
-    conf_p = mpatches.Patch(facecolor="#E4F0F8", edgecolor=C["conf"], label="Confirmatory (PCA)")
-    expl_p = mpatches.Patch(facecolor="#FDE8DC", edgecolor=C["expl"], label="Exploratory (Raw)")
+    conf_p = mpatches.Patch(facecolor="#E4F0F8", edgecolor=C["conf"], label="64D PCA (exploratory)")
+    expl_p = mpatches.Patch(facecolor="#FDE8DC", edgecolor=C["expl"], label="Raw 3584D (exploratory)")
     ax.legend(handles=[conf_p, expl_p], loc="upper left", bbox_to_anchor=(0.0, 1.01), frameon=False, fontsize=8)
 
     _save(fig, "fig1_pipeline")
@@ -416,7 +416,7 @@ def figure3_hero() -> None:
     ax.xaxis.grid(False)
 
     handles = [
-        mpatches.Patch(color=C["gray"], label="PCA 64D  (confirmatory)"),
+        mpatches.Patch(color=C["gray"], label="PCA 64D  (exploratory)"),
         mpatches.Patch(color="#5B7C99", label="PC4--67  (ablation)"),
         mpatches.Patch(color=C["blue"], label="BL-LEN  (output baseline)"),
         mpatches.Patch(color=C["green"], label="Raw 3584D  (exploratory)"),
