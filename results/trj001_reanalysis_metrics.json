@@ -1,0 +1,102 @@
+{
+  "schema_version": "trj001-reanalysis-v3.3",
+  "self_test": false,
+  "n_bootstrap": 2000,
+  "seed": 20260912,
+  "data_source": {
+    "roots": [
+      "/Users/tomonam3/GemminAI/EXP--TRJ001/results",
+      "/Users/tomonam3/GemminAI/EXP--TRJ001/data/trajectories"
+    ],
+    "files": [],
+    "n_loaded": 0,
+    "n_with_raw": 0,
+    "n_with_pca": 0,
+    "n_with_label": 0,
+    "n_test_prompts": 0,
+    "mode": "freeze-data"
+  },
+  "env": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "model_commit_hash": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "vllm_version": "0.29.0",
+    "cuda": "13.0",
+    "torch": "2.13.0+cu130",
+    "gpu": "NVIDIA A40",
+    "python": "3.11.10",
+    "source": "docs/Paper/FREEZE_MANIFEST.md",
+    "env_info_json_present": true,
+    "freeze_manifest_present": true,
+    "mismatches": [],
+    "measured": {
+      "source": "reconstructed from docs/Paper/FREEZE_MANIFEST.md (original GPU-side results/env_info.json is not present in this clone)",
+      "reconstructed_from_freeze": true,
+      "timestamp_utc": "2026-09-13",
+      "python_version": "3.11.10",
+      "torch_version": "2.13.0+cu130",
+      "cuda_available": true,
+      "cuda_version": "13.0",
+      "vllm_version": "0.29.0",
+      "gpu_devices": [
+        "NVIDIA A40"
+      ],
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "model_commit_hash": "a09a35458c702b33eeacc393d103063234e8bc28"
+    }
+  },
+  "freeze_reference": {
+    "source": "/Users/tomonam3/GemminAI/EXP--TRJ001/docs/Paper/phase3_metrics.json",
+    "frozen": {
+      "n_test": 496,
+      "BL-LEN": 0.8077023264900771,
+      "BL-NORM": 0.858766260195692,
+      "PROP-kappa_PCA64": 0.7806359181414129,
+      "Raw": 0.8472233528157205,
+      "PC4-67": 0.7969490256092995
+    }
+  },
+  "task_a": {
+    "label_breakdown": {
+      "n_prompts": 98,
+      "n_generations": 784,
+      "expected_generations": 784,
+      "class_e_threshold": 20,
+      "source": "docs/Paper/phase3_metrics.json n_test=496 plus 98\u00d78 inventory",
+      "excluded": {
+        "n": 288,
+        "y1": null,
+        "y0": null,
+        "other": null,
+        "positive_rate": null,
+        "note": "Label counts require phase2_trajectories.json"
+      },
+      "before_exclusion": {
+        "n": 784,
+        "y1": null,
+        "y0": null,
+        "other": null,
+        "positive_rate": null
+      },
+      "after_exclusion": {
+        "n": 496,
+        "y1": null,
+        "y0": null,
+        "other": null,
+        "positive_rate": null
+      },
+      "paired_note": "BL-LEN and BL-NORM are scored on the identical eligible set (T>=20, n=496) as Raw 3584D and PCA 64D; no comparator uses a different prompt inventory."
+    },
+    "threshold_sensitivity": {},
+    "paired_evaluation": {
+      "statement": "BL-LEN and BL-NORM are evaluated on the same eligible generations as Raw 3584D and PCA 64D (prompt-clustered test inventory; T>=20)."
+    }
+  },
+  "task_b": {},
+  "task_c": {},
+  "task_d": {},
+  "error": "No hidden-state / projected trajectories were found. Place freeze artifacts under results/ or pass --data-root. Task A-1 (labels/T) ran if metadata was present; A-2/B/C/D require trajectories.",
+  "searched_roots": [
+    "/Users/tomonam3/GemminAI/EXP--TRJ001/results",
+    "/Users/tomonam3/GemminAI/EXP--TRJ001/data/trajectories"
+  ]
+}

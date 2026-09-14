@@ -1,0 +1,13 @@
+{
+  "source": "reconstructed from docs/Paper/FREEZE_MANIFEST.md (original GPU-side results/env_info.json is not present in this clone)",
+  "reconstructed_from_freeze": true,
+  "timestamp_utc": "2026-09-13",
+  "python_version": "3.11.10",
+  "torch_version": "2.13.0+cu130",
+  "cuda_available": true,
+  "cuda_version": "13.0",
+  "vllm_version": "0.29.0",
+  "gpu_devices": ["NVIDIA A40"],
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_commit_hash": "a09a35458c702b33eeacc393d103063234e8bc28"
+}

@@ -1,0 +1,225 @@
+\begin{thebibliography}{33}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alain and Bengio(2017)]{alain2017probes}
+Guillaume Alain and Yoshua Bengio.
+\newblock Understanding intermediate layers using linear classifier probes.
+\newblock \emph{arXiv preprint arXiv:1610.01644}, 2017.
+
+\bibitem[Azaria and Mitchell(2023)]{azaria2023internal}
+Amos Azaria and Tom Mitchell.
+\newblock The internal state of an {LLM} knows when it's lying.
+\newblock \emph{arXiv preprint arXiv:2304.13734}, 2023.
+
+\bibitem[Belinkov and Glass(2019)]{belinkov2019}
+Yonatan Belinkov and James Glass.
+\newblock Analysis methods in neural language processing: A survey.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  7:\penalty0 49--72, 2019.
+
+\bibitem[Chen et~al.(2024)Chen, Liu, Chen, Gu, Wu, Tao, Fu, and
+  Ye]{chen2024inside}
+Chao Chen, Kai Liu, Zewei Chen, Yi~Gu, Yuehao Wu, Mingyuan Tao, Zhihang Fu, and
+  Jieping Ye.
+\newblock {INSIDE}: {LLM}s' internal states retain the power of hallucination
+  detection.
+\newblock In \emph{International Conference on Learning Representations}, 2024.
+
+\bibitem[Efron and Tibshirani(1993)]{efron1993}
+Bradley Efron and Robert~J. Tibshirani.
+\newblock \emph{An Introduction to the Bootstrap}.
+\newblock Chapman \& Hall, 1993.
+
+\bibitem[Elhage et~al.(2022)Elhage, Hume, Olsson, Schiefer, Henighan, Kravec,
+  Hatfield-Dodds, Lasenby, Drain, Chen, et~al.]{elhage2022toy}
+Nelson Elhage, Tristan Hume, Catherine Olsson, Nicholas Schiefer, Tom Henighan,
+  Shauna Kravec, Zac Hatfield-Dodds, Robert Lasenby, Dawn Drain, Carol Chen,
+  et~al.
+\newblock Toy models of superposition.
+\newblock \emph{Transformer Circuits Thread}, 2022.
+
+\bibitem[Farquhar et~al.(2024)Farquhar, Kossen, Kuhn, and
+  Gal]{farquhar2024semantic}
+Sebastian Farquhar, Jannik Kossen, Lorenz Kuhn, and Yarin Gal.
+\newblock Detecting hallucinations in large language models using semantic
+  entropy.
+\newblock \emph{Nature}, 630:\penalty0 625--630, 2024.
+
+\bibitem[Fawcett(2006)]{fawcett2006}
+Tom Fawcett.
+\newblock An introduction to {ROC} analysis.
+\newblock \emph{Pattern Recognition Letters}, 27\penalty0 (8):\penalty0
+  861--874, 2006.
+
+\bibitem[Gurnee et~al.(2023)Gurnee, Nanda, Paik, Fredrikson,
+  et~al.]{gurnee2023finding}
+Wes Gurnee, Neel Nanda, Matthew Paik, Matt Fredrikson, et~al.
+\newblock Finding neurons in a haystack: Case studies with sparse probing.
+\newblock In \emph{Transactions on Machine Learning Research}, 2023.
+
+\bibitem[Hanley and McNeil(1982)]{hanley1982}
+James~A. Hanley and Barbara~J. McNeil.
+\newblock The meaning and use of the area under a receiver operating
+  characteristic ({ROC}) curve.
+\newblock \emph{Radiology}, 143\penalty0 (1):\penalty0 29--36, 1982.
+
+\bibitem[Holm(1979)]{holm1979}
+Sture Holm.
+\newblock A simple sequentially rejective multiple test procedure.
+\newblock \emph{Scandinavian Journal of Statistics}, 6\penalty0 (2):\penalty0
+  65--70, 1979.
+
+\bibitem[Hotelling(1933)]{hotelling1933}
+Harold Hotelling.
+\newblock Analysis of a complex of statistical variables into principal
+  components.
+\newblock \emph{Journal of Educational Psychology}, 24\penalty0 (6):\penalty0
+  417--441, 1933.
+
+\bibitem[Huang et~al.(2025)Huang, Yu, Ma, Zhong, Feng, Wang, Chen, Peng, Feng,
+  Qin, et~al.]{huang2025survey}
+Lei Huang, Weijiang Yu, Weitao Ma, Weihong Zhong, Zhangyin Feng, Haotian Wang,
+  Qianglong Chen, Weihua Peng, Xiaocheng Feng, Bing Qin, et~al.
+\newblock A survey on hallucination in large language models: Principles,
+  taxonomy, challenges, and open questions.
+\newblock \emph{ACM Transactions on Information Systems}, 43\penalty0
+  (2):\penalty0 1--55, 2025.
+
+\bibitem[Ji et~al.(2023)Ji, Lee, Frieske, Yu, Su, Xu, Ishii, Bang, Madotto, and
+  Fung]{ji2023survey}
+Ziwei Ji, Nayeon Lee, Rita Frieske, Tiezheng Yu, Dan Su, Yan Xu, Etsuko Ishii,
+  Ye~Jin Bang, Andrea Madotto, and Pascale Fung.
+\newblock Survey of hallucination in natural language generation.
+\newblock \emph{ACM Computing Surveys}, 55\penalty0 (12):\penalty0 1--38, 2023.
+
+\bibitem[Jolliffe(2002)]{jolliffe2002}
+I.~T. Jolliffe.
+\newblock \emph{Principal Component Analysis}.
+\newblock Springer, 2 edition, 2002.
+
+\bibitem[Jolliffe and Cadima(2016)]{chvatal1983linear}
+Ian~T. Jolliffe and Jorge Cadima.
+\newblock Principal component analysis: A review and recent developments.
+\newblock \emph{Philosophical Transactions of the Royal Society A},
+  374\penalty0 (2065):\penalty0 20150202, 2016.
+
+\bibitem[Kadavath et~al.(2022)Kadavath, Conerly, Askell, Henighan, Drain,
+  Perez, Schiefer, Hatfield-Dodds, DasSarma, Johnston, et~al.]{kadavath2022}
+Saurav Kadavath, Tom Conerly, Amanda Askell, Tom Henighan, Dawn Drain, Ethan
+  Perez, Nicholas Schiefer, Zac Hatfield-Dodds, Nova DasSarma, Eli Johnston,
+  et~al.
+\newblock Language models (mostly) know what they know.
+\newblock \emph{arXiv preprint arXiv:2207.05221}, 2022.
+
+\bibitem[Kuhn et~al.(2023)Kuhn, Gal, and Farquhar]{kuhn2023semantic}
+Lorenz Kuhn, Yarin Gal, and Sebastian Farquhar.
+\newblock Semantic uncertainty: Linguistic invariances for uncertainty
+  estimation in natural language generation.
+\newblock In \emph{International Conference on Learning Representations}, 2023.
+
+\bibitem[Kwon et~al.(2023)Kwon, Li, Zhuang, Sheng, Zheng, Yu, Gonzalez, Zhang,
+  and Stoica]{kwon2023vllm}
+Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody~Hao Yu,
+  Joseph~E. Gonzalez, Hao Zhang, and Ion Stoica.
+\newblock Efficient memory management for large language model serving with
+  {PagedAttention}.
+\newblock In \emph{Proceedings of the 29th Symposium on Operating Systems
+  Principles}, pages 611--626, 2023.
+
+\bibitem[Manakul et~al.(2023)Manakul, Liusie, and Gales]{manakul2023selfcheck}
+Potsawee Manakul, Adian Liusie, and Mark J.~F. Gales.
+\newblock {SelfCheckGPT}: Zero-resource black-box hallucination detection for
+  generative large language models.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing}, 2023.
+
+\bibitem[Marks and Tegmark(2024)]{marks2024geometry}
+Samuel Marks and Max Tegmark.
+\newblock The geometry of truth: Emergent linear structure in large language
+  model representations of true/false datasets.
+\newblock \emph{arXiv preprint arXiv:2310.06824}, 2024.
+
+\bibitem[Nakamura(2026{\natexlab{a}})]{exptrj001freeze}
+Tomohiko Nakamura.
+\newblock {FREEZE MANIFEST} --- {EXP-2026-NVS-001} v1.4.
+\newblock Internal freeze record, 2026{\natexlab{a}}.
+\newblock Administrative freeze fields were incomplete at manuscript freeze.
+
+\bibitem[Nakamura(2026{\natexlab{b}})]{exptrj001plan}
+Tomohiko Nakamura.
+\newblock {EXP-2026-NVS-001} experimental plan v1.4.
+\newblock Frozen experimental protocol, {Gemmina} Intelligence {LLC},
+  2026{\natexlab{b}}.
+\newblock SHA-256 recorded in the freeze manifest.
+
+\bibitem[Nosek et~al.(2018)Nosek, Ebersole, DeHaven, and
+  Mellor]{nosek2018prereg}
+Brian~A. Nosek, Charles~R. Ebersole, Alexander~C. DeHaven, and David~T. Mellor.
+\newblock The preregistration revolution.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 115\penalty0
+  (11):\penalty0 2600--2606, 2018.
+
+\bibitem[Orgad et~al.(2024)Orgad, Toker, Gekhman, Reichart, Szpektor, Kotek,
+  and Belinkov]{orgad2024llms}
+Hadas Orgad, Michael Toker, Zorik Gekhman, Roi Reichart, Idan Szpektor, Hadas
+  Kotek, and Yonatan Belinkov.
+\newblock {LLM}s know more than they show: On the intrinsic representation of
+  {LLM} hallucinations.
+\newblock \emph{arXiv preprint arXiv:2410.02707}, 2024.
+
+\bibitem[Park et~al.(2024)Park, Choe, and Veitch]{park2024linear}
+Kiho Park, Yo~Joong Choe, and Victor Veitch.
+\newblock The linear representation hypothesis and the geometry of large
+  language models.
+\newblock \emph{arXiv preprint arXiv:2311.03658}, 2024.
+
+\bibitem[Pearson(1901)]{pearson1901}
+Karl Pearson.
+\newblock On lines and planes of closest fit to systems of points in space.
+\newblock \emph{Philosophical Magazine}, 2\penalty0 (11):\penalty0 559--572,
+  1901.
+
+\bibitem[Simmons et~al.(2011)Simmons, Nelson, and Simonsohn]{simmons2011false}
+Joseph~P. Simmons, Leif~D. Nelson, and Uri Simonsohn.
+\newblock False-positive psychology: Undisclosed flexibility in data collection
+  and analysis allows presenting anything as significant.
+\newblock \emph{Psychological Science}, 22\penalty0 (11):\penalty0 1359--1366,
+  2011.
+
+\bibitem[Sun et~al.(2024)Sun, Chen, Kolter, and Liu]{sun2024massive}
+Mingjie Sun, Xinlei Chen, J.~Zico Kolter, and Zhuang Liu.
+\newblock Massive activations in large language models.
+\newblock In \emph{First Conference on Language Modeling}, 2024.
+\newblock arXiv:2402.17762.
+
+\bibitem[Team(2024)]{qwen25}
+Qwen Team.
+\newblock {Qwen2.5} technical report, 2024.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswani2017}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N. Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~30, 2017.
+
+\bibitem[Yang et~al.(2024)Yang, Yang, Hui, Zheng, Yu, Zhou, Li, Li, Liu, Huang,
+  et~al.]{yang2024qwen2}
+An~Yang, Baosong Yang, Binyuan Hui, Bo~Zheng, Bowen Yu, Chang Zhou, Chengpeng
+  Li, Chengyuan Li, Dayiheng Liu, Fei Huang, et~al.
+\newblock {Qwen2} technical report.
+\newblock \emph{arXiv preprint arXiv:2407.10671}, 2024.
+
+\bibitem[Zou et~al.(2023)Zou, Phan, Chen, Campbell, Guo, Ren, Pan, Yin,
+  Mazeika, Dombrowski, et~al.]{zou2023repeng}
+Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren,
+  Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, et~al.
+\newblock Representation engineering: A top-down approach to {AI} transparency.
+\newblock \emph{arXiv preprint arXiv:2310.01405}, 2023.
+
+\end{thebibliography}
