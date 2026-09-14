@@ -1,0 +1,123 @@
+{
+  "note": "Norm-free re-analysis: M4-NF/M5-NF/kappa_cos_NF operate only on direction(t) = z(t)/||z(t)||; BL-NORM is the unchanged magnitude-only control from the original TRJ002b run, recomputed here from the same P_opt projection for a fair self-consistent comparison. External BL-LEN/BL-NORM spec figures (0.8077/0.8588) were never reproduced on this repo (same caveat as TRJ002a/TRJ002b's first pass).",
+  "auroc_m4_NF": 0.8194776497862784,
+  "auroc_m5_NF": 0.8837752662464682,
+  "auroc_kappa_cos_NF": 0.8283706440628849,
+  "significance_tests": {
+    "kappa_cos_NF_genuine_vs_shuffled": {
+      "diff": -0.030373831775701077,
+      "ci_lo": -0.06957637750340202,
+      "ci_hi": 0.009911419521407012,
+      "p_value": 0.134
+    },
+    "m4_NF_genuine_vs_shuffled": {
+      "diff": 0.038288777801927076,
+      "ci_lo": -0.0041871882086808145,
+      "ci_hi": 0.08298805822389646,
+      "p_value": 0.073
+    },
+    "m5_NF_genuine_vs_shuffled": {
+      "diff": 0.08990799101644575,
+      "ci_lo": 0.04208172645288477,
+      "ci_hi": 0.13720259534823973,
+      "p_value": 0.0
+    },
+    "m5_NF_vs_m4_NF": {
+      "diff": 0.06429761646018983,
+      "ci_lo": 0.0075244200367815955,
+      "ci_hi": 0.11997654036736,
+      "p_value": 0.032
+    },
+    "m4_NF_vs_bl_norm": {
+      "diff": -0.17063319568209812,
+      "ci_lo": -0.21265430819305123,
+      "ci_hi": -0.13220456513504197,
+      "p_value": 0.0
+    },
+    "m5_NF_vs_bl_norm": {
+      "diff": -0.10633557922190828,
+      "ci_lo": -0.14739511728001603,
+      "ci_hi": -0.07192135374114926,
+      "p_value": 0.0
+    },
+    "kappa_cos_NF_vs_bl_norm": {
+      "diff": -0.1617402014054916,
+      "ci_lo": -0.20351357918038848,
+      "ci_hi": -0.12632976991704906,
+      "p_value": 0.0
+    }
+  },
+  "decision_external_baselines": {
+    "baseline_source": "external_spec_TRJ001",
+    "bl_len": 0.8077,
+    "bl_norm": 0.8588,
+    "outcome_A_neural_ode_superior": true,
+    "outcome_B_gp_equivalent_or_better": false,
+    "outcome_C_retract_hypothesis": false
+  },
+  "decision_self_measured_bl_norm": {
+    "baseline_source": "self_measured_bl_norm_only",
+    "bl_len": 0.8077,
+    "bl_norm": 0.9901108454683765,
+    "outcome_A_neural_ode_superior": true,
+    "outcome_B_gp_equivalent_or_better": false,
+    "outcome_C_retract_hypothesis": true
+  },
+  "final_verdict": {
+    "m4_NF_passes_shuffle_validity_gate_p_lt_0.01": false,
+    "m5_NF_passes_shuffle_validity_gate_p_lt_0.01": true,
+    "interpretation": "Raw decision-matrix arithmetic is reported above, but per spec S2.1 a model must ALSO beat its own token-shuffled control at p<0.01 to be treated as capturing genuine temporal dynamics. Only a model with its validity-gate flag True should be read as supporting Outcome A/B; a False flag means that model's AUROC advantage (if any) has not been shown to depend on token order at all, even after magnitude was removed."
+  },
+  "results": {
+    "kappa_cos_NF_genuine": {
+      "best_C": 100.0,
+      "val_auroc": 0.8173768258533263,
+      "test_auroc": 0.8283706440628849,
+      "test_ci_lo": 0.7867461670910655,
+      "test_ci_hi": 0.8628768078016973
+    },
+    "kappa_cos_NF_shuffled": {
+      "best_C": 100.0,
+      "val_auroc": 0.8529226267060219,
+      "test_auroc": 0.8587444758385859,
+      "test_ci_lo": 0.8218754589357646,
+      "test_ci_hi": 0.8893842505050115
+    },
+    "m4_NF_genuine": {
+      "best_C": 0.01,
+      "val_auroc": 0.8193193571987185,
+      "test_auroc": 0.8194776497862784,
+      "test_ci_lo": 0.7783625977462612,
+      "test_ci_hi": 0.8564355689474064
+    },
+    "m4_NF_shuffled": {
+      "best_C": 0.001,
+      "val_auroc": 0.787103610080981,
+      "test_auroc": 0.7811888719843513,
+      "test_ci_lo": 0.7335358215588835,
+      "test_ci_hi": 0.8221756126053001
+    },
+    "m5_NF_genuine": {
+      "best_C": 0.01,
+      "val_auroc": 0.8971972047730771,
+      "test_auroc": 0.8837752662464682,
+      "test_ci_lo": 0.8443726483853607,
+      "test_ci_hi": 0.9173121043076953
+    },
+    "m5_NF_shuffled": {
+      "best_C": 10.0,
+      "val_auroc": 0.8422765458260804,
+      "test_auroc": 0.7938672752300224,
+      "test_ci_lo": 0.75446392977665,
+      "test_ci_hi": 0.8300628557152305
+    },
+    "bl_norm": {
+      "best_C": 100.0,
+      "val_auroc": 0.9858472716264286,
+      "test_auroc": 0.9901108454683765,
+      "test_ci_lo": 0.9819500546575985,
+      "test_ci_hi": 0.9964830027123193
+    }
+  },
+  "n_test_prompts_mixed": 59
+}

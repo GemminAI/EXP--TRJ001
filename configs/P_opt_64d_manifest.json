@@ -1,0 +1,21 @@
+{
+  "winner": "supervised_autoencoder_64d",
+  "val_results": {
+    "pca_64d": {
+      "val_auroc": 0.7354373218295114,
+      "best_C": 100.0,
+      "theta": 0.2314558884770519
+    },
+    "supervised_linear_64d": {
+      "val_auroc": 0.8187643482428921,
+      "best_C": 100.0,
+      "theta": 0.27954927438200206
+    },
+    "supervised_autoencoder_64d": {
+      "val_auroc": 0.8194454955977699,
+      "best_C": 10.0,
+      "theta": 0.5014823560251974
+    }
+  },
+  "notice": "Selected by highest Validation-split AUROC (kappa-feature + logistic-regression pipeline). Test split was not touched by this script (Validation Freeze Rule)."
+}

@@ -1,0 +1,98 @@
+{
+  "note": "BL-LEN (0.8077) and BL-NORM (0.8588) external figures are taken from the TRJ002 spec, not reproduced by this repo (same caveat as TRJ002a's external Raw-3584D figure). This run's own measured bl_len/bl_norm Test AUROC are reported under 'results' and used for a self-consistent second decision-matrix reading ('decision_self_measured').",
+  "auroc_m4": 0.9577628051872781,
+  "auroc_m5": 0.9910888937187567,
+  "significance_tests": {
+    "m5_vs_m4": {
+      "diff": 0.03332608853147867,
+      "ci_lo": 0.019963985102624385,
+      "ci_hi": 0.05073372435764569,
+      "p_value": 0.0
+    },
+    "m4_vs_bl_len": {
+      "diff": 0.22705209012533512,
+      "ci_lo": 0.18380825866347567,
+      "ci_hi": 0.27595215131280515,
+      "p_value": 0.0
+    },
+    "m5_vs_bl_len": {
+      "diff": 0.2603781786568138,
+      "ci_lo": 0.2135066236312327,
+      "ci_hi": 0.31177800265032096,
+      "p_value": 0.0
+    },
+    "m4_genuine_vs_shuffled": {
+      "diff": -0.027059334927189704,
+      "ci_lo": -0.04119783837288585,
+      "ci_hi": -0.015737427129716552,
+      "p_value": 0.0
+    },
+    "m5_genuine_vs_shuffled": {
+      "diff": 0.011138882851553955,
+      "ci_lo": 0.00012738798626030226,
+      "ci_hi": 0.02535762544384367,
+      "p_value": 0.048
+    }
+  },
+  "decision_external_baselines": {
+    "baseline_source": "external_spec_TRJ001",
+    "bl_len": 0.8077,
+    "bl_norm": 0.8588,
+    "outcome_A_neural_ode_superior": true,
+    "outcome_B_gp_equivalent_or_better": false,
+    "outcome_C_retract_hypothesis": false
+  },
+  "decision_self_measured": {
+    "baseline_source": "self_measured_this_run",
+    "bl_len": 0.730710715061943,
+    "bl_norm": 0.9901108454683765,
+    "outcome_A_neural_ode_superior": true,
+    "outcome_B_gp_equivalent_or_better": false,
+    "outcome_C_retract_hypothesis": false
+  },
+  "results": {
+    "m4_genuine": {
+      "best_C": 10.0,
+      "val_auroc": 0.9577436363177678,
+      "test_auroc": 0.9577628051872781,
+      "test_ci_lo": 0.9389128734023185,
+      "test_ci_hi": 0.9723688144859095
+    },
+    "m4_shuffled": {
+      "best_C": 100.0,
+      "val_auroc": 0.9806503695855093,
+      "test_auroc": 0.9848221401144678,
+      "test_ci_lo": 0.9761710198840131,
+      "test_ci_hi": 0.9921818846074518
+    },
+    "m5_genuine": {
+      "best_C": 0.1,
+      "val_auroc": 0.9873104770554252,
+      "test_auroc": 0.9910888937187567,
+      "test_ci_lo": 0.9844651823283156,
+      "test_ci_hi": 0.9961859086263135
+    },
+    "m5_shuffled": {
+      "best_C": 1.0,
+      "val_auroc": 0.9738641237165417,
+      "test_auroc": 0.9799500108672028,
+      "test_ci_lo": 0.9647063574468399,
+      "test_ci_hi": 0.9921302297923779
+    },
+    "bl_len": {
+      "best_C": 0.001,
+      "val_auroc": 0.7226342743257903,
+      "test_auroc": 0.730710715061943,
+      "test_ci_lo": 0.6791038218967189,
+      "test_ci_hi": 0.7773691875644272
+    },
+    "bl_norm": {
+      "best_C": 100.0,
+      "val_auroc": 0.9858472716264286,
+      "test_auroc": 0.9901108454683765,
+      "test_ci_lo": 0.9819500546575985,
+      "test_ci_hi": 0.9964830027123193
+    }
+  },
+  "n_test_prompts_mixed": 59
+}

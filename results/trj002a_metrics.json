@@ -1,0 +1,93 @@
+{
+  "external_raw_3584d_auroc_TRJ001": 0.8472,
+  "external_bl_len_auroc_TRJ001": 0.8077,
+  "note_on_external_figures": "These two figures are taken from the TRJ002a spec / user confirmation, not reproduced by this repo (EXP--TRJ001 here never ran Phase 1-3; see configs/data_splits.json). This run's OWN measured raw_3584d and bl_len Test AUROC are reported below under 'results' for direct, apples-to-apples comparison against this run's own pca_64d / supervised_* numbers.",
+  "acceptance_criterion": {
+    "p_opt": "supervised_autoencoder_64d",
+    "p_opt_test_auroc": 0.800604940954865,
+    "threshold": 0.8321999999999999,
+    "meets_margin_vs_external_raw_0_8472": false,
+    "p_value_vs_pca64": 0.061,
+    "significant_vs_pca64_p_lt_0_05": false,
+    "ACCEPTED": false
+  },
+  "results": {
+    "raw_3584d": {
+      "name": "raw_3584d",
+      "best_C": 0.1,
+      "val_auroc": 0.7727995156285477,
+      "test_auroc": 0.7667173802796493,
+      "test_ci_lo": 0.7117036845331357,
+      "test_ci_hi": 0.8117888215421303,
+      "n_boot_valid": 2000,
+      "delta_vs_pca64": 0.01329421140331799,
+      "p_value_vs_pca64": 0.726,
+      "delta_ci_lo": -0.06365579423306038,
+      "delta_ci_hi": 0.08777773196843039
+    },
+    "supervised_autoencoder_64d": {
+      "name": "supervised_autoencoder_64d",
+      "best_C": 10.0,
+      "val_auroc": 0.8194454955977699,
+      "test_auroc": 0.800604940954865,
+      "test_ci_lo": 0.746971929167678,
+      "test_ci_hi": 0.8483879240972569,
+      "n_boot_valid": 2000,
+      "delta_vs_pca64": 0.04718177207853369,
+      "p_value_vs_pca64": 0.061,
+      "delta_ci_lo": -0.0015986714113998184,
+      "delta_ci_hi": 0.10231819539075455
+    },
+    "supervised_linear_64d": {
+      "name": "supervised_linear_64d",
+      "best_C": 100.0,
+      "val_auroc": 0.8187643482428921,
+      "test_auroc": 0.7688002608128668,
+      "test_ci_lo": 0.7151688663918649,
+      "test_ci_hi": 0.8160549820933705,
+      "n_boot_valid": 2000,
+      "delta_vs_pca64": 0.01537709193653547,
+      "p_value_vs_pca64": 0.534,
+      "delta_ci_lo": -0.03553936764139193,
+      "delta_ci_hi": 0.06779310561947899
+    },
+    "random_projection_64d": {
+      "name": "random_projection_64d",
+      "best_C": 0.1,
+      "val_auroc": 0.7773152703145892,
+      "test_auroc": 0.7734550460044918,
+      "test_ci_lo": 0.7196159099019283,
+      "test_ci_hi": 0.8185035363269546,
+      "n_boot_valid": 2000,
+      "delta_vs_pca64": 0.020031877128160458,
+      "p_value_vs_pca64": 0.581,
+      "delta_ci_lo": -0.05432046175770691,
+      "delta_ci_hi": 0.09640034866597355
+    },
+    "pca_64d": {
+      "name": "pca_64d",
+      "best_C": 100.0,
+      "val_auroc": 0.7354373218295114,
+      "test_auroc": 0.7534231688763313,
+      "test_ci_lo": 0.6923469589062424,
+      "test_ci_hi": 0.8056685062819049,
+      "n_boot_valid": 2000,
+      "delta_vs_pca64": 0.0,
+      "p_value_vs_pca64": null
+    },
+    "bl_len": {
+      "name": "bl_len",
+      "best_C": 0.001,
+      "val_auroc": 0.7226342743257903,
+      "test_auroc": 0.730710715061943,
+      "test_ci_lo": 0.6791038218967189,
+      "test_ci_hi": 0.7773691875644272,
+      "n_boot_valid": 2000,
+      "delta_vs_pca64": -0.022712453814388356,
+      "p_value_vs_pca64": 0.395,
+      "delta_ci_lo": -0.07469129561310472,
+      "delta_ci_hi": 0.027564993094765754
+    }
+  },
+  "n_test_prompts_mixed": 59
+}
