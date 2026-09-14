@@ -1,126 +1,126 @@
 {
   "note": "Same Norm-Free pipeline as run_trj002b_temporal_reanalysis.py, but projected through the UNSUPERVISED PCA 64D candidate (configs/candidates/pca_64d.npz) instead of P_opt (Supervised Autoencoder), to test whether BL-NORM's near-perfect score was specific to P_opt's classification-shaped latent norm.",
-  "auroc_m4_NF": 0.25396825396825395,
-  "auroc_m5_NF": 0.8571428571428571,
-  "auroc_kappa_cos_NF": 0.8095238095238094,
+  "auroc_m4_NF": 0.7285191625009055,
+  "auroc_m5_NF": 0.7718793016011012,
+  "auroc_kappa_cos_NF": 0.6918242411070057,
   "significance_tests": {
     "kappa_cos_NF_genuine_vs_shuffled": {
-      "diff": 0.015873015873015706,
-      "ci_lo": -0.5000000000000001,
-      "ci_hi": 0.5333333333333333,
-      "p_value": 0.532
+      "diff": -0.0770665797290444,
+      "ci_lo": -0.1291712399606679,
+      "ci_hi": -0.022801771218264967,
+      "p_value": 0.003
     },
     "m4_NF_genuine_vs_shuffled": {
-      "diff": -0.3333333333333335,
-      "ci_lo": -0.6666666666666667,
-      "ci_hi": 0.1333333333333333,
-      "p_value": 0.509
+      "diff": 0.012497283199304432,
+      "ci_lo": -0.026891290558009883,
+      "ci_hi": 0.05111977973007384,
+      "p_value": 0.545
     },
     "m5_NF_genuine_vs_shuffled": {
-      "diff": 0.11111111111111105,
-      "ci_lo": 0.11111111111111105,
-      "ci_hi": 0.3333333333333333,
-      "p_value": 0.0
+      "diff": 0.09075925523436934,
+      "ci_lo": 0.00886909569755937,
+      "ci_hi": 0.16977754414988275,
+      "p_value": 0.033
     },
     "m5_NF_vs_m4_NF": {
-      "diff": 0.6031746031746031,
-      "ci_lo": 0.1333333333333333,
-      "ci_hi": 0.75,
-      "p_value": 0.0
+      "diff": 0.04336013910019565,
+      "ci_lo": -0.04006337157435516,
+      "ci_hi": 0.1154918971881218,
+      "p_value": 0.275
     },
     "m4_NF_vs_bl_norm": {
-      "diff": -0.4126984126984127,
-      "ci_lo": -0.4126984126984127,
-      "ci_hi": -0.1333333333333333,
-      "p_value": 0.0
+      "diff": -0.017043396363109475,
+      "ci_lo": -0.047038869976228644,
+      "ci_hi": 0.01253339341551517,
+      "p_value": 0.253
     },
     "m5_NF_vs_bl_norm": {
-      "diff": 0.19047619047619047,
-      "ci_lo": 0.0,
-      "ci_hi": 0.4166666666666667,
-      "p_value": 0.509
+      "diff": 0.026316742737086174,
+      "ci_lo": -0.05486665581638736,
+      "ci_hi": 0.09757306831273556,
+      "p_value": 0.463
     },
     "kappa_cos_NF_vs_bl_norm": {
-      "diff": 0.1428571428571428,
-      "ci_lo": 0.0,
-      "ci_hi": 0.1428571428571428,
-      "p_value": 0.509
+      "diff": -0.053738317757009324,
+      "ci_lo": -0.10879089878169326,
+      "ci_hi": -0.0023907330309152893,
+      "p_value": 0.035
     }
   },
   "decision_external_baselines": {
     "baseline_source": "external_spec_TRJ001",
     "bl_len": 0.8077,
     "bl_norm": 0.8588,
-    "outcome_A_neural_ode_superior": true,
+    "outcome_A_neural_ode_superior": false,
     "outcome_B_gp_equivalent_or_better": false,
     "outcome_C_retract_hypothesis": true
   },
   "decision_self_measured_bl_norm": {
     "baseline_source": "self_measured_bl_norm_pca_space",
     "bl_len": 0.8077,
-    "bl_norm": 0.6666666666666666,
-    "outcome_A_neural_ode_superior": true,
+    "bl_norm": 0.745562558864015,
+    "outcome_A_neural_ode_superior": false,
     "outcome_B_gp_equivalent_or_better": false,
     "outcome_C_retract_hypothesis": false
   },
   "final_verdict": {
     "m4_NF_passes_shuffle_validity_gate_p_lt_0.01": false,
-    "m5_NF_passes_shuffle_validity_gate_p_lt_0.01": true,
-    "bl_norm_pca_space": 0.6666666666666666,
+    "m5_NF_passes_shuffle_validity_gate_p_lt_0.01": false,
+    "bl_norm_pca_space": 0.745562558864015,
     "bl_norm_p_opt_space_prior_run": 0.9901108454683765,
     "bl_norm_dropped_when_unsupervised": true,
     "interpretation": "If bl_norm_dropped_when_unsupervised is True, this confirms BL-NORM's near-perfect score in the P_opt (supervised) space was a supervision artifact, not a generic property of P_opt(h(t)) trajectories -- supporting the recommendation that BL-NORM comparisons against a supervised projection's own latent space are not a fair 'generic' baseline. A model must ALSO beat its own token-shuffled control at p<0.01 (spec S2.1) to be read as capturing genuine temporal dynamics -- check the two validity-gate flags above independently of the raw Outcome A/B/C arithmetic."
   },
   "results": {
     "kappa_cos_NF_genuine": {
-      "best_C": 1.0,
-      "val_auroc": 0.6507936507936509,
-      "test_auroc": 0.8095238095238094,
-      "test_ci_lo": 0.41666666666666663,
-      "test_ci_hi": 1.0
+      "best_C": 100.0,
+      "val_auroc": 0.691415020560559,
+      "test_auroc": 0.6918242411070057,
+      "test_ci_lo": 0.6366568607044399,
+      "test_ci_hi": 0.7391743585194601
     },
     "kappa_cos_NF_shuffled": {
-      "best_C": 100.0,
-      "val_auroc": 0.9365079365079365,
-      "test_auroc": 0.7936507936507937,
-      "test_ci_lo": 0.4666666666666667,
-      "test_ci_hi": 0.9166666666666667
+      "best_C": 10.0,
+      "val_auroc": 0.7571835818259796,
+      "test_auroc": 0.7688908208360501,
+      "test_ci_lo": 0.7235806732285607,
+      "test_ci_hi": 0.8075164569167159
     },
     "m4_NF_genuine": {
-      "best_C": 100.0,
-      "val_auroc": 0.4920634920634921,
-      "test_auroc": 0.25396825396825395,
-      "test_ci_lo": 0.0,
-      "test_ci_hi": 0.8666666666666667
+      "best_C": 0.01,
+      "val_auroc": 0.7265067231766694,
+      "test_auroc": 0.7285191625009055,
+      "test_ci_lo": 0.6729270512126523,
+      "test_ci_hi": 0.7783567724804974
     },
     "m4_NF_shuffled": {
-      "best_C": 0.001,
-      "val_auroc": 0.5238095238095238,
-      "test_auroc": 0.5873015873015874,
-      "test_ci_lo": 0.5873015873015874,
-      "test_ci_hi": 0.7333333333333334
+      "best_C": 10.0,
+      "val_auroc": 0.725951714220843,
+      "test_auroc": 0.7160218793016011,
+      "test_ci_lo": 0.6615351561359701,
+      "test_ci_hi": 0.7646712204256874
     },
     "m5_NF_genuine": {
       "best_C": 0.001,
-      "val_auroc": 0.7777777777777778,
-      "test_auroc": 0.8571428571428571,
-      "test_ci_lo": 0.75,
-      "test_ci_hi": 1.0
+      "val_auroc": 0.7729761093872196,
+      "test_auroc": 0.7718793016011012,
+      "test_ci_lo": 0.7013883023025739,
+      "test_ci_hi": 0.8287092150744533
     },
     "m5_NF_shuffled": {
       "best_C": 10.0,
-      "val_auroc": 0.9523809523809523,
-      "test_auroc": 0.746031746031746,
-      "test_ci_lo": 0.4166666666666667,
-      "test_ci_hi": 0.8666666666666667
+      "val_auroc": 0.7186356870758596,
+      "test_auroc": 0.6811200463667318,
+      "test_ci_lo": 0.6238530781653533,
+      "test_ci_hi": 0.7318426798381729
     },
     "bl_norm": {
-      "best_C": 1.0,
-      "val_auroc": 0.8571428571428572,
-      "test_auroc": 0.6666666666666666,
-      "test_ci_lo": 0.3333333333333333,
-      "test_ci_hi": 1.0
+      "best_C": 0.01,
+      "val_auroc": 0.751179394031131,
+      "test_auroc": 0.745562558864015,
+      "test_ci_lo": 0.6919222583766381,
+      "test_ci_hi": 0.7913011307545607
     }
   },
-  "n_test_prompts_mixed": 2
+  "n_test_prompts_mixed": 59
 }
